@@ -1,0 +1,3 @@
+20:43:09: New error from :WorldEditor.UI.Tools.MoveTool
+System.NullReferenceException: Ссылка на объект не указывает на экземпляр объекта.
+   в WorldEditor.UI.Tools.MoveTool.MouseDraging(ContiniusMouseEventArgs args) в E:\c++\WorldEditor\WorldEditor\UI\Tools\MoveTool.cs:строка 64

@@ -1,0 +1,116 @@
+<scene formatVersion="1.0" upAxis="y" unitsPerMeter="39.3701" minOgreVersion="1.7" ogreMaxVersion="2.3.7" author="OgreMax Scene Exporter (www.ogremax.com)" application="3DS Max">
+    <environment>
+        <colourAmbient r="0.333333" g="0.333333" b="0.333333" />
+        <colourBackground r="0" g="0" b="0" />
+        <clipping near="0" far="100000" />
+    </environment>
+    <nodes>
+        <node name="Base">
+            <position x="0" y="0.159076" z="-0.00534058" />
+            <scale x="1" y="1" z="1" />
+            <rotation qx="0" qy="0.707107" qz="-3.09086e-008" qw="0.707107" />
+            <entity name="Base" castShadows="true" receiveShadows="true" meshFile="Base.mesh">
+                <subentities>
+                    <subentity index="0" materialName="Bottom" />
+                    <subentity index="1" materialName="Material#579" />
+                    <subentity index="2" materialName="Interior" />
+                    <subentity index="3" materialName="Misc" />
+                    <subentity index="4" materialName="Engine" />
+                    <subentity index="5" materialName="Material#580" />
+                    <subentity index="6" materialName="Bodypaint" />
+                    <subentity index="7" materialName="DoorLine" />
+                    <subentity index="8" materialName="DoorLine" />
+                    <subentity index="9" materialName="BadgingChrome" />
+                    <subentity index="10" materialName="Door" />
+                    <subentity index="11" materialName="Interior" />
+                    <subentity index="12" materialName="Misc" />
+                    <subentity index="13" materialName="MiscChrome" />
+                    <subentity index="14" materialName="Black" />
+                    <subentity index="15" materialName="Misc" />
+                    <subentity index="16" materialName="Misc" />
+                    <subentity index="17" materialName="Bodypaint" />
+                    <subentity index="18" materialName="BadgingChrome" />
+                    <subentity index="19" materialName="DoorLine" />
+                    <subentity index="20" materialName="MiscChrome" />
+                    <subentity index="21" materialName="Black" />
+                    <subentity index="22" materialName="Black" />
+                    <subentity index="23" materialName="Misc" />
+                    <subentity index="24" materialName="Bodypaint" />
+                    <subentity index="25" materialName="DoorLine" />
+                    <subentity index="26" materialName="MiscChrome" />
+                    <subentity index="27" materialName="Misc" />
+                    <subentity index="28" materialName="Black" />
+                    <subentity index="29" materialName="MiscChrome" />
+                    <subentity index="30" materialName="Bodypaint" />
+                    <subentity index="31" materialName="BadgingChrome" />
+                    <subentity index="32" materialName="DoorLine" />
+                    <subentity index="33" materialName="Black" />
+                    <subentity index="34" materialName="Black" />
+                    <subentity index="35" materialName="Material#580" />
+                    <subentity index="36" materialName="Bodypaint" />
+                    <subentity index="37" materialName="DoorLine" />
+                    <subentity index="38" materialName="DoorLine" />
+                    <subentity index="39" materialName="BadgingChrome" />
+                    <subentity index="40" materialName="Door" />
+                    <subentity index="41" materialName="Interior" />
+                    <subentity index="42" materialName="Misc" />
+                    <subentity index="43" materialName="Bodypaint" />
+                    <subentity index="44" materialName="DoorLine" />
+                    <subentity index="45" materialName="DoorLine" />
+                    <subentity index="46" materialName="Bottom" />
+                    <subentity index="47" materialName="Bottom" />
+                    <subentity index="48" materialName="Misc" />
+                    <subentity index="49" materialName="Bodypaint" />
+                    <subentity index="50" materialName="DoorLine" />
+                    <subentity index="51" materialName="MiscChrome" />
+                    <subentity index="52" materialName="Misc" />
+                    <subentity index="53" materialName="Black" />
+                    <subentity index="54" materialName="MiscChrome" />
+                    <subentity index="55" materialName="Material#588" />
+                    <subentity index="56" materialName="Bodypaint" />
+                    <subentity index="57" materialName="Bodypaint" />
+                    <subentity index="58" materialName="Misc" />
+                    <subentity index="59" materialName="Interior" />
+                    <subentity index="60" materialName="Material#587" />
+                    <subentity index="61" materialName="Bodypaint" />
+                    <subentity index="62" materialName="Misc" />
+                    <subentity index="63" materialName="Material#588" />
+                    <subentity index="64" materialName="Material#587" />
+                    <subentity index="65" materialName="Bodypaint" />
+                    <subentity index="66" materialName="Material#597" />
+                    <subentity index="67" materialName="Material#597" />
+                    <subentity index="68" materialName="Material#595_OgreMax" />
+                    <subentity index="69" materialName="Material#596_OgreMax" />
+                    <subentity index="70" materialName="Bodypaint" />
+                    <subentity index="71" materialName="DoorLine" />
+                    <subentity index="72" materialName="Black" />
+                    <subentity index="73" materialName="Black" />
+                    <subentity index="74" materialName="Bodypaint" />
+                    <subentity index="75" materialName="DoorLine" />
+                    <subentity index="76" materialName="Black" />
+                    <subentity index="77" materialName="Black" />
+                    <subentity index="78" materialName="Material#599" />
+                    <subentity index="79" materialName="DecalsR" />
+                    <subentity index="80" materialName="Material#600" />
+                    <subentity index="81" materialName="Bodypaint" />
+                    <subentity index="82" materialName="DoorLine" />
+                    <subentity index="83" materialName="BadgingChrome" />
+                    <subentity index="84" materialName="Material#594" />
+                    <subentity index="85" materialName="HoodTrunk" />
+                    <subentity index="86" materialName="Material#597" />
+                    <subentity index="87" materialName="Material#602" />
+                    <subentity index="88" materialName="Material#597" />
+                    <subentity index="89" materialName="Material#597" />
+                    <subentity index="90" materialName="License" />
+                    <subentity index="91" materialName="Bodypaint" />
+                    <subentity index="92" materialName="DoorLine" />
+                    <subentity index="93" materialName="BadgingChrome" />
+                    <subentity index="94" materialName="HoodTrunk" />
+                    <subentity index="95" materialName="Misc" />
+                    <subentity index="96" materialName="SeatSport" />
+                    <subentity index="97" materialName="License" />
+                </subentities>
+            </entity>
+        </node>
+    </nodes>
+</scene>

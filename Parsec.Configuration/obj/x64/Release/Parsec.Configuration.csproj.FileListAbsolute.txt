@@ -1,0 +1,14 @@
+E:\c++\work\Parsec.Configuration\bin\x64\Release\Parsec.Configuration.exe.config
+E:\c++\work\Parsec.Configuration\obj\x64\Release\Interop.NetFwTypeLib.dll
+E:\c++\work\Parsec.Configuration\obj\x64\Release\Parsec.Configuration.csproj.ResolveComReference.cache
+E:\c++\work\Parsec.Configuration\bin\x64\Release\Parsec.Configuration.exe
+E:\c++\work\Parsec.Configuration\obj\x64\Release\Parsec.Configuration.csprojResolveAssemblyReference.cache
+E:\c++\work\Parsec.Configuration\obj\x64\Release\Parsec.Configuration.MainForm.resources
+E:\c++\work\Parsec.Configuration\obj\x64\Release\Parsec.Configuration.Properties.Resources.resources
+E:\c++\work\Parsec.Configuration\obj\x64\Release\Gui.Wizard.Header.resources
+E:\c++\work\Parsec.Configuration\obj\x64\Release\Gui.Wizard.InfoContainer.resources
+E:\c++\work\Parsec.Configuration\obj\x64\Release\Gui.Wizard.InfoPage.resources
+E:\c++\work\Parsec.Configuration\obj\x64\Release\Gui.Wizard.Wizard.resources
+E:\c++\work\Parsec.Configuration\obj\x64\Release\Gui.Wizard.WizardPage.resources
+E:\c++\work\Parsec.Configuration\obj\x64\Release\Parsec.Configuration.csproj.GenerateResource.Cache
+E:\c++\work\Parsec.Configuration\obj\x64\Release\Parsec.Configuration.exe

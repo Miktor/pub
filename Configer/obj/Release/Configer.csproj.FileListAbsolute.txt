@@ -1,0 +1,62 @@
+D:\Documents and Settings\Miktor\Desktop\work\Configer\bin\Release\Configer.exe
+D:\Documents and Settings\Miktor\Desktop\work\Configer\bin\Release\Configer.pdb
+D:\Documents and Settings\Miktor\Desktop\work\Configer\obj\Release\ResolveAssemblyReference.cache
+D:\Documents and Settings\Miktor\Desktop\work\Configer\obj\Release\Configer.Main.resources
+D:\Documents and Settings\Miktor\Desktop\work\Configer\obj\Release\Configer.Properties.Resources.resources
+D:\Documents and Settings\Miktor\Desktop\work\Configer\obj\Release\Configer.csproj.GenerateResource.Cache
+D:\Documents and Settings\Miktor\Desktop\work\Configer\obj\Release\Configer.exe
+D:\Documents and Settings\Miktor\Desktop\work\Configer\obj\Release\Configer.pdb
+D:\c++\work\Configer_work - Copy\bin\Release\Configer.exe.config
+D:\c++\work\Configer_work - Copy\bin\Release\Configer.exe
+D:\c++\work\Configer_work - Copy\bin\Release\Configer.pdb
+D:\c++\work\Configer_work - Copy\obj\Release\ResolveAssemblyReference.cache
+D:\c++\work\Configer_work - Copy\obj\Release\Configer.Main.resources
+D:\c++\work\Configer_work - Copy\obj\Release\Configer.SettingForm.resources
+D:\c++\work\Configer_work - Copy\obj\Release\Configer.csproj.GenerateResource.Cache
+D:\c++\work\Configer_work - Copy\obj\Release\Configer.exe
+D:\c++\work\Configer_work - Copy\obj\Release\Configer.pdb
+C:\c++\work\Configer\bin\Release\Configer.exe.config
+C:\c++\work\Configer\bin\Release\Configer.exe
+C:\c++\work\Configer\bin\Release\Configer.pdb
+C:\c++\work\Configer\obj\Release\ResolveAssemblyReference.cache
+C:\c++\work\Configer\obj\Release\Configer.Main.resources
+C:\c++\work\Configer\obj\Release\Configer.SettingForm.resources
+C:\c++\work\Configer\obj\Release\Configer.csproj.GenerateResource.Cache
+C:\c++\work\Configer\obj\Release\Configer.exe
+C:\c++\work\Configer\obj\Release\Configer.pdb
+D:\c++\work\Configer\Configer.exe.config
+D:\c++\work\Configer\bin\Release\Configer.exe.config
+D:\c++\work\Configer\bin\Release\Configer.exe.manifest
+D:\c++\work\Configer\bin\Release\Configer.application
+D:\c++\work\Configer\bin\Release\Configer.exe
+D:\c++\work\Configer\bin\Release\Configer.pdb
+D:\c++\work\Configer\obj\Release\ResolveAssemblyReference.cache
+D:\c++\work\Configer\obj\Release\Configer.Main.resources
+D:\c++\work\Configer\obj\Release\Configer.Properties.Resources.resources
+D:\c++\work\Configer\obj\Release\Configer.SettingForm.resources
+D:\c++\work\Configer\obj\Release\Configer.TrustInfo.xml
+D:\c++\work\Configer\obj\Release\Configer.exe.manifest
+D:\c++\work\Configer\obj\Release\Configer.application
+D:\c++\work\Configer\obj\Release\Configer.exe
+D:\c++\work\Configer\obj\Release\Configer.pdb
+D:\c++\work\Configer\obj\Release\GenerateResource-ResGen.read.1.tlog
+D:\c++\work\Configer\obj\Release\GenerateResource-ResGen.write.1.tlog
+G:\c++\work\Configer\bin\Release\Configer.exe.config
+G:\c++\work\Configer\obj\Release\Configer.exe
+G:\c++\work\Configer\obj\Release\Configer.pdb
+G:\c++\work\Configer\obj\Release\ResolveAssemblyReference.cache
+G:\c++\work\Configer\obj\Release\Configer.Main.resources
+G:\c++\work\Configer\obj\Release\Configer.Properties.Resources.resources
+G:\c++\work\Configer\obj\Release\Configer.SettingForm.resources
+G:\c++\work\Configer\obj\Release\GenerateResource-ResGen.read.1.tlog
+G:\c++\work\Configer\obj\Release\GenerateResource-ResGen.write.1.tlog
+G:\c++\work\Configer\bin\Release\Configer.exe.manifest
+G:\c++\work\Configer\bin\Release\Configer.application
+G:\c++\work\Configer\bin\Release\Configer.exe
+G:\c++\work\Configer\bin\Release\Configer.pdb
+G:\c++\work\Configer\obj\Release\Configer.TrustInfo.xml
+G:\c++\work\Configer\obj\Release\Configer.exe.manifest
+G:\c++\work\Configer\obj\Release\Configer.application
+E:\c++\work\Configer\bin\Release\Configer.exe.config
+E:\c++\work\Configer\obj\Release\Configer.exe
+E:\c++\work\Configer\obj\Release\Configer.pdb

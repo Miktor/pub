@@ -1,0 +1,7 @@
+MyFont
+{
+type truetype
+source SHOWG.ttf
+size 16
+resolution 96
+}

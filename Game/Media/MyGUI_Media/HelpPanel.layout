@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MyGUI type="Layout" version="3.2.0">
+    <Widget type="Widget" skin="PanelSkin" position="10 10 420 110" align="Right Top" layer="Statistic">
+        <Controller type="ControllerEdgeHide">
+            <Property key="Time" value="0.5"/>
+        </Controller>
+        <Widget type="EditBox" skin="WordWrapEmpty" position="10 10 95 75" align="Left Top" name="Text">
+            <Property key="TextAlign" value="Right Top"/>
+            <Property key="TextColour" value="0 1 0.25"/>
+        </Widget>
+        <Widget type="TextBox" skin="TextBox" position="115 10 295 90" align="Stretch">
+            <Property key="Caption" value="&apos;w&apos; &apos;a&apos; &apos;s&apos; d&apos; - vehicle control \n &apos;c&apos; - create vehicle, &apos;d&apos; - delete car \n&apos;v&apos; - change cam type\n &apos;F1&apos; - open vehicle properties window\n&apos;Esc&apos; - close opt. window \ close programm"/>
+        </Widget>
+    </Widget>
+</MyGUI>

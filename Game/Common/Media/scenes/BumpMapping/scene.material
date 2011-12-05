@@ -1,0 +1,42 @@
+
+material globe
+{
+	receive_shadows off
+	technique Map#15
+	{
+		pass Map#16
+		{
+			ambient 0.698039 0.698039 0.698039 1
+			diffuse 0.698039 0.698039 0.698039 1
+			specular 0.898039 0.898039 0.898039 1 43.3
+
+			vertex_program_ref WonderShader_Lim3_Fast_Vert
+			{
+				param_named scale float4 1 0 0 0
+			}
+
+			fragment_program_ref WonderShader_Lim3_Fast_Frag
+			{
+				param_named exponent0 float4 32.36 0 0 0
+			}
+
+			texture_unit Map#20
+			{
+				texture_alias Map#20
+				texture earth_bu.dds
+				filtering linear linear linear
+			}
+
+			texture_unit Map#21
+			{
+				texture_alias Map#21
+				texture earth.bmp
+				filtering linear linear linear
+			}
+		}
+
+	}
+
+}
+
+

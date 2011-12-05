@@ -1,0 +1,17 @@
+E:\c++\work\Configer\bin\x86\Release\Configer.exe.config
+E:\c++\work\Configer\bin\x86\Release\Configer.exe.manifest
+E:\c++\work\Configer\bin\x86\Release\Configer.application
+E:\c++\work\Configer\bin\x86\Release\Configer.exe
+E:\c++\work\Configer\bin\x86\Release\Configer.pdb
+E:\c++\work\Configer\bin\x86\Release\System.Data.SQLite.dll
+E:\c++\work\Configer\bin\x86\Release\System.Data.SQLite.pdb
+E:\c++\work\Configer\obj\x86\Release\Configer.csprojResolveAssemblyReference.cache
+E:\c++\work\Configer\obj\x86\Release\Configer.Main.resources
+E:\c++\work\Configer\obj\x86\Release\Configer.Properties.Resources.resources
+E:\c++\work\Configer\obj\x86\Release\Configer.SettingForm.resources
+E:\c++\work\Configer\obj\x86\Release\Configer.csproj.GenerateResource.Cache
+E:\c++\work\Configer\obj\x86\Release\Configer.TrustInfo.xml
+E:\c++\work\Configer\obj\x86\Release\Configer.exe.manifest
+E:\c++\work\Configer\obj\x86\Release\Configer.application
+E:\c++\work\Configer\obj\x86\Release\Configer.exe
+E:\c++\work\Configer\obj\x86\Release\Configer.pdb

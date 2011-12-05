@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type='text/xsl' href='_UpgradeReport_Files/UpgradeReport.xslt'?><UpgradeLog>
+<Properties><Property Name="Solution" Value="Ping">
+</Property><Property Name="Файл решения" Value="D:\c++\work\Ping\Ping\Ping.sln">
+</Property><Property Name="Файл параметров пользователя" Value="D:\c++\work\Ping\Ping\Ping.suo">
+</Property><Property Name="Date" Value="6 июня 2010 г.">
+</Property><Property Name="Time" Value="1:24">
+</Property><Property Name="Номер записи" Value="2">
+</Property></Properties><Event ErrorLevel="0" Project="" Source="Ping.sln" Description="Успешно создана резервная копия файла D:\c++\work\Ping\Ping\Backup\Ping.sln">
+</Event><Event ErrorLevel="0" Project="" Source="Ping.suo" Description="Успешно создана резервная копия файла D:\c++\work\Ping\Ping\Backup\Ping.suo">
+</Event><Event ErrorLevel="0" Project="Ping" Source="Ping.csproj" Description="Успешно создана резервная копия файла проекта: D:\c++\work\Ping\Ping\Backup\Ping.csproj">
+</Event><Event ErrorLevel="0" Project="Ping" Source="AClient.cs" Description="Успешно создана резервная копия файла D:\c++\work\Ping\Ping\Backup\AClient.cs">
+</Event><Event ErrorLevel="0" Project="Ping" Source="AServer.cs" Description="Успешно создана резервная копия файла D:\c++\work\Ping\Ping\Backup\AServer.cs">
+</Event><Event ErrorLevel="0" Project="Ping" Source="Form1.cs" Description="Успешно создана резервная копия файла D:\c++\work\Ping\Ping\Backup\Form1.cs">
+</Event><Event ErrorLevel="0" Project="Ping" Source="Form1.Designer.cs" Description="Успешно создана резервная копия файла D:\c++\work\Ping\Ping\Backup\Form1.Designer.cs">
+</Event><Event ErrorLevel="0" Project="Ping" Source="Program.cs" Description="Успешно создана резервная копия файла D:\c++\work\Ping\Ping\Backup\Program.cs">
+</Event><Event ErrorLevel="0" Project="Ping" Source="Properties\AssemblyInfo.cs" Description="Успешно создана резервная копия файла D:\c++\work\Ping\Ping\Backup\Properties\AssemblyInfo.cs">
+</Event><Event ErrorLevel="0" Project="Ping" Source="Properties\Resources.Designer.cs" Description="Успешно создана резервная копия файла D:\c++\work\Ping\Ping\Backup\Properties\Resources.Designer.cs">
+</Event><Event ErrorLevel="0" Project="Ping" Source="Properties\Settings.Designer.cs" Description="Успешно создана резервная копия файла D:\c++\work\Ping\Ping\Backup\Properties\Settings.Designer.cs">
+</Event><Event ErrorLevel="0" Project="Ping" Source="Properties\Settings.settings" Description="Успешно создана резервная копия файла D:\c++\work\Ping\Ping\Backup\Properties\Settings.settings">
+</Event><Event ErrorLevel="0" Project="Ping" Source="Form1.resx" Description="Успешно создана резервная копия файла D:\c++\work\Ping\Ping\Backup\Form1.resx">
+</Event><Event ErrorLevel="0" Project="Ping" Source="Properties\Resources.resx" Description="Успешно создана резервная копия файла D:\c++\work\Ping\Ping\Backup\Properties\Resources.resx">
+</Event><Event ErrorLevel="0" Project="Ping" Source="Ping.csproj" Description="Проект успешно преобразован">
+</Event><Event ErrorLevel="3" Project="Ping" Source="Ping.csproj" Description="Converted">
+</Event><Event ErrorLevel="0" Project="" Source="Ping.sln" Description="Преобразование решения успешно завершено">
+</Event><Event ErrorLevel="3" Project="" Source="Ping.sln" Description="Converted">
+</Event><Event ErrorLevel="0" Project="Ping" Source="Ping.csproj" Description="Сканирование завершено: обновление для файлов проекта не требуется.">
+</Event></UpgradeLog>

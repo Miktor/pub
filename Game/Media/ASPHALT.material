@@ -1,0 +1,40 @@
+material apshalt
+{
+	technique
+	{
+		pass
+		{
+			ambient 1 1 1 1
+					
+			texture_unit
+			{
+				texture ASPHALT.jpg
+			}
+		}
+	}
+}
+
+material TireTracks
+{
+	technique
+	{
+		pass
+		{
+			ambient 0.8 0.8 0.8		
+			diffuse 0.8 0.8 0.8 0.8
+			scene_blend add
+		}
+	}
+}
+
+material BaseWhiteNoLighting
+{
+	technique
+	{    
+		pass
+		{
+			ambient vertexcolour			
+			transparent_sorting off
+		}
+	}
+}

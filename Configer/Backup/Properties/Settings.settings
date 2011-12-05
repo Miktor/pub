@@ -1,0 +1,38 @@
+﻿<?xml version='1.0' encoding='utf-8'?>
+<SettingsFile xmlns="http://schemas.microsoft.com/VisualStudio/2004/01/settings" CurrentProfile="(Default)" GeneratedClassNamespace="Configer.Properties" GeneratedClassName="Settings">
+  <Profiles />
+  <Settings>
+    <Setting Name="SettingConfPathes" Type="System.Collections.Specialized.StringCollection" Scope="User">
+      <Value Profile="(Default)">&lt;?xml version="1.0" encoding="utf-16"?&gt;
+&lt;ArrayOfString xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"&gt;
+  &lt;string&gt;..\..\todo\&lt;/string&gt;
+  &lt;string&gt;..\..\todo\&lt;/string&gt;
+  &lt;string&gt;..\..\todo\&lt;/string&gt;
+  &lt;string&gt;..\..\todo\&lt;/string&gt;
+  &lt;string&gt;..\..\todo\&lt;/string&gt;
+  &lt;string&gt;..\..\todo\&lt;/string&gt;
+  &lt;string&gt;..\..\todo\&lt;/string&gt;
+  &lt;string&gt;..\..\todo\&lt;/string&gt;
+  &lt;string&gt;..\..\todo\&lt;/string&gt;
+  &lt;string&gt;..\..\todo\&lt;/string&gt;
+  &lt;string&gt;..\..\todo\&lt;/string&gt;
+&lt;/ArrayOfString&gt;</Value>
+    </Setting>
+    <Setting Name="SettingConfNames" Type="System.Collections.Specialized.StringCollection" Scope="User">
+      <Value Profile="(Default)">&lt;?xml version="1.0" encoding="utf-16"?&gt;
+&lt;ArrayOfString xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"&gt;
+  &lt;string&gt;parsec.ini&lt;/string&gt;
+  &lt;string&gt;cache.config&lt;/string&gt;
+  &lt;string&gt;Import25Util.exe.config&lt;/string&gt;
+  &lt;string&gt;MDO.Parsec.Win.exe.config&lt;/string&gt;
+  &lt;string&gt;MDO.Parsec.WinNotifier.exe.config&lt;/string&gt;
+  &lt;string&gt;ParsecReplicatonClient.exe.config&lt;/string&gt;
+  &lt;string&gt;ParsecServiceHost.exe.config&lt;/string&gt;
+  &lt;string&gt;ParsecTaskClient.exe.config&lt;/string&gt;
+  &lt;string&gt;replication.config&lt;/string&gt;
+  &lt;string&gt;replication_client.config&lt;/string&gt;
+  &lt;string&gt;transaction.config&lt;/string&gt;
+&lt;/ArrayOfString&gt;</Value>
+    </Setting>
+  </Settings>
+</SettingsFile>

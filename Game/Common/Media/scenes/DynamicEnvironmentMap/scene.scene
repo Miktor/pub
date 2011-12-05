@@ -1,0 +1,172 @@
+<scene formatVersion="1.0" upAxis="y" unitsPerMeter="1" minOgreVersion="1.6" author="OgreMax Scene Exporter by Derek Nedelman (www.ogremax.com)">
+    <resourceLocations>
+        <resourceLocation type="FileSystem" name="../../materials/textures/" recursive="false" />
+    </resourceLocations>
+    <environment>
+        <colourAmbient r="0.333333" g="0.333333" b="0.333333" />
+        <colourBackground r="0" g="0" b="0" />
+        <clipping near="0" far="100000" />
+    </environment>
+    <nodes>
+        <node name="Plane01">
+            <position x="2.05479" y="4.79029e-007" z="10.9589" />
+            <scale x="1" y="1" z="1" />
+            <rotation qx="0" qy="0" qz="0" qw="1" />
+            <plane name="Plane01" castShadows="true" receiveShadows="true" distance="-8.17124e-013" width="500" height="500" xSegments="1" ySegments="1" numTexCoordSets="1" uTile="1" vTile="1" material="01-Default" normals="true" movablePlane="true">
+                <normal x="0" y="1" z="-4.37114e-008" />
+                <upVector x="0" y="0" z="-1" />
+            </plane>
+        </node>
+        <node name="Direct01">
+            <position x="-129.364" y="125.155" z="0" />
+            <scale x="1" y="1" z="1" />
+            <rotation qx="-0.652431" qy="0.272642" qz="-0.652431" qw="-0.272642" />
+            <light name="Direct01" type="directional" castShadows="false" power="1">
+                <colourDiffuse r="1" g="1" b="1" />
+                <colourSpecular r="1" g="1" b="1" />
+                <lightAttenuation range="200" constant="1" linear="0" quadric="0" />
+            </light>
+            <trackTarget nodeName="Direct01.Target">
+                <localDirection x="-0" y="-0" z="1" />
+            </trackTarget>
+        </node>
+        <node name="Direct01.Target">
+            <position x="13.7345" y="-19.7474" z="0" />
+            <scale x="1" y="1" z="1" />
+            <rotation qx="0.707107" qy="0" qz="0" qw="0.707107" />
+        </node>
+        <node name="Camera01">
+            <position x="45.8365" y="30.0793" z="174.626" />
+            <scale x="1" y="1" z="1" />
+            <rotation qx="-0.0899172" qy="0.108669" qz="0.00987041" qw="0.989954" />
+            <camera name="Camera01" fov="0.602557">
+                <clipping near="1" far="1000" />
+            </camera>
+            <trackTarget nodeName="Camera01.Target">
+                <localDirection x="0" y="0" z="-1" />
+            </trackTarget>
+        </node>
+        <node name="Camera01.Target">
+            <position x="10.2133" y="6.26038e-007" z="14.3221" />
+            <scale x="1" y="1" z="1" />
+            <rotation qx="0" qy="0" qz="0" qw="1" />
+        </node>
+        <node name="Sphere01">
+            <position x="3.65007" y="21.5541" z="-0.884559" />
+            <scale x="1" y="1" z="1" />
+            <rotation qx="0" qy="0" qz="0" qw="1" />
+            <entity name="Sphere01" castShadows="true" receiveShadows="true" meshFile="Sphere01.mesh">
+                <subentities>
+                    <subentity index="0" materialName="02-Default" />
+                </subentities>
+            </entity>
+        </node>
+        <node name="Plane02">
+            <position x="2.05479" y="83.5909" z="10.9589" />
+            <scale x="1" y="1" z="1" />
+            <rotation qx="0" qy="4.37114e-008" qz="1" qw="0.00100319" />
+            <plane name="Plane02" castShadows="true" receiveShadows="true" distance="-8.17124e-013" width="500" height="500" xSegments="1" ySegments="1" numTexCoordSets="1" uTile="1" vTile="1" material="01-Default" normals="true" movablePlane="true">
+                <normal x="0" y="1" z="-4.37114e-008" />
+                <upVector x="0" y="0" z="-1" />
+            </plane>
+        </node>
+        <node name="Teapot01">
+            <position x="-28.107" y="3.92713e-006" z="89.8422" />
+            <scale x="1" y="1" z="1" />
+            <rotation qx="0" qy="0" qz="0" qw="1" />
+            <entity name="Teapot01" castShadows="true" receiveShadows="true" meshFile="Teapot01.mesh">
+                <subentities>
+                    <subentity index="0" materialName="03-Default" />
+                </subentities>
+            </entity>
+            <animations>
+                <animation name="move" enable="true" loop="true" interpolationMode="spline" rotationInterpolationMode="spherical" length="3.33313">
+                    <keyframe time="0">
+                        <translation x="-28.107" y="3.92713e-006" z="89.8422" />
+                        <rotation qx="0" qy="0" qz="0" qw="1" />
+                        <scale x="1" y="1" z="1" />
+                    </keyframe>
+                    <keyframe time="0.237708">
+                        <translation x="-7.97559" y="3.92713e-006" z="89.8422" />
+                        <rotation qx="0" qy="0" qz="0" qw="1" />
+                        <scale x="1" y="1" z="1" />
+                    </keyframe>
+                    <keyframe time="0.475625">
+                        <translation x="28.2319" y="3.92713e-006" z="89.8422" />
+                        <rotation qx="0" qy="0" qz="0" qw="1" />
+                        <scale x="1" y="1" z="1" />
+                    </keyframe>
+                    <keyframe time="0.71375">
+                        <translation x="50.3485" y="3.76682e-006" z="86.1748" />
+                        <rotation qx="0" qy="0" qz="0" qw="1" />
+                        <scale x="1" y="1" z="1" />
+                    </keyframe>
+                    <keyframe time="0.951458">
+                        <translation x="64.3875" y="2.96858e-006" z="67.9132" />
+                        <rotation qx="0" qy="0" qz="0" qw="1" />
+                        <scale x="1" y="1" z="1" />
+                    </keyframe>
+                    <keyframe time="1.18938">
+                        <translation x="78.468" y="1.73574e-006" z="39.7091" />
+                        <rotation qx="0" qy="0" qz="0" qw="1" />
+                        <scale x="1" y="1" z="1" />
+                    </keyframe>
+                    <keyframe time="1.4275">
+                        <translation x="95.7647" y="4.82402e-009" z="0.110361" />
+                        <rotation qx="0" qy="0" qz="0" qw="1" />
+                        <scale x="1" y="1" z="1" />
+                    </keyframe>
+                    <keyframe time="1.66542">
+                        <translation x="108.263" y="-1.69676e-006" z="-38.8173" />
+                        <rotation qx="0" qy="0" qz="0" qw="1" />
+                        <scale x="1" y="1" z="1" />
+                    </keyframe>
+                    <keyframe time="1.90313">
+                        <translation x="98.6988" y="-2.83791e-006" z="-64.9239" />
+                        <rotation qx="0" qy="0" qz="0" qw="1" />
+                        <scale x="1" y="1" z="1" />
+                    </keyframe>
+                    <keyframe time="2.14104">
+                        <translation x="44.1417" y="-3.65896e-006" z="-83.7074" />
+                        <rotation qx="0" qy="0" qz="0" qw="1" />
+                        <scale x="1" y="1" z="1" />
+                    </keyframe>
+                    <keyframe time="2.37896">
+                        <translation x="-18.3243" y="-4.12145e-006" z="-94.2878" />
+                        <rotation qx="0" qy="0" qz="0" qw="1" />
+                        <scale x="1" y="1" z="1" />
+                    </keyframe>
+                    <keyframe time="2.61687">
+                        <translation x="-51.9657" y="-3.89834e-006" z="-89.1836" />
+                        <rotation qx="0" qy="0" qz="0" qw="1" />
+                        <scale x="1" y="1" z="1" />
+                    </keyframe>
+                    <keyframe time="2.855">
+                        <translation x="-69.2284" y="-2.0988e-006" z="-48.0149" />
+                        <rotation qx="0" qy="0" qz="0" qw="1" />
+                        <scale x="1" y="1" z="1" />
+                    </keyframe>
+                    <keyframe time="3.09292">
+                        <translation x="-77.5491" y="8.82371e-008" z="2.01863" />
+                        <rotation qx="0" qy="0" qz="0" qw="1" />
+                        <scale x="1" y="1" z="1" />
+                    </keyframe>
+                    <keyframe time="3.33313">
+                        <translation x="-28.107" y="3.92713e-006" z="89.8422" />
+                        <rotation qx="0" qy="0" qz="0" qw="1" />
+                        <scale x="1" y="1" z="1" />
+                    </keyframe>
+                </animation>
+            </animations>
+        </node>
+    </nodes>
+    <renderTextures>
+        <renderTexture name="Map#10" width="512" height="512" textureType="cubic" camera="Camera01" clearEveryFrame="true" autoUpdate="true" hideRenderObject="true" renderObjectName="Sphere01">
+            <colourBackground r="0" g="0" b="0" />
+            <renderPlane x="-0.0126144" y="0.993633" z="-0.111956" w="-19.5246" />
+            <materials>
+                <material name="02-Default" technique="0" pass="0" textureUnit="1" />
+            </materials>
+        </renderTexture>
+    </renderTextures>
+</scene>

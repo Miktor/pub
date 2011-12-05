@@ -1,0 +1,17 @@
+E:\c++\WorldEditor\MoveTool\bin\Release\MoveTool.dll
+E:\c++\WorldEditor\MoveTool\bin\Release\MoveTool.pdb
+E:\c++\WorldEditor\MoveTool\bin\Release\PluginBase.dll
+E:\c++\WorldEditor\MoveTool\bin\Release\PluginBase.pdb
+E:\c++\WorldEditor\MoveTool\obj\Release\MoveTool.csprojResolveAssemblyReference.cache
+E:\c++\WorldEditor\MoveTool\obj\Release\MoveTool.dll
+E:\c++\WorldEditor\MoveTool\obj\Release\MoveTool.pdb
+E:\c++\WorldEditor\WorldEditor\Plugins\MoveTool\bin\Release\MoveTool.dll
+E:\c++\WorldEditor\WorldEditor\Plugins\MoveTool\bin\Release\MoveTool.pdb
+E:\c++\WorldEditor\WorldEditor\Plugins\MoveTool\bin\Release\Mogre.dll
+E:\c++\WorldEditor\WorldEditor\Plugins\MoveTool\bin\Release\PluginBase.dll
+E:\c++\WorldEditor\WorldEditor\Plugins\MoveTool\bin\Release\PluginBase.pdb
+E:\c++\WorldEditor\WorldEditor\Plugins\MoveTool\obj\Release\MoveTool.csprojResolveAssemblyReference.cache
+E:\c++\WorldEditor\WorldEditor\Plugins\MoveTool\obj\Release\MoveTool.Properties.Resources.resources
+E:\c++\WorldEditor\WorldEditor\Plugins\MoveTool\obj\Release\MoveTool.csproj.GenerateResource.Cache
+E:\c++\WorldEditor\WorldEditor\Plugins\MoveTool\obj\Release\MoveTool.dll
+E:\c++\WorldEditor\WorldEditor\Plugins\MoveTool\obj\Release\MoveTool.pdb

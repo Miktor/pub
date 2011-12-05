@@ -1,0 +1,92 @@
+<scene formatVersion="1.0" upAxis="y" unitsPerMeter="3.28084" unitType="feet" minOgreVersion="1.6" author="OgreMax Scene Exporter by Derek Nedelman (www.ogremax.com)">
+    <resourceLocations>
+        <resourceLocation type="FileSystem" name="../../materials/textures/" recursive="false" />
+        <resourceLocation type="FileSystem" name="../../materials/programs/" recursive="false" />
+    </resourceLocations>
+    <environment>
+        <colourAmbient r="0.333333" g="0.333333" b="0.333333" />
+        <colourBackground r="0" g="0" b="0" />
+        <clipping near="0" far="8333.33" />
+    </environment>
+    <nodes>
+        <node name="Camera01">
+            <position x="-15.8979" y="14.4847" z="36.8292" />
+            <scale x="1" y="1" z="1" />
+            <rotation qx="-0.128275" qy="-0.139803" qz="-0.0182682" qw="0.981665" />
+            <camera name="Camera01" fov="0.602557">
+                <clipping near="0.0833333" far="83.3333" />
+            </camera>
+            <trackTarget nodeName="Camera01.Target">
+                <localDirection x="0" y="0" z="-1" />
+            </trackTarget>
+        </node>
+        <node name="Camera01.Target">
+            <position x="-5.39019" y="4.47701" z="0.68608" />
+            <scale x="1" y="1" z="1" />
+            <rotation qx="0" qy="0" qz="0" qw="1" />
+        </node>
+        <node name="Spot04">
+            <position x="21.9318" y="29.4405" z="25.0129" />
+            <scale x="1" y="1" z="1" />
+            <rotation qx="-0.855661" qy="-0.143866" qz="0.335805" qw="-0.366582" />
+            <light name="Spot04" type="spot" castShadows="true" power="4.45">
+                <colourDiffuse r="0.843137" g="0.843137" b="0.843137" />
+                <colourSpecular r="1" g="1" b="1" />
+                <lightAttenuation range="129.333" constant="1" linear="0" quadric="0" />
+                <lightRange inner="0.712094" outer="0.747001" />
+            </light>
+            <trackTarget nodeName="Spot04.Target">
+                <localDirection x="-0" y="-0" z="1" />
+            </trackTarget>
+        </node>
+        <node name="Spot04.Target">
+            <position x="-2.03223e-007" y="-4.40014" z="1.37445" />
+            <scale x="1" y="1" z="1" />
+            <rotation qx="0.5" qy="-0.5" qz="0.5" qw="0.5" />
+        </node>
+        <node name="Spot05">
+            <position x="-23.4333" y="29.4405" z="24.3586" />
+            <scale x="1" y="1" z="1" />
+            <rotation qx="-0.851724" qy="0.147945" qz="-0.342347" qw="-0.368071" />
+            <light name="Spot05" type="spot" castShadows="true" power="1">
+                <colourDiffuse r="0.843137" g="0.843137" b="0.843137" />
+                <colourSpecular r="1" g="1" b="1" />
+                <lightAttenuation range="129.333" constant="1" linear="0" quadric="0" />
+                <lightRange inner="0.712094" outer="0.747001" />
+            </light>
+            <trackTarget nodeName="Spot05.Target">
+                <localDirection x="-0" y="-0" z="1" />
+            </trackTarget>
+        </node>
+        <node name="Spot05.Target">
+            <position x="-1.39619" y="-4.40014" z="1.37445" />
+            <scale x="1" y="1" z="1" />
+            <rotation qx="0.5" qy="-0.5" qz="0.5" qw="0.5" />
+        </node>
+        <node name="Camera02">
+            <position x="32.9855" y="2.40709" z="5.12427" />
+            <scale x="1" y="1" z="1" />
+            <rotation qx="-0.0399272" qy="-0.706781" qz="0.0400185" qw="-0.70517" />
+            <camera name="Camera02" fov="0.602557">
+                <clipping near="0.0833333" far="83.3333" />
+            </camera>
+            <trackTarget nodeName="Camera02.Target">
+                <localDirection x="0" y="0" z="-1" />
+            </trackTarget>
+        </node>
+        <node name="Camera02.Target">
+            <position x="-2.79645" y="6.47213" z="5.2059" />
+            <scale x="1" y="1" z="1" />
+            <rotation qx="0" qy="0" qz="0" qw="1" />
+        </node>
+        <node name="Plane01">
+            <position x="-2.99844" y="3.77126" z="3.78956e-014" />
+            <scale x="1" y="1" z="1" />
+            <rotation qx="0.5" qy="0" qz="0" qw="0.866025" />
+            <plane name="Plane01" castShadows="true" receiveShadows="true" distance="9.96674e-015" width="35.9429" height="21.102" xSegments="1" ySegments="1" numTexCoordSets="1" uTile="1" vTile="1" material="globe" normals="true" movablePlane="true">
+                <normal x="0" y="1" z="-4.37114e-008" />
+                <upVector x="0" y="0" z="-1" />
+            </plane>
+        </node>
+    </nodes>
+</scene>

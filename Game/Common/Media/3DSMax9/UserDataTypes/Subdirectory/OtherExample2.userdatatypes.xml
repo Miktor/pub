@@ -1,0 +1,7 @@
+<userDataTypes>	
+	<class name="Bike" usage="object">
+		<data name="Make" type="string"/>
+		<data name="Model" type="string"/>		
+		<data name="Color" type="rgb"/>		
+	</class>	
+</userDataTypes>	

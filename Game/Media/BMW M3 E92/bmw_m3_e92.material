@@ -1,0 +1,2079 @@
+
+material Bodypaint
+{
+	technique
+	{
+		pass
+		{
+			ambient 0.917647 0.8 0.588235 1
+			diffuse 0.917647 0.8 0.588235 1
+			specular 0.477 0.477 0.477 1 44
+		}
+
+	}
+
+}
+
+
+
+material Material#580
+{
+	technique
+	{
+		pass
+		{
+			ambient 0.588 0.588 0.588 1
+			diffuse 0.588 0.588 0.588 1
+			specular 0.927 0.927 0.927 1 55
+			scene_blend one one_minus_src_alpha
+
+			texture_unit
+			{
+				texture BMWM3E92BRAKELIGHT.tga
+			}
+		}
+
+	}
+
+}
+
+
+
+material Material#587
+{
+	technique
+	{
+		pass
+		{
+			ambient 0.588 0.588 0.588 1
+			diffuse 0.588 0.588 0.588 1
+			specular 0.837 0.837 0.837 1 54
+			scene_blend one one_minus_src_alpha
+
+			texture_unit
+			{
+				texture BMWM3E92HEADLIGHT.tga
+			}
+		}
+
+	}
+
+}
+
+
+
+material Interior
+{
+	technique
+	{
+		pass
+		{
+			ambient 0 0 0 1
+			diffuse 0 0 0 1
+			specular 0.45 0.45 0.45 1 46
+			scene_blend one one_minus_src_alpha
+			cull_hardware none
+			cull_software none
+
+			texture_unit
+			{
+				texture BMWM3E92INTERIOR.tga
+			}
+		}
+
+	}
+
+}
+
+
+
+material License
+{
+	technique
+	{
+		pass
+		{
+			ambient 0 0 0 1
+			diffuse 0 0 0 1
+			specular 0.801 0.801 0.801 1 50
+
+			texture_unit
+			{
+				texture LICENSE.tga
+			}
+		}
+
+	}
+
+}
+
+
+
+material Misc
+{
+	technique
+	{
+		pass
+		{
+			ambient 0 0 0 1
+			diffuse 0 0 0 1
+			specular 0.432 0.432 0.432 1 37
+			scene_blend one one_minus_src_alpha
+			cull_hardware none
+			cull_software none
+
+			texture_unit
+			{
+				texture BMWM3E92MISC.tga
+			}
+		}
+
+	}
+
+}
+
+
+
+material Engine
+{
+	technique
+	{
+		pass
+		{
+			ambient 0 0 0 1
+			diffuse 0 0 0 1
+			specular 0.297 0.297 0.297 1 31
+			scene_blend one one_minus_src_alpha
+			cull_hardware none
+			cull_software none
+
+			texture_unit
+			{
+				texture BMWM3E92ENGINE.tga
+			}
+		}
+
+	}
+
+}
+
+
+
+material Bottom
+{
+	technique
+	{
+		pass
+		{
+			ambient 0 0 0 1
+			diffuse 0 0 0 1
+			specular 0.153 0.153 0.153 1 44
+			scene_blend one one_minus_src_alpha
+			cull_hardware none
+			cull_software none
+
+			texture_unit
+			{
+				texture BOTTOM.tga
+			}
+		}
+
+	}
+
+}
+
+
+
+material Interior
+{
+	technique
+	{
+		pass
+		{
+			ambient 0 0 0 1
+			diffuse 0 0 0 1
+			specular 0.279 0.279 0.279 1 37
+			scene_blend one one_minus_src_alpha
+			cull_hardware none
+			cull_software none
+
+			texture_unit
+			{
+				texture BMWM3E92INTERIOR.tga
+			}
+		}
+
+	}
+
+}
+
+
+
+material Material#579
+{
+	technique
+	{
+		pass
+		{
+			ambient 0.337255 0.337255 0.337255 1
+			diffuse 0.337255 0.337255 0.337255 1
+			specular 1.026 1.026 1.026 1 54
+			scene_blend one one_minus_src_alpha
+
+			texture_unit
+			{
+				texture BMWM3E92BRAKELIGHT.tga
+			}
+		}
+
+	}
+
+}
+
+
+
+material Bodypaint
+{
+	technique
+	{
+		pass
+		{
+			ambient 0.917647 0.8 0.588235 1
+			diffuse 0.917647 0.8 0.588235 1
+			specular 0.477 0.477 0.477 1 44
+		}
+
+	}
+
+}
+
+
+
+material Bodypaint
+{
+	technique
+	{
+		pass
+		{
+			ambient 0.917647 0.8 0.588235 1
+			diffuse 0.917647 0.8 0.588235 1
+			specular 0.477 0.477 0.477 1 44
+		}
+
+	}
+
+}
+
+
+
+material DoorLine
+{
+	technique
+	{
+		pass
+		{
+			ambient 0 0 0 1
+			diffuse 0 0 0 1
+			specular 0 0 0 1 10
+			scene_blend one one_minus_src_alpha
+			cull_hardware none
+			cull_software none
+
+			texture_unit
+			{
+				texture DOORLINE.tga
+			}
+		}
+
+	}
+
+}
+
+
+
+material DoorLine
+{
+	technique
+	{
+		pass
+		{
+			ambient 0 0 0 1
+			diffuse 0 0 0 1
+			specular 0 0 0 1 10
+			scene_blend one one_minus_src_alpha
+			cull_hardware none
+			cull_software none
+
+			texture_unit
+			{
+				texture DOORLINE.tga
+			}
+		}
+
+	}
+
+}
+
+
+
+material Bodypaint
+{
+	technique
+	{
+		pass
+		{
+			ambient 0.917647 0.8 0.588235 1
+			diffuse 0.917647 0.8 0.588235 1
+			specular 0.477 0.477 0.477 1 44
+		}
+
+	}
+
+}
+
+
+
+material Bodypaint
+{
+	technique
+	{
+		pass
+		{
+			ambient 0.917647 0.8 0.588235 1
+			diffuse 0.917647 0.8 0.588235 1
+			specular 0.477 0.477 0.477 1 44
+		}
+
+	}
+
+}
+
+
+
+material Material#587
+{
+	technique
+	{
+		pass
+		{
+			ambient 0.588 0.588 0.588 1
+			diffuse 0.588 0.588 0.588 1
+			specular 0.837 0.837 0.837 1 54
+			scene_blend one one_minus_src_alpha
+
+			texture_unit
+			{
+				texture BMWM3E92HEADLIGHT.tga
+			}
+		}
+
+	}
+
+}
+
+
+
+material Interior
+{
+	technique
+	{
+		pass
+		{
+			ambient 0 0 0 1
+			diffuse 0 0 0 1
+			specular 0.45 0.45 0.45 1 46
+			scene_blend one one_minus_src_alpha
+			cull_hardware none
+			cull_software none
+
+			texture_unit
+			{
+				texture BMWM3E92INTERIOR.tga
+			}
+		}
+
+	}
+
+}
+
+
+
+material License
+{
+	technique
+	{
+		pass
+		{
+			ambient 0 0 0 1
+			diffuse 0 0 0 1
+			specular 0.801 0.801 0.801 1 50
+
+			texture_unit
+			{
+				texture LICENSE.tga
+			}
+		}
+
+	}
+
+}
+
+
+
+material Material#588
+{
+	technique
+	{
+		pass
+		{
+			ambient 0.176471 0.176471 0.176471 1
+			diffuse 0.176471 0.176471 0.176471 1
+			specular 0.774 0.774 0.774 1 43
+			cull_hardware none
+			cull_software none
+		}
+
+	}
+
+}
+
+
+
+material SeatSport
+{
+	technique
+	{
+		pass
+		{
+			ambient 0.886275 0.32549 0.152941 1
+			diffuse 0.886275 0.32549 0.152941 1
+			specular 0.495 0.495 0.495 1 41
+			cull_hardware none
+			cull_software none
+		}
+
+	}
+
+}
+
+
+
+material Bodypaint
+{
+	technique
+	{
+		pass
+		{
+			ambient 0.917647 0.8 0.588235 1
+			diffuse 0.917647 0.8 0.588235 1
+			specular 0.477 0.477 0.477 1 44
+		}
+
+	}
+
+}
+
+
+
+material DoorLine
+{
+	technique
+	{
+		pass
+		{
+			ambient 0 0 0 1
+			diffuse 0 0 0 1
+			specular 0 0 0 1 10
+			scene_blend one one_minus_src_alpha
+			cull_hardware none
+			cull_software none
+
+			texture_unit
+			{
+				texture DOORLINE.tga
+			}
+		}
+
+	}
+
+}
+
+
+
+material DoorLine
+{
+	technique
+	{
+		pass
+		{
+			ambient 0 0 0 1
+			diffuse 0 0 0 1
+			specular 0 0 0 1 10
+			scene_blend one one_minus_src_alpha
+			cull_hardware none
+			cull_software none
+
+			texture_unit
+			{
+				texture DOORLINE.tga
+			}
+		}
+
+	}
+
+}
+
+
+
+material Bottom
+{
+	technique
+	{
+		pass
+		{
+			ambient 0 0 0 1
+			diffuse 0 0 0 1
+			specular 0 0 0 1 10
+			scene_blend one one_minus_src_alpha
+			cull_hardware none
+			cull_software none
+
+			texture_unit
+			{
+				texture BOTTOM.tga
+			}
+		}
+
+	}
+
+}
+
+
+
+material Bottom
+{
+	technique
+	{
+		pass
+		{
+			ambient 0 0 0 1
+			diffuse 0 0 0 1
+			specular 0 0 0 1 10
+			scene_blend one one_minus_src_alpha
+			cull_hardware none
+			cull_software none
+
+			texture_unit
+			{
+				texture BOTTOM.tga
+			}
+		}
+
+	}
+
+}
+
+
+
+material Misc
+{
+	technique
+	{
+		pass
+		{
+			ambient 0 0 0 1
+			diffuse 0 0 0 1
+			specular 0.918 0.918 0.918 1 48
+			scene_blend one one_minus_src_alpha
+			cull_hardware none
+			cull_software none
+
+			texture_unit
+			{
+				texture BMWM3E92MISC.tga
+			}
+		}
+
+	}
+
+}
+
+
+
+material Bodypaint
+{
+	technique
+	{
+		pass
+		{
+			ambient 0.917647 0.8 0.588235 1
+			diffuse 0.917647 0.8 0.588235 1
+			specular 0.477 0.477 0.477 1 44
+		}
+
+	}
+
+}
+
+
+
+material BadgingChrome
+{
+	technique
+	{
+		pass
+		{
+			ambient 0 0 0 1
+			diffuse 0 0 0 1
+			specular 0.819 0.819 0.819 1 48
+			scene_blend one one_minus_src_alpha
+
+			texture_unit
+			{
+				texture BMWM3E92BADGING.tga
+			}
+		}
+
+	}
+
+}
+
+
+
+material DoorLine
+{
+	technique
+	{
+		pass
+		{
+			ambient 0 0 0 1
+			diffuse 0 0 0 1
+			specular 0 0 0 1 10
+			scene_blend one one_minus_src_alpha
+			cull_hardware none
+			cull_software none
+
+			texture_unit
+			{
+				texture DOORLINE.tga
+			}
+		}
+
+	}
+
+}
+
+
+
+material MiscChrome
+{
+	technique
+	{
+		pass
+		{
+			ambient 0 0 0 1
+			diffuse 0 0 0 1
+			specular 0.756 0.756 0.756 1 50
+			scene_blend one one_minus_src_alpha
+
+			texture_unit
+			{
+				texture BMWM3E92MISC.tga
+			}
+		}
+
+	}
+
+}
+
+
+
+material Black
+{
+	technique
+	{
+		pass
+		{
+			ambient 0 0 0 1
+			diffuse 0 0 0 1
+			specular 0 0 0 1 10
+			cull_hardware none
+			cull_software none
+		}
+
+	}
+
+}
+
+
+
+material Black
+{
+	technique
+	{
+		pass
+		{
+			ambient 0 0 0 1
+			diffuse 0 0 0 1
+			specular 0 0 0 1 10
+			cull_hardware none
+			cull_software none
+		}
+
+	}
+
+}
+
+
+
+material Misc
+{
+	technique
+	{
+		pass
+		{
+			ambient 0 0 0 1
+			diffuse 0 0 0 1
+			specular 0.513 0.513 0.513 1 39
+			scene_blend one one_minus_src_alpha
+			cull_hardware none
+			cull_software none
+
+			texture_unit
+			{
+				texture BMWM3E92MISC.tga
+			}
+		}
+
+	}
+
+}
+
+
+
+material Bodypaint
+{
+	technique
+	{
+		pass
+		{
+			ambient 0.917647 0.8 0.588235 1
+			diffuse 0.917647 0.8 0.588235 1
+			specular 0.477 0.477 0.477 1 44
+		}
+
+	}
+
+}
+
+
+
+material BadgingChrome
+{
+	technique
+	{
+		pass
+		{
+			ambient 0 0 0 1
+			diffuse 0 0 0 1
+			specular 0.594 0.594 0.594 1 37
+			scene_blend one one_minus_src_alpha
+
+			texture_unit
+			{
+				texture BMWM3E92BADGING.tga
+			}
+		}
+
+	}
+
+}
+
+
+
+material DoorLine
+{
+	technique
+	{
+		pass
+		{
+			ambient 0 0 0 1
+			diffuse 0 0 0 1
+			specular 0 0 0 1 10
+			scene_blend one one_minus_src_alpha
+			cull_hardware none
+			cull_software none
+
+			texture_unit
+			{
+				texture DOORLINE.tga
+			}
+		}
+
+	}
+
+}
+
+
+
+material Black
+{
+	technique
+	{
+		pass
+		{
+			ambient 0 0 0 1
+			diffuse 0 0 0 1
+			specular 0 0 0 1 10
+			cull_hardware none
+			cull_software none
+		}
+
+	}
+
+}
+
+
+
+material Black
+{
+	technique
+	{
+		pass
+		{
+			ambient 0 0 0 1
+			diffuse 0 0 0 1
+			specular 0 0 0 1 10
+			cull_hardware none
+			cull_software none
+		}
+
+	}
+
+}
+
+
+
+material Material#599
+{
+	technique
+	{
+		pass
+		{
+			ambient 0.235294 0.235294 0.235294 1
+			diffuse 0.235294 0.235294 0.235294 1
+			specular 0.684 0.684 0.684 1 52
+			cull_hardware none
+			cull_software none
+		}
+
+	}
+
+}
+
+
+
+material DecalsR
+{
+	technique
+	{
+		pass
+		{
+			ambient 0.133333 0.133333 0.133333 1
+			diffuse 0.133333 0.133333 0.133333 1
+			specular 0.603 0.603 0.603 1 55
+			cull_hardware none
+			cull_software none
+		}
+
+	}
+
+}
+
+
+
+material Material#600
+{
+	technique
+	{
+		pass
+		{
+			ambient 0.0509804 0.0509804 0.0509804 1
+			diffuse 0.0509804 0.0509804 0.0509804 1
+			specular 1.062 1.062 1.062 1 47
+		}
+
+	}
+
+}
+
+
+
+material DoorLine
+{
+	technique
+	{
+		pass
+		{
+			ambient 0 0 0 1
+			diffuse 0 0 0 1
+			specular 0 0 0 1 10
+			scene_blend one one_minus_src_alpha
+			cull_hardware none
+			cull_software none
+
+			texture_unit
+			{
+				texture DOORLINE.tga
+			}
+		}
+
+	}
+
+}
+
+
+
+material Bodypaint
+{
+	technique
+	{
+		pass
+		{
+			ambient 0.917647 0.8 0.588235 1
+			diffuse 0.917647 0.8 0.588235 1
+			specular 0.477 0.477 0.477 1 44
+		}
+
+	}
+
+}
+
+
+
+material Bodypaint
+{
+	technique
+	{
+		pass
+		{
+			ambient 0.917647 0.8 0.588235 1
+			diffuse 0.917647 0.8 0.588235 1
+			specular 0.477 0.477 0.477 1 44
+		}
+
+	}
+
+}
+
+
+
+material Bodypaint
+{
+	technique
+	{
+		pass
+		{
+			ambient 0.917647 0.8 0.588235 1
+			diffuse 0.917647 0.8 0.588235 1
+			specular 0.477 0.477 0.477 1 44
+		}
+
+	}
+
+}
+
+
+
+material Bodypaint
+{
+	technique
+	{
+		pass
+		{
+			ambient 0.917647 0.8 0.588235 1
+			diffuse 0.917647 0.8 0.588235 1
+			specular 0.477 0.477 0.477 1 44
+		}
+
+	}
+
+}
+
+
+
+material Bodypaint
+{
+	technique
+	{
+		pass
+		{
+			ambient 0.917647 0.8 0.588235 1
+			diffuse 0.917647 0.8 0.588235 1
+			specular 0.477 0.477 0.477 1 44
+		}
+
+	}
+
+}
+
+
+
+material Bodypaint
+{
+	technique
+	{
+		pass
+		{
+			ambient 0.917647 0.8 0.588235 1
+			diffuse 0.917647 0.8 0.588235 1
+			specular 0.477 0.477 0.477 1 44
+		}
+
+	}
+
+}
+
+
+
+material Material#580
+{
+	technique
+	{
+		pass
+		{
+			ambient 0.588 0.588 0.588 1
+			diffuse 0.588 0.588 0.588 1
+			specular 0.927 0.927 0.927 1 55
+			scene_blend one one_minus_src_alpha
+
+			texture_unit
+			{
+				texture BMWM3E92BRAKELIGHT.tga
+			}
+		}
+
+	}
+
+}
+
+
+
+material BadgingChrome
+{
+	technique
+	{
+		pass
+		{
+			ambient 0 0 0 1
+			diffuse 0 0 0 1
+			specular 0.819 0.819 0.819 1 48
+			scene_blend one one_minus_src_alpha
+
+			texture_unit
+			{
+				texture BMWM3E92BADGING.tga
+			}
+		}
+
+	}
+
+}
+
+
+
+material DoorLine
+{
+	technique
+	{
+		pass
+		{
+			ambient 0 0 0 1
+			diffuse 0 0 0 1
+			specular 0 0 0 1 10
+			scene_blend one one_minus_src_alpha
+			cull_hardware none
+			cull_software none
+
+			texture_unit
+			{
+				texture DOORLINE.tga
+			}
+		}
+
+	}
+
+}
+
+
+
+material MiscChrome
+{
+	technique
+	{
+		pass
+		{
+			ambient 0 0 0 1
+			diffuse 0 0 0 1
+			specular 0.756 0.756 0.756 1 50
+			scene_blend one one_minus_src_alpha
+
+			texture_unit
+			{
+				texture BMWM3E92MISC.tga
+			}
+		}
+
+	}
+
+}
+
+
+
+material Black
+{
+	technique
+	{
+		pass
+		{
+			ambient 0 0 0 1
+			diffuse 0 0 0 1
+			specular 0 0 0 1 10
+			cull_hardware none
+			cull_software none
+		}
+
+	}
+
+}
+
+
+
+material Black
+{
+	technique
+	{
+		pass
+		{
+			ambient 0 0 0 1
+			diffuse 0 0 0 1
+			specular 0 0 0 1 10
+			cull_hardware none
+			cull_software none
+		}
+
+	}
+
+}
+
+
+
+material Misc
+{
+	technique
+	{
+		pass
+		{
+			ambient 0 0 0 1
+			diffuse 0 0 0 1
+			specular 0.513 0.513 0.513 1 39
+			scene_blend one one_minus_src_alpha
+			cull_hardware none
+			cull_software none
+
+			texture_unit
+			{
+				texture BMWM3E92MISC.tga
+			}
+		}
+
+	}
+
+}
+
+
+
+material BadgingChrome
+{
+	technique
+	{
+		pass
+		{
+			ambient 0 0 0 1
+			diffuse 0 0 0 1
+			specular 0.594 0.594 0.594 1 37
+			scene_blend one one_minus_src_alpha
+
+			texture_unit
+			{
+				texture BMWM3E92BADGING.tga
+			}
+		}
+
+	}
+
+}
+
+
+
+material DoorLine
+{
+	technique
+	{
+		pass
+		{
+			ambient 0 0 0 1
+			diffuse 0 0 0 1
+			specular 0 0 0 1 10
+			scene_blend one one_minus_src_alpha
+			cull_hardware none
+			cull_software none
+
+			texture_unit
+			{
+				texture DOORLINE.tga
+			}
+		}
+
+	}
+
+}
+
+
+
+material Black
+{
+	technique
+	{
+		pass
+		{
+			ambient 0 0 0 1
+			diffuse 0 0 0 1
+			specular 0 0 0 1 10
+			cull_hardware none
+			cull_software none
+		}
+
+	}
+
+}
+
+
+
+material Black
+{
+	technique
+	{
+		pass
+		{
+			ambient 0 0 0 1
+			diffuse 0 0 0 1
+			specular 0 0 0 1 10
+			cull_hardware none
+			cull_software none
+		}
+
+	}
+
+}
+
+
+
+material DoorLine
+{
+	technique
+	{
+		pass
+		{
+			ambient 0 0 0 1
+			diffuse 0 0 0 1
+			specular 0 0 0 1 10
+			scene_blend one one_minus_src_alpha
+			cull_hardware none
+			cull_software none
+
+			texture_unit
+			{
+				texture DOORLINE.tga
+			}
+		}
+
+	}
+
+}
+
+
+
+material BadgingChrome
+{
+	technique
+	{
+		pass
+		{
+			ambient 0 0 0 1
+			diffuse 0 0 0 1
+			specular 0.333 0.333 0.333 1 50
+			scene_blend one one_minus_src_alpha
+
+			texture_unit
+			{
+				texture BMWM3E92BADGING.tga
+			}
+		}
+
+	}
+
+}
+
+
+
+material Door
+{
+	technique
+	{
+		pass
+		{
+			ambient 0 0 0 1
+			diffuse 0 0 0 1
+			specular 0 0 0 1 10
+			scene_blend one one_minus_src_alpha
+			cull_hardware none
+			cull_software none
+
+			texture_unit
+			{
+				texture DOOR.tga
+			}
+		}
+
+	}
+
+}
+
+
+
+material Interior
+{
+	technique
+	{
+		pass
+		{
+			ambient 0 0 0 1
+			diffuse 0 0 0 1
+			specular 0.351 0.351 0.351 1 25
+			scene_blend one one_minus_src_alpha
+			cull_hardware none
+			cull_software none
+
+			texture_unit
+			{
+				texture BMWM3E92INTERIOR.tga
+			}
+		}
+
+	}
+
+}
+
+
+
+material Misc
+{
+	technique
+	{
+		pass
+		{
+			ambient 0 0 0 1
+			diffuse 0 0 0 1
+			specular 0.486 0.486 0.486 1 38
+			scene_blend one one_minus_src_alpha
+			cull_hardware none
+			cull_software none
+
+			texture_unit
+			{
+				texture BMWM3E92MISC.tga
+			}
+		}
+
+	}
+
+}
+
+
+
+material MiscChrome
+{
+	technique
+	{
+		pass
+		{
+			ambient 0 0 0 1
+			diffuse 0 0 0 1
+			specular 0.972 0.972 0.972 1 32
+			scene_blend one one_minus_src_alpha
+
+			texture_unit
+			{
+				texture BMWM3E92MISC.tga
+			}
+		}
+
+	}
+
+}
+
+
+
+material Black
+{
+	technique
+	{
+		pass
+		{
+			ambient 0 0 0 1
+			diffuse 0 0 0 1
+			specular 0 0 0 1 10
+			cull_hardware none
+			cull_software none
+		}
+
+	}
+
+}
+
+
+
+material Misc
+{
+	technique
+	{
+		pass
+		{
+			ambient 0 0 0 1
+			diffuse 0 0 0 1
+			specular 0.612 0.612 0.612 1 39
+			scene_blend one one_minus_src_alpha
+			cull_hardware none
+			cull_software none
+
+			texture_unit
+			{
+				texture BMWM3E92MISC.tga
+			}
+		}
+
+	}
+
+}
+
+
+
+material Misc
+{
+	technique
+	{
+		pass
+		{
+			ambient 0 0 0 1
+			diffuse 0 0 0 1
+			specular 0.63 0.63 0.63 1 50
+			scene_blend one one_minus_src_alpha
+			cull_hardware none
+			cull_software none
+
+			texture_unit
+			{
+				texture BMWM3E92MISC.tga
+			}
+		}
+
+	}
+
+}
+
+
+
+material DoorLine
+{
+	technique
+	{
+		pass
+		{
+			ambient 0 0 0 1
+			diffuse 0 0 0 1
+			specular 0 0 0 1 10
+			scene_blend one one_minus_src_alpha
+			cull_hardware none
+			cull_software none
+
+			texture_unit
+			{
+				texture DOORLINE.tga
+			}
+		}
+
+	}
+
+}
+
+
+
+material MiscChrome
+{
+	technique
+	{
+		pass
+		{
+			ambient 0 0 0 1
+			diffuse 0 0 0 1
+			specular 0.774 0.774 0.774 1 42
+			scene_blend one one_minus_src_alpha
+
+			texture_unit
+			{
+				texture BMWM3E92MISC.tga
+			}
+		}
+
+	}
+
+}
+
+
+
+material Misc
+{
+	technique
+	{
+		pass
+		{
+			ambient 0 0 0 1
+			diffuse 0 0 0 1
+			specular 0.468 0.468 0.468 1 32
+			scene_blend one one_minus_src_alpha
+			cull_hardware none
+			cull_software none
+
+			texture_unit
+			{
+				texture BMWM3E92MISC.tga
+			}
+		}
+
+	}
+
+}
+
+
+
+material Black
+{
+	technique
+	{
+		pass
+		{
+			ambient 0 0 0 1
+			diffuse 0 0 0 1
+			specular 0.441 0.441 0.441 1 39
+			cull_hardware none
+			cull_software none
+		}
+
+	}
+
+}
+
+
+
+material MiscChrome
+{
+	technique
+	{
+		pass
+		{
+			ambient 0 0 0 1
+			diffuse 0 0 0 1
+			specular 0.792 0.792 0.792 1 56
+			scene_blend one one_minus_src_alpha
+
+			texture_unit
+			{
+				texture BMWM3E92MISC.tga
+			}
+		}
+
+	}
+
+}
+
+
+
+material DoorLine
+{
+	technique
+	{
+		pass
+		{
+			ambient 0 0 0 1
+			diffuse 0 0 0 1
+			specular 0 0 0 1 10
+			scene_blend one one_minus_src_alpha
+			cull_hardware none
+			cull_software none
+
+			texture_unit
+			{
+				texture DOORLINE.tga
+			}
+		}
+
+	}
+
+}
+
+
+
+material BadgingChrome
+{
+	technique
+	{
+		pass
+		{
+			ambient 0 0 0 1
+			diffuse 0 0 0 1
+			specular 0.747 0.747 0.747 1 50
+			scene_blend one one_minus_src_alpha
+
+			texture_unit
+			{
+				texture BMWM3E92BADGING.tga
+			}
+		}
+
+	}
+
+}
+
+
+
+material HoodTrunk
+{
+	technique
+	{
+		pass
+		{
+			ambient 0 0 0 1
+			diffuse 0 0 0 1
+			specular 0 0 0 1 10
+			scene_blend one one_minus_src_alpha
+			cull_hardware none
+			cull_software none
+
+			texture_unit
+			{
+				texture HOODTRUNK.tga
+			}
+		}
+
+	}
+
+}
+
+
+
+material Misc
+{
+	technique
+	{
+		pass
+		{
+			ambient 0 0 0 1
+			diffuse 0 0 0 1
+			specular 0 0 0 1 10
+			scene_blend one one_minus_src_alpha
+			cull_hardware none
+			cull_software none
+
+			texture_unit
+			{
+				texture BMWM3E92MISC.tga
+			}
+		}
+
+	}
+
+}
+
+
+
+material Misc
+{
+	technique
+	{
+		pass
+		{
+			ambient 0 0 0 1
+			diffuse 0 0 0 1
+			specular 0.81 0.81 0.81 1 39
+			scene_blend one one_minus_src_alpha
+			cull_hardware none
+			cull_software none
+
+			texture_unit
+			{
+				texture BMWM3E92MISC.tga
+			}
+		}
+
+	}
+
+}
+
+
+
+material DoorLine
+{
+	technique
+	{
+		pass
+		{
+			ambient 0 0 0 1
+			diffuse 0 0 0 1
+			specular 0 0 0 1 10
+			scene_blend one one_minus_src_alpha
+			cull_hardware none
+			cull_software none
+
+			texture_unit
+			{
+				texture DOORLINE.tga
+			}
+		}
+
+	}
+
+}
+
+
+
+material BadgingChrome
+{
+	technique
+	{
+		pass
+		{
+			ambient 0 0 0 1
+			diffuse 0 0 0 1
+			specular 0.333 0.333 0.333 1 50
+			scene_blend one one_minus_src_alpha
+
+			texture_unit
+			{
+				texture BMWM3E92BADGING.tga
+			}
+		}
+
+	}
+
+}
+
+
+
+material Material#594
+{
+	technique
+	{
+		pass
+		{
+			ambient 0.588 0.588 0.588 1
+			diffuse 0.588 0.588 0.588 1
+			specular 0.801 0.801 0.801 1 46
+			scene_blend one one_minus_src_alpha
+
+			texture_unit
+			{
+				texture BMWM3E92BRAKELIGHT.tga
+			}
+		}
+
+	}
+
+}
+
+
+
+material HoodTrunk
+{
+	technique
+	{
+		pass
+		{
+			ambient 0 0 0 1
+			diffuse 0 0 0 1
+			specular 0 0 0 1 10
+			scene_blend one one_minus_src_alpha
+			cull_hardware none
+			cull_software none
+
+			texture_unit
+			{
+				texture HOODTRUNK.tga
+			}
+		}
+
+	}
+
+}
+
+
+
+material Material#597
+{
+	technique
+	{
+		pass
+		{
+			ambient 0.254902 0.254902 0.254902 1
+			diffuse 0.254902 0.254902 0.254902 1
+			specular 0.873 0.873 0.873 1 39
+			cull_hardware none
+			cull_software none
+		}
+
+	}
+
+}
+
+
+
+material Material#597
+{
+	technique
+	{
+		pass
+		{
+			ambient 0.254902 0.254902 0.254902 1
+			diffuse 0.254902 0.254902 0.254902 1
+			specular 0.873 0.873 0.873 1 39
+			cull_hardware none
+			cull_software none
+		}
+
+	}
+
+}
+
+
+
+material Material#597
+{
+	technique
+	{
+		pass
+		{
+			ambient 0.254902 0.254902 0.254902 1
+			diffuse 0.254902 0.254902 0.254902 1
+			specular 0.873 0.873 0.873 1 39
+			cull_hardware none
+			cull_software none
+		}
+
+	}
+
+}
+
+
+
+material Material#597
+{
+	technique
+	{
+		pass
+		{
+			ambient 0.254902 0.254902 0.254902 1
+			diffuse 0.254902 0.254902 0.254902 1
+			specular 0.873 0.873 0.873 1 39
+			cull_hardware none
+			cull_software none
+		}
+
+	}
+
+}
+
+
+
+
+material Material#597
+{
+	technique
+	{
+		pass
+		{
+			ambient 0.254902 0.254902 0.254902 1
+			diffuse 0.254902 0.254902 0.254902 1
+			specular 0.873 0.873 0.873 1 39
+			cull_hardware none
+			cull_software none
+		}
+
+	}
+
+}
+
+
+
+material DoorLine
+{
+	technique
+	{
+		pass
+		{
+			ambient 0 0 0 1
+			diffuse 0 0 0 1
+			specular 0 0 0 1 10
+			scene_blend one one_minus_src_alpha
+			cull_hardware none
+			cull_software none
+
+			texture_unit
+			{
+				texture DOORLINE.tga
+			}
+		}
+
+	}
+
+}
+
+
+
+material Black
+{
+	technique
+	{
+		pass
+		{
+			ambient 0 0 0 1
+			diffuse 0 0 0 1
+			specular 0 0 0 1 10
+			cull_hardware none
+			cull_software none
+		}
+
+	}
+
+}
+
+
+
+material Black
+{
+	technique
+	{
+		pass
+		{
+			ambient 0 0 0 1
+			diffuse 0 0 0 1
+			specular 0 0 0 1 10
+			cull_hardware none
+			cull_software none
+		}
+
+	}
+
+}
+
+
+
+material Material#602
+{
+	technique
+	{
+		pass
+		{
+			ambient 0.145098 0.145098 0.145098 1
+			diffuse 0.145098 0.145098 0.145098 1
+			specular 0.927 0.927 0.927 1 44
+		}
+
+	}
+
+}
+
+
+
+material Material#596_OgreMax
+{
+	technique Map#155
+	{
+		pass Map#156
+		{
+			ambient 0.0666667 0.0666667 0.0666667 1
+			diffuse 0.0666667 0.0666667 0.0666667 1
+			specular 0.945 0.945 0.945 1 46
+		}
+
+	}
+
+}
+
+
+
+material Material#595_OgreMax
+{
+	technique Map#153
+	{
+		pass Map#154
+		{
+			ambient 0.203922 0.203922 0.203922 1
+			diffuse 0.203922 0.203922 0.203922 1
+			specular 0.603 0.603 0.603 1 49
+			cull_hardware none
+			cull_software none
+		}
+
+	}
+
+}
+
+
+
+material Material#597
+{
+	technique
+	{
+		pass
+		{
+			ambient 0.254902 0.254902 0.254902 1
+			diffuse 0.254902 0.254902 0.254902 1
+			specular 0.873 0.873 0.873 1 39
+			cull_hardware none
+			cull_software none
+		}
+
+	}
+
+}
+
+
+
+material Material#597
+{
+	technique
+	{
+		pass
+		{
+			ambient 0.254902 0.254902 0.254902 1
+			diffuse 0.254902 0.254902 0.254902 1
+			specular 0.873 0.873 0.873 1 39
+			cull_hardware none
+			cull_software none
+		}
+
+	}
+
+}
+
+

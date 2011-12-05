@@ -1,0 +1,19 @@
+material SpeedometerBackground
+{
+	technique
+	{
+		pass
+		{
+			lighting off			
+			scene_blend alpha_blend
+            		depth_write off	
+			depth_check off
+			
+			texture_unit
+				{
+					texture smBackground.psd
+					tex_address_mode clamp
+				}
+		}
+	}
+}

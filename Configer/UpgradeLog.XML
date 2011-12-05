@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type='text/xsl' href='_UpgradeReport_Files/UpgradeReport.xslt'?><UpgradeLog>
+<Properties><Property Name="Solution" Value="Configer">
+</Property><Property Name="Файл решения" Value="D:\c++\work\Configer\Configer.sln">
+</Property><Property Name="Файл параметров пользователя" Value="D:\c++\work\Configer\Configer.suo">
+</Property><Property Name="Date" Value="15 июня 2010 г.">
+</Property><Property Name="Time" Value="18:02">
+</Property></Properties><Event ErrorLevel="0" Project="" Source="Configer.sln" Description="Успешно создана резервная копия файла D:\c++\work\Configer\Backup\Configer.sln">
+</Event><Event ErrorLevel="0" Project="" Source="Configer.suo" Description="Успешно создана резервная копия файла D:\c++\work\Configer\Backup\Configer.suo">
+</Event><Event ErrorLevel="0" Project="Configer" Source="Configer.csproj" Description="Успешно создана резервная копия файла проекта: D:\c++\work\Configer\Backup\Configer.csproj">
+</Event><Event ErrorLevel="0" Project="Configer" Source="Form1.cs" Description="Успешно создана резервная копия файла D:\c++\work\Configer\Backup\Form1.cs">
+</Event><Event ErrorLevel="0" Project="Configer" Source="Form1.Designer.cs" Description="Успешно создана резервная копия файла D:\c++\work\Configer\Backup\Form1.Designer.cs">
+</Event><Event ErrorLevel="0" Project="Configer" Source="Ini.cs" Description="Успешно создана резервная копия файла D:\c++\work\Configer\Backup\Ini.cs">
+</Event><Event ErrorLevel="0" Project="Configer" Source="Program.cs" Description="Успешно создана резервная копия файла D:\c++\work\Configer\Backup\Program.cs">
+</Event><Event ErrorLevel="0" Project="Configer" Source="Properties\Settings.Designer.cs" Description="Успешно создана резервная копия файла D:\c++\work\Configer\Backup\Properties\Settings.Designer.cs">
+</Event><Event ErrorLevel="0" Project="Configer" Source="SettingForm.cs" Description="Успешно создана резервная копия файла D:\c++\work\Configer\Backup\SettingForm.cs">
+</Event><Event ErrorLevel="0" Project="Configer" Source="SettingForm.Designer.cs" Description="Успешно создана резервная копия файла D:\c++\work\Configer\Backup\SettingForm.Designer.cs">
+</Event><Event ErrorLevel="0" Project="Configer" Source="Settings.cs" Description="Успешно создана резервная копия файла D:\c++\work\Configer\Backup\Settings.cs">
+</Event><Event ErrorLevel="0" Project="Configer" Source="UIButtons.cs" Description="Успешно создана резервная копия файла D:\c++\work\Configer\Backup\UIButtons.cs">
+</Event><Event ErrorLevel="0" Project="Configer" Source="ValidFunc.cs" Description="Успешно создана резервная копия файла D:\c++\work\Configer\Backup\ValidFunc.cs">
+</Event><Event ErrorLevel="0" Project="Configer" Source="Xml.cs" Description="Успешно создана резервная копия файла D:\c++\work\Configer\Backup\Xml.cs">
+</Event><Event ErrorLevel="0" Project="Configer" Source="app.config" Description="Успешно создана резервная копия файла D:\c++\work\Configer\Backup\app.config">
+</Event><Event ErrorLevel="0" Project="Configer" Source="Properties\Settings.settings" Description="Успешно создана резервная копия файла D:\c++\work\Configer\Backup\Properties\Settings.settings">
+</Event><Event ErrorLevel="0" Project="Configer" Source="agree.gif" Description="Успешно создана резервная копия файла D:\c++\work\Configer\Backup\agree.gif">
+</Event><Event ErrorLevel="0" Project="Configer" Source="disagree.gif" Description="Успешно создана резервная копия файла D:\c++\work\Configer\Backup\disagree.gif">
+</Event><Event ErrorLevel="0" Project="Configer" Source="Form1.resx" Description="Успешно создана резервная копия файла D:\c++\work\Configer\Backup\Form1.resx">
+</Event><Event ErrorLevel="0" Project="Configer" Source="SettingForm.resx" Description="Успешно создана резервная копия файла D:\c++\work\Configer\Backup\SettingForm.resx">
+</Event><Event ErrorLevel="0" Project="Configer" Source="Configer.csproj" Description="Проект успешно преобразован">
+</Event><Event ErrorLevel="3" Project="Configer" Source="Configer.csproj" Description="Converted">
+</Event><Event ErrorLevel="0" Project="" Source="Configer.sln" Description="Преобразование решения успешно завершено">
+</Event><Event ErrorLevel="3" Project="" Source="Configer.sln" Description="Converted">
+</Event><Event ErrorLevel="0" Project="Configer" Source="Configer.csproj" Description="Сканирование завершено: обновление для файлов проекта не требуется.">
+</Event></UpgradeLog>

@@ -1,0 +1,123 @@
+<scene formatVersion="1.0" upAxis="y" unitsPerMeter="39.3701" minOgreVersion="1.4" author="OgreMax Scene Exporter by Derek Nedelman (www.ogremax.com)">
+    <resourceLocations>
+        <resourceLocation type="FileSystem" name="../../materials/textures/" recursive="false" />
+    </resourceLocations>
+    <environment>
+        <colourAmbient r="0.552941" g="0.552941" b="0.552941" />
+        <colourBackground r="0" g="0" b="0" />
+    </environment>
+    <nodes>
+        <node name="Plane01">
+            <scale x="1" y="1" z="1" />
+            <position x="7.4895" y="0" z="10.2281" />
+            <rotation qx="0.707107" qy="0" qz="0" qw="0.707107" />
+            <plane name="Plane01" id="1" distance="-0" width="39.3701" height="39.3701" xSegments="4" ySegments="4" numTexCoordSets="1" uTile="1" vTile="1" material="01-Default" normals="true" movablePlane="true" castShadows="true" receiveShadows="true">
+                <normal x="-0" y="1" z="0" />
+                <upVector x="0" y="0" z="-1" />
+            </plane>
+        </node>
+        <node name="Camera01">
+            <scale x="1" y="1" z="1" />
+            <position x="-9.09536" y="-11.6909" z="103.633" />
+            <rotation qx="0.0707136" qy="-0.0930791" qz="0.00662754" qw="0.993122" />
+            <trackTarget nodeName="Camera01.Target">
+                <localDirection x="0" y="0" z="-1" />
+            </trackTarget>
+            <camera name="Camera01" id="2" fov="0.602557">
+                <clipping near="1" far="1000" />
+            </camera>
+        </node>
+        <node name="Camera01.Target" id="3">
+            <scale x="1" y="1" z="1" />
+            <position x="6.9979" y="0.705664" z="18.5321" />
+            <rotation qx="0" qy="0" qz="0" qw="1" />
+        </node>
+        <node name="Direct01">
+            <scale x="1" y="1" z="1" />
+            <position x="-93.8711" y="58.6447" z="130.63" />
+            <rotation qx="-0.92705" qy="0.0689222" qz="-0.301552" qw="-0.211885" />
+            <trackTarget nodeName="Direct01.Target">
+                <localDirection x="0" y="0" z="1" />
+            </trackTarget>
+            <light name="Direct01" id="5" type="directional" castShadows="false" power="1">
+                <colourDiffuse r="1" g="1" b="1" />
+                <colourSpecular r="0" g="0" b="0" />
+                <lightAttenuation range="200" constant="1" linear="0" quadric="0" />
+            </light>
+        </node>
+        <node name="Direct01.Target" id="6">
+            <scale x="1" y="1" z="1" />
+            <position x="1.16788" y="-19.2701" z="-8.42322e-007" />
+            <rotation qx="0.707107" qy="0" qz="0" qw="0.707107" />
+        </node>
+        <node name="Teapot01">
+            <scale x="1" y="1" z="1" />
+            <position x="223.334" y="0" z="0.693108" />
+            <rotation qx="0" qy="-0.688355" qz="0" qw="0.725374" />
+            <entity name="Teapot01" id="8" meshFile="Teapot01.mesh" castShadows="true" receiveShadows="true">
+                <subentities>
+                    <subentity index="0" materialName="02-Default" />
+                </subentities>
+            </entity>
+        </node>
+        <node name="Direct02">
+            <scale x="1" y="1" z="1" />
+            <position x="213.935" y="105.783" z="4.62394e-006" />
+            <rotation qx="-0.528176" qy="0.470138" qz="-0.528176" qw="-0.470138" />
+            <trackTarget nodeName="Direct02.Target">
+                <localDirection x="0" y="0" z="1" />
+            </trackTarget>
+            <light name="Direct02" id="11" type="directional" castShadows="false" power="1">
+                <colourDiffuse r="1" g="1" b="1" />
+                <colourSpecular r="0" g="0" b="0" />
+                <lightAttenuation range="200" constant="1" linear="0" quadric="0" />
+            </light>
+        </node>
+        <node name="Direct02.Target" id="12">
+            <scale x="1" y="1" z="1" />
+            <position x="226.749" y="-4.05136" z="-1.7709e-007" />
+            <rotation qx="0.707107" qy="0" qz="0" qw="0.707107" />
+        </node>
+        <node name="Camera02">
+            <scale x="1" y="1" z="1" />
+            <position x="128.974" y="21.4062" z="-62.008" />
+            <rotation qx="0.033469" qy="0.853255" qz="0.0551852" qw="-0.517485" />
+            <trackTarget nodeName="Camera02.Target">
+                <localDirection x="0" y="0" z="-1" />
+            </trackTarget>
+            <animations>
+                <animation name="Camera02" enable="true" loop="true" interpolationMode="linear" length="3.33354">
+                    <keyframe time="0">
+                        <translation x="128.974" y="21.4062" z="-62.008" />
+                        <rotation qx="0.033469" qy="0.853255" qz="0.0551852" qw="-0.517485" />
+                        <scale x="1" y="1" z="1" />
+                    </keyframe>
+                    <keyframe time="3.33333">
+                        <translation x="128.974" y="21.4062" z="33.0405" />
+                        <rotation qx="-0.0556941" qy="-0.608124" qz="-0.0428326" qw="0.790727" />
+                        <scale x="1" y="1" z="1" />
+                    </keyframe>
+                </animation>
+            </animations>
+            <camera name="Camera02" id="13" fov="0.602557">
+                <clipping near="1" far="1000" />
+            </camera>
+        </node>
+        <node name="Camera02.Target" id="14">
+            <scale x="1" y="1" z="1" />
+            <position x="249.78" y="3.7106" z="0.954094" />
+            <rotation qx="0" qy="0" qz="0" qw="1" />
+        </node>
+    </nodes>
+    <renderTextures>
+        <renderTexture name="Map#5" width="512" height="512" textureType="2d" camera="Camera02" clearEveryFrame="true" autoUpdate="true" hideRenderObject="true">
+            <backgroundColor r="0" g="0" b="0" />
+            <materials>
+                <material name="01-Default" technique="0" pass="0" textureUnit="1" />
+            </materials>
+            <exclusiveObjects>
+                <exclusiveObject name="Teapot01" />
+            </exclusiveObjects>
+        </renderTexture>
+    </renderTextures>
+</scene>

@@ -1,0 +1,16 @@
+D:\c++\work\Configer\bin\Debug\Configer.exe.config
+D:\c++\work\Configer\bin\Debug\Configer.exe
+D:\c++\work\Configer\bin\Debug\Configer.pdb
+D:\c++\work\Configer\obj\Debug\ResolveAssemblyReference.cache
+D:\c++\work\Configer\obj\Debug\Configer.Main.resources
+D:\c++\work\Configer\obj\Debug\Configer.csproj.GenerateResource.Cache
+D:\c++\work\Configer\obj\Debug\Configer.exe
+D:\c++\work\Configer\obj\Debug\Configer.pdb
+E:\c++\work\Configer\bin\Debug\Configer.exe.config
+E:\c++\work\Configer\obj\Debug\Configer.exe
+E:\c++\work\Configer\obj\Debug\Configer.pdb
+E:\c++\work\Configer\obj\Debug\Configer.csprojResolveAssemblyReference.cache
+E:\c++\work\Configer\obj\Debug\Configer.Main.resources
+E:\c++\work\Configer\obj\Debug\Configer.Properties.Resources.resources
+E:\c++\work\Configer\obj\Debug\Configer.SettingForm.resources
+E:\c++\work\Configer\obj\Debug\Configer.csproj.GenerateResource.Cache

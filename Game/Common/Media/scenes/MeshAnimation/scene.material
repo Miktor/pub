@@ -1,0 +1,84 @@
+
+material red_OgreMax
+{
+	technique Map#0
+	{
+		pass Map#1
+		{
+			ambient 1 0 0 1
+			diffuse 1 0 0 1
+			specular 0 0 0 1 10
+		}
+
+	}
+
+}
+
+
+
+material skin_OgreMax
+{
+	technique Map#4
+	{
+		pass Map#5
+		{
+			ambient 0.088888 0.0640517 0.181698 1
+			diffuse 0.784314 0.52549 0.505882 1
+			specular 0.171 0.171 0.171 1 13
+		}
+
+	}
+
+}
+
+
+
+material Orange_OgreMax
+{
+	technique Map#8
+	{
+		pass Map#9
+		{
+			ambient 0.179083 0.0653588 0.0653588 1
+			diffuse 1 0.709804 0.337255 1
+		}
+
+	}
+
+}
+
+
+
+material green_OgreMax
+{
+	technique Map#2
+	{
+		pass Map#3
+		{
+			ambient 0 1 0.117647 1
+			diffuse 0 1 0.117647 1
+			specular 0 0 0 1 10
+		}
+
+	}
+
+}
+
+
+
+material Purple_OgreMax
+{
+	technique Map#6
+	{
+		pass Map#7
+		{
+			ambient 0.088888 0.0640517 0.181698 1
+			diffuse 0.266667 0.192157 0.545098 1
+			specular 0.045 0.045 0.045 1 0
+		}
+
+	}
+
+}
+
+

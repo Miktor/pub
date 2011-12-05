@@ -1,0 +1,233 @@
+<scene formatVersion="1.0" upAxis="y" unitsPerMeter="39.3701" minOgreVersion="1.6" author="OgreMax Scene Exporter by Derek Nedelman (www.ogremax.com)">
+    <resourceLocations>
+        <resourceLocation type="FileSystem" name="../../materials/textures/" recursive="false" />
+    </resourceLocations>
+    <environment>
+        <colourAmbient r="0.333333" g="0.333333" b="0.333333" />
+        <colourBackground r="0" g="0" b="0" />
+        <clipping near="0" far="100000" />
+        <skyBox material="Sky" enable="true" distance="347.964" drawFirst="true">
+            <rotation qx="0" qy="0" qz="0" qw="1" />
+        </skyBox>
+    </environment>
+    <nodes>
+        <node name="Floor">
+            <position x="0" y="0" z="0" />
+            <scale x="1" y="1" z="1" />
+            <rotation qx="0" qy="0" qz="0" qw="1" />
+            <entity name="Floor" castShadows="true" receiveShadows="true" meshFile="Floor.mesh">
+                <subentities>
+                    <subentity index="0" materialName="OgreLogo" />
+                </subentities>
+            </entity>
+        </node>
+        <node name="TeapotBeingLookedAt">
+            <position x="-70.2524" y="15" z="-100" />
+            <scale x="1" y="1" z="1" />
+            <rotation qx="0" qy="0" qz="0" qw="1" />
+            <entity name="TeapotBeingLookedAt" castShadows="true" receiveShadows="true" meshFile="TeapotBeingLookedAt.mesh">
+                <subentities>
+                    <subentity index="0" materialName="OgreLogo" />
+                </subentities>
+            </entity>
+            <animations>
+                <animation name="MovingTeapot" enable="true" loop="true" interpolationMode="spline" rotationInterpolationMode="spherical" length="3.33313">
+                    <keyframe time="0">
+                        <translation x="-70.2524" y="15" z="-100" />
+                        <rotation qx="0" qy="0" qz="0" qw="1" />
+                        <scale x="1" y="1" z="1" />
+                    </keyframe>
+                    <keyframe time="0.237708">
+                        <translation x="-72.8031" y="15" z="-97.1151" />
+                        <rotation qx="0" qy="0" qz="0" qw="1" />
+                        <scale x="1" y="1" z="1" />
+                    </keyframe>
+                    <keyframe time="0.475625">
+                        <translation x="-79.9454" y="15" z="-89.0368" />
+                        <rotation qx="0" qy="0" qz="0" qw="1" />
+                        <scale x="1" y="1" z="1" />
+                    </keyframe>
+                    <keyframe time="0.71375">
+                        <translation x="-90.9148" y="15" z="-76.6301" />
+                        <rotation qx="0" qy="0" qz="0" qw="1" />
+                        <scale x="1" y="1" z="1" />
+                    </keyframe>
+                    <keyframe time="0.951458">
+                        <translation x="-104.947" y="15" z="-60.7596" />
+                        <rotation qx="0" qy="0" qz="0" qw="1" />
+                        <scale x="1" y="1" z="1" />
+                    </keyframe>
+                    <keyframe time="1.18938">
+                        <translation x="-121.276" y="15" z="-42.2901" />
+                        <rotation qx="0" qy="0" qz="0" qw="1" />
+                        <scale x="1" y="1" z="1" />
+                    </keyframe>
+                    <keyframe time="1.4275">
+                        <translation x="-139.139" y="15" z="-22.0866" />
+                        <rotation qx="0" qy="0" qz="0" qw="1" />
+                        <scale x="1" y="1" z="1" />
+                    </keyframe>
+                    <keyframe time="1.66542">
+                        <translation x="-157.77" y="15" z="-1.01369" />
+                        <rotation qx="0" qy="0" qz="0" qw="1" />
+                        <scale x="1" y="1" z="1" />
+                    </keyframe>
+                    <keyframe time="1.90313">
+                        <translation x="-176.406" y="15" z="20.0638" />
+                        <rotation qx="0" qy="0" qz="0" qw="1" />
+                        <scale x="1" y="1" z="1" />
+                    </keyframe>
+                    <keyframe time="2.14104">
+                        <translation x="-194.281" y="15" z="40.281" />
+                        <rotation qx="0" qy="0" qz="0" qw="1" />
+                        <scale x="1" y="1" z="1" />
+                    </keyframe>
+                    <keyframe time="2.37896">
+                        <translation x="-210.63" y="15" z="58.7731" />
+                        <rotation qx="0" qy="0" qz="0" qw="1" />
+                        <scale x="1" y="1" z="1" />
+                    </keyframe>
+                    <keyframe time="2.61687">
+                        <translation x="-224.69" y="15" z="74.6754" />
+                        <rotation qx="0" qy="0" qz="0" qw="1" />
+                        <scale x="1" y="1" z="1" />
+                    </keyframe>
+                    <keyframe time="2.855">
+                        <translation x="-235.696" y="15" z="87.1231" />
+                        <rotation qx="0" qy="0" qz="0" qw="1" />
+                        <scale x="1" y="1" z="1" />
+                    </keyframe>
+                    <keyframe time="3.09292">
+                        <translation x="-242.882" y="15" z="95.2513" />
+                        <rotation qx="0" qy="0" qz="0" qw="1" />
+                        <scale x="1" y="1" z="1" />
+                    </keyframe>
+                    <keyframe time="3.33313">
+                        <translation x="-245.486" y="15" z="98.1956" />
+                        <rotation qx="0" qy="0" qz="0" qw="1" />
+                        <scale x="1" y="1" z="1" />
+                    </keyframe>
+                </animation>
+            </animations>
+            <node name="Torus01">
+                <position x="-7.16393" y="27.5537" z="-14.3755" />
+                <scale x="1" y="1" z="1" />
+                <rotation qx="0" qy="0" qz="0" qw="1" />
+                <entity name="Torus01" castShadows="true" receiveShadows="true" meshFile="Torus01.mesh">
+                    <subentities>
+                        <subentity index="0" materialName="OgreLogo" />
+                    </subentities>
+                </entity>
+            </node>
+        </node>
+        <node name="Sphere01">
+            <position x="25.4381" y="55.7654" z="68.1427" />
+            <scale x="1" y="1" z="1" />
+            <rotation qx="0" qy="0" qz="0" qw="1" />
+            <entity name="Sphere01" castShadows="true" receiveShadows="true" meshFile="Sphere01.mesh">
+                <subentities>
+                    <subentity index="0" materialName="OgreLogo" />
+                </subentities>
+            </entity>
+        </node>
+        <node name="Torus02">
+            <position x="52.1074" y="65.765" z="-9.53225" />
+            <scale x="1" y="1" z="1" />
+            <rotation qx="-0.204677" qy="-0.395632" qz="-0.465341" qw="0.764879" />
+            <entity name="Torus02" castShadows="true" receiveShadows="true" meshFile="Torus02.mesh">
+                <subentities>
+                    <subentity index="0" materialName="OgreLogo" />
+                    <subentity index="1" materialName="roundwood" />
+                </subentities>
+            </entity>
+        </node>
+        <node name="Pyramid01">
+            <position x="31.5556" y="11.0754" z="-108.998" />
+            <scale x="1" y="1" z="1" />
+            <rotation qx="0" qy="0" qz="0" qw="1" />
+            <entity name="Pyramid01" castShadows="true" receiveShadows="true" meshFile="Pyramid01.mesh">
+                <subentities>
+                    <subentity index="0" materialName="OgreLogo" />
+                </subentities>
+            </entity>
+        </node>
+        <node name="Camera01">
+            <position x="131.168" y="225.625" z="554.159" />
+            <scale x="1" y="1" z="1" />
+            <rotation qx="-0.150591" qy="0.0911684" qz="0.0139484" qw="0.984285" />
+            <camera name="Camera01" fov="0.602557">
+                <clipping near="1" far="1000" />
+            </camera>
+            <trackTarget nodeName="Camera01.Target">
+                <localDirection x="0" y="0" z="-1" />
+            </trackTarget>
+        </node>
+        <node name="Camera01.Target">
+            <position x="9.06501" y="17.3307" z="-99.3168" />
+            <scale x="1" y="1" z="1" />
+            <rotation qx="0.715669" qy="-0.0261576" qz="0.022138" qw="0.697599" />
+        </node>
+        <node name="TeapotWithLookAt">
+            <position x="-44.2331" y="33.2784" z="-20.4283" />
+            <scale x="1" y="1" z="1" />
+            <rotation qx="-0.258552" qy="-0.497604" qz="0.734714" qw="0.381753" />
+            <entity name="TeapotWithLookAt" castShadows="true" receiveShadows="true" meshFile="TeapotWithLookAt.mesh">
+                <subentities>
+                    <subentity index="0" materialName="OgreLogo" />
+                </subentities>
+            </entity>
+            <trackTarget nodeName="TeapotBeingLookedAt">
+                <localDirection x="0" y="1" z="0" />
+            </trackTarget>
+        </node>
+        <node name="BillboardSet">
+            <position x="34.4655" y="71.584" z="140.648" />
+            <scale x="1" y="1" z="1" />
+            <rotation qx="0.707107" qy="0" qz="0" qw="0.707107" />
+            <billboardSet name="BillboardSet" castShadows="true" receiveShadows="true" material="OgreLogo" type="point" origin="center" rotationType="vertex" autoExtendPool="true" cullIndividual="false" sort="false" accurateFacing="false" width="200" height="100">
+                <billboard width="98.996" height="62.2261" rotation="0.811496">
+                    <position x="-147.769" y="-140.648" z="-29.6988" />
+                    <colourDiffuse r="1" g="1" b="1" />
+                </billboard>
+                <billboard width="93.3391" height="62.2261" rotation="-0.759341">
+                    <position x="188.817" y="-140.648" z="-12.728" />
+                    <colourDiffuse r="1" g="1" b="1" />
+                </billboard>
+            </billboardSet>
+        </node>
+        <node name="Camera02">
+            <position x="53.946" y="108.429" z="90.3307" />
+            <scale x="1" y="1" z="1" />
+            <rotation qx="-0.213617" qy="0.35279" qz="0.0830709" qw="0.907197" />
+            <camera name="Camera02" fov="0.602557">
+                <clipping near="1" far="1000" />
+            </camera>
+            <trackTarget nodeName="Camera02.Target">
+                <localDirection x="0" y="0" z="-1" />
+            </trackTarget>
+        </node>
+        <node name="Camera02.Target">
+            <position x="-2.83937" y="66.5212" z="28.3603" />
+            <scale x="1" y="1" z="1" />
+            <rotation qx="0" qy="0" qz="0" qw="1" />
+        </node>
+        <node name="Direct01">
+            <position x="-588.764" y="500.283" z="8.5555" />
+            <scale x="1" y="1" z="1" />
+            <rotation qx="-0.671026" qy="0.220591" qz="-0.6728" qw="-0.220009" />
+            <light name="Direct01" type="directional" castShadows="false" power="1">
+                <colourDiffuse r="1" g="1" b="1" />
+                <colourSpecular r="1" g="1" b="1" />
+                <lightAttenuation range="989.52" constant="1" linear="0" quadric="0" />
+            </light>
+            <trackTarget nodeName="Direct01.Target">
+                <localDirection x="-0" y="-0" z="1" />
+            </trackTarget>
+        </node>
+        <node name="Direct01.Target">
+            <position x="92.1491" y="4.52514e-007" z="10.3523" />
+            <scale x="1" y="1" z="1" />
+            <rotation qx="0" qy="0" qz="0" qw="1" />
+        </node>
+    </nodes>
+</scene>

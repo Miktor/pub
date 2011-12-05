@@ -1,0 +1,35 @@
+<scene formatVersion="1.0" upAxis="z" unitsPerMeter="39.3701" minOgreVersion="1.7" ogreMaxVersion="2.3.7" author="OgreMax Scene Exporter (www.ogremax.com)" application="3DS Max">
+    <environment>
+        <colourAmbient r="0.333333" g="0.333333" b="0.333333" />
+        <colourBackground r="0" g="0" b="0" />
+        <clipping near="0" far="100000" />
+    </environment>
+    <nodes>
+        <node name="wheelF">
+            <position x="0.768978" y="-1.49666" z="0.330619" />
+            <scale x="1" y="1" z="1" />
+            <rotation qx="1.86265e-009" qy="4.65661e-010" qz="-8.67362e-019" qw="1" />
+            <entity name="wheelF" castShadows="true" receiveShadows="true" meshFile="wheelF.mesh">
+                <subentities>
+                    <subentity index="0" materialName="Tire" />
+                    <subentity index="1" materialName="Chrome" />
+                    <subentity index="2" materialName="BrakePads" />
+                    <subentity index="3" materialName="BrakeDisc" />
+                </subentities>
+            </entity>
+        </node>
+        <node name="wheelR">
+            <position x="0.742005" y="1.24734" z="0.330142" />
+            <scale x="1" y="1" z="1" />
+            <rotation qx="2.77556e-017" qy="4.65661e-010" qz="-5.96046e-008" qw="1" />
+            <entity name="wheelR" castShadows="true" receiveShadows="true" meshFile="wheelR.mesh">
+                <subentities>
+                    <subentity index="0" materialName="Tire" />
+                    <subentity index="1" materialName="Chrome" />
+                    <subentity index="2" materialName="BrakeDisc" />
+                    <subentity index="3" materialName="BrakePads" />
+                </subentities>
+            </entity>
+        </node>
+    </nodes>
+</scene>

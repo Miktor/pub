@@ -1,0 +1,106 @@
+<scene formatVersion="1.0" upAxis="y" unitsPerMeter="1" minOgreVersion="1.6" author="OgreMax Scene Exporter by Derek Nedelman (www.ogremax.com)">
+    <environment>
+        <colourAmbient r="0.333333" g="0.333333" b="0.333333" />
+        <colourBackground r="0" g="0" b="0" />
+        <clipping near="0" far="100000" />
+    </environment>
+    <nodes>
+        <node name="GenericGuy">
+            <position x="1.12707" y="0" z="0" />
+            <scale x="1" y="1" z="1" />
+            <rotation qx="0" qy="0" qz="0" qw="1" />
+            <node name="RootBone">
+                <position x="0" y="0" z="0" />
+                <scale x="1" y="1" z="1" />
+                <rotation qx="0" qy="0" qz="0" qw="1" />
+                <node name="Body">
+                    <position x="-106.559" y="104.139" z="3.78748" />
+                    <scale x="1" y="1" z="1" />
+                    <rotation qx="0" qy="0" qz="0" qw="1" />
+                    <entity name="Body" castShadows="true" receiveShadows="true" meshFile="Body.mesh">
+                        <subentities>
+                            <subentity index="0" materialName="Purple_OgreMax" />
+                            <subentity index="1" materialName="skin_OgreMax" />
+                        </subentities>
+                    </entity>
+                </node>
+            </node>
+        </node>
+        <node name="Direct01">
+            <position x="-387.677" y="333.165" z="685.062" />
+            <scale x="1" y="1" z="1" />
+            <rotation qx="-0.955932" qy="0.0427437" qz="-0.229495" qw="-0.178044" />
+            <light name="Direct01" type="directional" castShadows="false" power="1">
+                <colourDiffuse r="1" g="1" b="1" />
+                <colourSpecular r="0" g="0" b="0" />
+                <lightAttenuation range="200" constant="1" linear="0" quadric="0" />
+            </light>
+            <trackTarget nodeName="Direct01.Target">
+                <localDirection x="-0" y="-0" z="1" />
+            </trackTarget>
+        </node>
+        <node name="Direct01.Target">
+            <position x="-38.6284" y="36.4707" z="0" />
+            <scale x="1" y="1" z="1" />
+            <rotation qx="0.707107" qy="0" qz="0" qw="0.707107" />
+        </node>
+        <node name="Camera02">
+            <position x="-636.925" y="119.092" z="553.104" />
+            <scale x="1" y="1" z="1" />
+            <rotation qx="0.0156093" qy="-0.506805" qz="0.0091787" qw="0.86187" />
+            <camera name="Camera02" fov="0.602557">
+                <clipping near="1" far="7021" />
+            </camera>
+            <trackTarget nodeName="Camera02.Target">
+                <localDirection x="0" y="0" z="-1" />
+            </trackTarget>
+        </node>
+        <node name="Camera02.Target">
+            <position x="464.544" y="164.762" z="-59.6245" />
+            <scale x="1" y="1" z="1" />
+            <rotation qx="0" qy="0" qz="0" qw="1" />
+        </node>
+        <node name="Body01">
+            <position x="340.24" y="104.139" z="3.78748" />
+            <scale x="1" y="1" z="1" />
+            <rotation qx="0" qy="0" qz="0" qw="1" />
+            <entity name="Body01" castShadows="true" receiveShadows="true" meshFile="Body01.mesh">
+                <subentities>
+                    <subentity index="0" materialName="Purple_OgreMax" />
+                    <subentity index="1" materialName="skin_OgreMax" />
+                </subentities>
+            </entity>
+        </node>
+        <node name="Cylinder01">
+            <position x="932.839" y="8.41999e-007" z="19.2627" />
+            <scale x="1" y="1" z="1" />
+            <rotation qx="0" qy="0" qz="0" qw="1" />
+            <entity name="Cylinder01" castShadows="true" receiveShadows="true" meshFile="Cylinder01.mesh">
+                <subentities>
+                    <subentity index="0" materialName="Orange_OgreMax" />
+                </subentities>
+            </entity>
+        </node>
+        <node name="Cylinder02">
+            <position x="1377.59" y="-1.95775e-007" z="-4.47882" />
+            <scale x="1" y="1" z="1" />
+            <rotation qx="0" qy="0" qz="0" qw="1" />
+            <entity name="Cylinder02" castShadows="true" receiveShadows="true" meshFile="Cylinder02.mesh">
+                <subentities>
+                    <subentity index="0" materialName="skin_OgreMax" />
+                </subentities>
+            </entity>
+        </node>
+        <node name="Box01">
+            <position x="1820.83" y="87.0051" z="0.421233" />
+            <scale x="1" y="1" z="1" />
+            <rotation qx="0" qy="0" qz="0" qw="1" />
+            <entity name="Box01" castShadows="true" receiveShadows="true" meshFile="Box01.mesh">
+                <subentities>
+                    <subentity index="0" materialName="green_OgreMax" />
+                    <subentity index="1" materialName="red_OgreMax" />
+                </subentities>
+            </entity>
+        </node>
+    </nodes>
+</scene>

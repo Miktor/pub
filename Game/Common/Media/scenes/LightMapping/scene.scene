@@ -1,0 +1,87 @@
+<scene formatVersion="1.0" upAxis="y" unitsPerMeter="39.3701" minOgreVersion="1.6" author="OgreMax Scene Exporter by Derek Nedelman (www.ogremax.com)">
+    <resourceLocations>
+        <resourceLocation type="FileSystem" name="../../materials/textures/" recursive="false" />
+    </resourceLocations>
+    <environment>
+        <colourAmbient r="0.333333" g="0.333333" b="0.333333" />
+        <colourBackground r="0" g="0" b="0" />
+        <clipping near="0" far="100000" />
+    </environment>
+    <nodes>
+        <node name="Camera02">
+            <position x="1086.74" y="286.028" z="834.735" />
+            <scale x="1" y="1" z="1" />
+            <rotation qx="-0.128539" qy="0.703523" qz="0.131741" qw="0.686424" />
+            <camera name="Camera02" fov="0.817458">
+                <clipping near="1" far="2000" />
+            </camera>
+            <trackTarget nodeName="Camera02.Target">
+                <localDirection x="0" y="0" z="-1" />
+            </trackTarget>
+        </node>
+        <node name="Floor">
+            <position x="752.765" y="3.28866e-005" z="752.358" />
+            <scale x="1" y="1" z="1" />
+            <rotation qx="0" qy="0" qz="0" qw="1" />
+            <entity name="Floor" castShadows="true" receiveShadows="true" meshFile="Floor.mesh">
+                <subentities>
+                    <subentity index="0" materialName="Material#3" />
+                </subentities>
+            </entity>
+        </node>
+        <node name="Beam">
+            <position x="636.952" y="58.5404" z="934.091" />
+            <scale x="1" y="1" z="1" />
+            <rotation qx="0" qy="0" qz="0" qw="1" />
+            <entity name="Beam" castShadows="true" receiveShadows="true" meshFile="Beam.mesh">
+                <subentities>
+                    <subentity index="0" materialName="Material#0" />
+                </subentities>
+            </entity>
+        </node>
+        <node name="Camera02.Target">
+            <position x="658.809" y="119.885" z="845.266" />
+            <scale x="1" y="1" z="1" />
+            <rotation qx="-0.198422" qy="-0.6568" qz="0.70351" qw="-0.185248" />
+        </node>
+        <node name="Spot01">
+            <position x="350.406" y="544.142" z="61.5251" />
+            <scale x="1" y="1" z="1" />
+            <rotation qx="0.259563" qy="-0.368145" qz="0.886268" qw="0.107819" />
+            <light name="Spot01" type="spot" castShadows="true" power="1.97">
+                <colourDiffuse r="1" g="1" b="1" />
+                <colourSpecular r="1" g="1" b="1" />
+                <lightAttenuation range="2701.2" constant="1" linear="0" quadric="0" />
+                <lightRange inner="1.12399" outer="1.494" />
+            </light>
+            <trackTarget nodeName="Spot01.Target">
+                <localDirection x="-0" y="-0" z="1" />
+            </trackTarget>
+        </node>
+        <node name="Spot01.Target">
+            <position x="618.198" y="45.7516" z="479.494" />
+            <scale x="1" y="1" z="1" />
+            <rotation qx="0.707107" qy="0" qz="0" qw="0.707107" />
+        </node>
+        <node name="Beam01">
+            <position x="592.466" y="58.5404" z="774.03" />
+            <scale x="1" y="1" z="1" />
+            <rotation qx="0" qy="0" qz="0" qw="1" />
+            <entity name="Beam01" castShadows="true" receiveShadows="true" meshFile="Beam.mesh">
+                <subentities>
+                    <subentity index="0" materialName="Material#1" />
+                </subentities>
+            </entity>
+        </node>
+        <node name="Sphere01">
+            <position x="498.415" y="118.727" z="590.006" />
+            <scale x="1" y="1" z="1" />
+            <rotation qx="0" qy="0" qz="0" qw="1" />
+            <entity name="Sphere01" castShadows="true" receiveShadows="true" meshFile="Sphere01.mesh">
+                <subentities>
+                    <subentity index="0" materialName="Material#2" />
+                </subentities>
+            </entity>
+        </node>
+    </nodes>
+</scene>

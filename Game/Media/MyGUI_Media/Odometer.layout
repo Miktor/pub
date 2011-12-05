@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MyGUI type="Layout" version="3.2.0">
+    <Widget type="ImageBox" skin="ImageBox" position="0 0 256 256" layer="Info" name="odometerBackground">
+        <Property key="ImageTexture" value="smBackground.png"/>
+        <Widget type="ImageBox" skin="RotatingSkin" position="124 124 116 8" name="odometerRotation">
+            <Property key="ImageTexture" value="arrow.png"/>
+            <UserString key="AddAngle" value="0.5"/>
+            <UserString key="MaxAngle" value="1.5"/>
+            <UserString key="MaxVel" value="180"/>
+            <UserString key="Doubled" value="yes"/>
+            <UserString key="CenterX" value="4"/>
+            <UserString key="CenterY" value="4"/>
+        </Widget>
+        <Widget type="TextBox" skin="TextBox" position="88 80 80 30" align="Stretch" name="VelOut">
+            <Property key="TextAlign" value="HCenter Bottom"/>
+            <Property key="TextColour" value="1 0 0"/>
+        </Widget>
+    </Widget>
+</MyGUI>

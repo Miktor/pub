@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type='text/xsl' href='_UpgradeReport_Files/UpgradeReport.xslt'?><UpgradeLog>
+<Properties><Property Name="Solution" Value="TreeCreator">
+</Property><Property Name="Solution File" Value="D:\Documents and Settings\Miktor\Desktop\work\TreeCreator\TreeCreator.sln">
+</Property><Property Name="User Options File" Value="D:\Documents and Settings\Miktor\Desktop\work\TreeCreator\TreeCreator.suo">
+</Property><Property Name="Date" Value="22 ноября 2009 г.">
+</Property><Property Name="Time" Value="15:32">
+</Property></Properties><Event ErrorLevel="0" Project="" Source="TreeCreator.sln" Description="File successfully backed up as D:\Documents and Settings\Miktor\Desktop\work\TreeCreator\Backup\TreeCreator.sln">
+</Event><Event ErrorLevel="0" Project="" Source="TreeCreator.suo" Description="File successfully backed up as D:\Documents and Settings\Miktor\Desktop\work\TreeCreator\Backup\TreeCreator.suo">
+</Event><Event ErrorLevel="0" Project="TreeCreator" Source="TreeCreator.csproj" Description="Project file successfully backed up as D:\Documents and Settings\Miktor\Desktop\work\TreeCreator\Backup\TreeCreator.csproj">
+</Event><Event ErrorLevel="0" Project="TreeCreator" Source="TreeCreator.csproj.user" Description="Project user file successfully backed up as D:\Documents and Settings\Miktor\Desktop\work\TreeCreator\Backup\TreeCreator.csproj.user">
+</Event><Event ErrorLevel="0" Project="TreeCreator" Source="Form1.cs" Description="File successfully backed up as D:\Documents and Settings\Miktor\Desktop\work\TreeCreator\Backup\Form1.cs">
+</Event><Event ErrorLevel="0" Project="TreeCreator" Source="Form1.Designer.cs" Description="File successfully backed up as D:\Documents and Settings\Miktor\Desktop\work\TreeCreator\Backup\Form1.Designer.cs">
+</Event><Event ErrorLevel="0" Project="TreeCreator" Source="Program.cs" Description="File successfully backed up as D:\Documents and Settings\Miktor\Desktop\work\TreeCreator\Backup\Program.cs">
+</Event><Event ErrorLevel="0" Project="TreeCreator" Source="Properties\AssemblyInfo.cs" Description="File successfully backed up as D:\Documents and Settings\Miktor\Desktop\work\TreeCreator\Backup\Properties\AssemblyInfo.cs">
+</Event><Event ErrorLevel="0" Project="TreeCreator" Source="Properties\Resources.Designer.cs" Description="File successfully backed up as D:\Documents and Settings\Miktor\Desktop\work\TreeCreator\Backup\Properties\Resources.Designer.cs">
+</Event><Event ErrorLevel="0" Project="TreeCreator" Source="Properties\Settings.Designer.cs" Description="File successfully backed up as D:\Documents and Settings\Miktor\Desktop\work\TreeCreator\Backup\Properties\Settings.Designer.cs">
+</Event><Event ErrorLevel="0" Project="TreeCreator" Source="Settings.cs" Description="File successfully backed up as D:\Documents and Settings\Miktor\Desktop\work\TreeCreator\Backup\Settings.cs">
+</Event><Event ErrorLevel="0" Project="TreeCreator" Source="app.config" Description="File successfully backed up as D:\Documents and Settings\Miktor\Desktop\work\TreeCreator\Backup\app.config">
+</Event><Event ErrorLevel="0" Project="TreeCreator" Source="Properties\Settings.settings" Description="File successfully backed up as D:\Documents and Settings\Miktor\Desktop\work\TreeCreator\Backup\Properties\Settings.settings">
+</Event><Event ErrorLevel="0" Project="TreeCreator" Source="Icon.ico" Description="File successfully backed up as D:\Documents and Settings\Miktor\Desktop\work\TreeCreator\Backup\Icon.ico">
+</Event><Event ErrorLevel="0" Project="TreeCreator" Source="Form1.resx" Description="File successfully backed up as D:\Documents and Settings\Miktor\Desktop\work\TreeCreator\Backup\Form1.resx">
+</Event><Event ErrorLevel="0" Project="TreeCreator" Source="Properties\Resources.resx" Description="File successfully backed up as D:\Documents and Settings\Miktor\Desktop\work\TreeCreator\Backup\Properties\Resources.resx">
+</Event><Event ErrorLevel="0" Project="TreeCreator" Source="TreeCreator.csproj" Description="Project converted successfully">
+</Event><Event ErrorLevel="3" Project="TreeCreator" Source="TreeCreator.csproj" Description="Converted">
+</Event><Event ErrorLevel="0" Project="" Source="TreeCreator.sln" Description="Solution converted successfully">
+</Event><Event ErrorLevel="3" Project="" Source="TreeCreator.sln" Description="Converted">
+</Event><Event ErrorLevel="0" Project="TreeCreator" Source="TreeCreator.csproj" Description="Scan complete: Upgrade not required for project files.">
+</Event></UpgradeLog>

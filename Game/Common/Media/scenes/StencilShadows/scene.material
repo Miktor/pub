@@ -1,0 +1,71 @@
+
+material Sky
+{
+	receive_shadows off
+	technique Map#2
+	{
+		pass Map#3
+		{
+			lighting off
+
+			texture_unit Map#4
+			{
+				texture_alias Map#4
+				cubic_texture stormy_fr.jpg stormy_bk.jpg stormy_lf.jpg stormy_rt.jpg stormy_up.jpg stormy_dn.jpg separateUV
+				filtering linear linear linear
+			}
+		}
+
+	}
+
+}
+
+
+
+material SomeMaterial_OgreMax
+{
+	technique Map#5
+	{
+		pass Map#6
+		{
+			ambient 0.588235 0.588235 0.588235 1
+			diffuse 0.588235 0.588235 0.588235 1
+			specular 0 0 0 1 10
+
+			texture_unit Map#7
+			{
+				texture_alias Map#7
+				texture BumpyMetal.jpg
+				filtering linear linear linear
+			}
+		}
+
+	}
+
+}
+
+
+
+material BlueStones_OgreMax
+{
+	technique Map#8
+	{
+		pass Map#9
+		{
+			ambient 0.588235 0.588235 0.588235 1
+			diffuse 0.588235 0.588235 0.588235 1
+			specular 0 0 0 1 10
+
+			texture_unit Map#10
+			{
+				texture_alias Map#10
+				texture BeachStones.jpg
+				filtering linear linear linear
+			}
+		}
+
+	}
+
+}
+
+

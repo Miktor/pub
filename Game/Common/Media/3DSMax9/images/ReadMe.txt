@@ -1,0 +1,1 @@
+These images are used by the 3DS Max render/view materials. They are not used by the exported OgreMax Viewer scenes

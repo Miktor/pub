@@ -1,0 +1,47 @@
+<userDataTypes>	
+	<include file="Subdirectory/OtherExample1.userdatatypes.xml" />
+	<include file="Subdirectory/OtherExample2" />
+	<enum name="WeekDay" type="string">
+		<enumItem name="Monday" value="mon" />
+		<enumItem name="Tuesday" value="tues" />
+		<enumItem name="Wednesday" value="wed" />
+		<enumItem name="Thursday" value="thu" />
+		<enumItem name="Friday" value="fri" />
+	</enum>
+	<enum name="WeekendDay" type="string">
+		<enumItem name="Saturday" value="sat" />
+		<enumItem name="Sunday" value="sun" />
+	</enum>	
+	<enum name="Day" type="string" super="WeekDay,WeekendDay">
+		<enumItem name="Wednesday" value="wed" />
+		<enumItem name="Thursday" value="thu" />
+	</enum>	
+	<class name="LivingThing" displayName="Living Thing" usage="private">
+		<data name="Alive" displayName="Alive?" type="bool" default="true"/>		
+		<data name="Age" type="int" defaultValue="0" minValue="0" maxValue="100" increment="1" visibilityParentName="Alive"/>
+		<data name="PositionInScene" displayName="Position In Scene" type="float3" minValue="-100000" maxValue="100000" increment=".01" visibilityParentName="Alive"/>
+	</class>
+	<class name="Human" super="LivingThing" usage="object">
+		<data name="FirstName" displayName="First Name" groupName="Name" type="string"/>		
+		<data name="LastName" displayName="Last Name" groupName="Name" type="string"/>
+		<data name="EyeColor" displayName="Eye Color" groupName="Colors" type="rgb"/>
+		<data name="FavoriteColorWithAlpha" displayName="Favorite Color With Alpha" groupName="Colors" type="rgba" defaultValue="1,1,1,1" />
+		<data name="Biography" type="string" groupName="Stuff" editWidth="200" editHeight="100" />
+		<data name="Interests" type="string" groupName="Stuff" editWidth="200" editHeight="100" />
+		<data name="FavoriteDay" displayName="Favorite Day" type="Day" defaultValue="sat"/>
+	</class>
+	<class name="Dog" usage="object">
+		<data name="FurColor" displayName="Fur Color" type="rgb"/>
+	</class>
+	<class name="DogHuman" displayName="Dog Human" super="Dog,Human" usage="object">
+		<data name="TwoNumbers" displayName="Two Numbers" type="float2" controlType="edit"/>
+	</class>
+	<class name="SceneSettings" displayName="Scene Settings" usage="scene">
+		<data name="Introduction" type="string" editWidth="200" editHeight="100" />
+		<data name="Conclusion" type="string" editWidth="200" editHeight="100" />
+	</class>	
+	<class name="MaterialSettings" displayName="Material Settings" usage="material">
+		<data name="Sound" type="string" />
+		<data name="Friction" type="float" minValue="0" maxValue="100"/>
+	</class>	
+</userDataTypes>	

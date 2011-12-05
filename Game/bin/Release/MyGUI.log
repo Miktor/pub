@@ -1,0 +1,103 @@
+15:58:09  |  Platform  |  Info  |  * Initialise: RenderManager  |  E:\Libs\MyGUI\Platforms\Ogre\OgrePlatform\src\MyGUI_OgreRenderManager.cpp  |  43
+15:58:09  |  Platform  |  Info  |  RenderManager successfully initialized  |  E:\Libs\MyGUI\Platforms\Ogre\OgrePlatform\src\MyGUI_OgreRenderManager.cpp  |  71
+15:58:09  |  Platform  |  Info  |  * Initialise: DataManager  |  E:\Libs\MyGUI\Platforms\Ogre\OgrePlatform\src\MyGUI_OgreDataManager.cpp  |  27
+15:58:09  |  Platform  |  Info  |  DataManager successfully initialized  |  E:\Libs\MyGUI\Platforms\Ogre\OgrePlatform\src\MyGUI_OgreDataManager.cpp  |  35
+15:58:09  |  Core  |  Info  |  * Initialise: Gui  |  E:\Libs\MyGUI\MyGUIEngine\src\MyGUI_Gui.cpp  |  75
+15:58:09  |  Core  |  Info  |  * MyGUI version 3.2.0.4323  |  E:\Libs\MyGUI\MyGUIEngine\src\MyGUI_Gui.cpp  |  82
+15:58:09  |  Core  |  Info  |  * Initialise: ResourceManager  |  E:\Libs\MyGUI\MyGUIEngine\src\MyGUI_ResourceManager.cpp  |  48
+15:58:09  |  Core  |  Info  |  ResourceManager successfully initialized  |  E:\Libs\MyGUI\MyGUIEngine\src\MyGUI_ResourceManager.cpp  |  56
+15:58:09  |  Core  |  Info  |  * Initialise: LayerManager  |  E:\Libs\MyGUI\MyGUIEngine\src\MyGUI_LayerManager.cpp  |  49
+15:58:09  |  Core  |  Info  |  LayerManager successfully initialized  |  E:\Libs\MyGUI\MyGUIEngine\src\MyGUI_LayerManager.cpp  |  57
+15:58:09  |  Core  |  Info  |  * Initialise: WidgetManager  |  E:\Libs\MyGUI\MyGUIEngine\src\MyGUI_WidgetManager.cpp  |  67
+15:58:09  |  Core  |  Info  |  WidgetManager successfully initialized  |  E:\Libs\MyGUI\MyGUIEngine\src\MyGUI_WidgetManager.cpp  |  98
+15:58:09  |  Core  |  Info  |  * Initialise: InputManager  |  E:\Libs\MyGUI\MyGUIEngine\src\MyGUI_InputManager.cpp  |  58
+15:58:09  |  Core  |  Info  |  InputManager successfully initialized  |  E:\Libs\MyGUI\MyGUIEngine\src\MyGUI_InputManager.cpp  |  78
+15:58:09  |  Core  |  Info  |  * Initialise: SubWidgetManager  |  E:\Libs\MyGUI\MyGUIEngine\src\MyGUI_SubWidgetManager.cpp  |  49
+15:58:09  |  Core  |  Info  |  SubWidgetManager successfully initialized  |  E:\Libs\MyGUI\MyGUIEngine\src\MyGUI_SubWidgetManager.cpp  |  69
+15:58:09  |  Core  |  Info  |  * Initialise: SkinManager  |  E:\Libs\MyGUI\MyGUIEngine\src\MyGUI_SkinManager.cpp  |  53
+15:58:09  |  Core  |  Info  |  SkinManager successfully initialized  |  E:\Libs\MyGUI\MyGUIEngine\src\MyGUI_SkinManager.cpp  |  61
+15:58:09  |  Core  |  Info  |  * Initialise: FontManager  |  E:\Libs\MyGUI\MyGUIEngine\src\MyGUI_FontManager.cpp  |  48
+15:58:09  |  Core  |  Info  |  FontManager successfully initialized  |  E:\Libs\MyGUI\MyGUIEngine\src\MyGUI_FontManager.cpp  |  57
+15:58:09  |  Core  |  Info  |  * Initialise: ControllerManager  |  E:\Libs\MyGUI\MyGUIEngine\src\MyGUI_ControllerManager.cpp  |  46
+15:58:09  |  Core  |  Info  |  ControllerManager successfully initialized  |  E:\Libs\MyGUI\MyGUIEngine\src\MyGUI_ControllerManager.cpp  |  56
+15:58:09  |  Core  |  Info  |  * Initialise: PointerManager  |  E:\Libs\MyGUI\MyGUIEngine\src\MyGUI_PointerManager.cpp  |  60
+15:58:09  |  Core  |  Info  |  PointerManager successfully initialized  |  E:\Libs\MyGUI\MyGUIEngine\src\MyGUI_PointerManager.cpp  |  78
+15:58:09  |  Core  |  Info  |  * Initialise: ClipboardManager  |  E:\Libs\MyGUI\MyGUIEngine\src\MyGUI_ClipboardManager.cpp  |  87
+15:58:09  |  Core  |  Info  |  ClipboardManager successfully initialized  |  E:\Libs\MyGUI\MyGUIEngine\src\MyGUI_ClipboardManager.cpp  |  101
+15:58:09  |  Core  |  Info  |  * Initialise: LayoutManager  |  E:\Libs\MyGUI\MyGUIEngine\src\MyGUI_LayoutManager.cpp  |  45
+15:58:09  |  Core  |  Info  |  LayoutManager successfully initialized  |  E:\Libs\MyGUI\MyGUIEngine\src\MyGUI_LayoutManager.cpp  |  50
+15:58:09  |  Core  |  Info  |  * Initialise: DynLibManager  |  E:\Libs\MyGUI\MyGUIEngine\src\MyGUI_DynLibManager.cpp  |  41
+15:58:09  |  Core  |  Info  |  DynLibManager successfully initialized  |  E:\Libs\MyGUI\MyGUIEngine\src\MyGUI_DynLibManager.cpp  |  45
+15:58:09  |  Core  |  Info  |  * Initialise: PluginManager  |  E:\Libs\MyGUI\MyGUIEngine\src\MyGUI_PluginManager.cpp  |  45
+15:58:09  |  Core  |  Info  |  PluginManager successfully initialized  |  E:\Libs\MyGUI\MyGUIEngine\src\MyGUI_PluginManager.cpp  |  49
+15:58:09  |  Core  |  Info  |  * Initialise: LanguageManager  |  E:\Libs\MyGUI\MyGUIEngine\src\MyGUI_LanguageManager.cpp  |  45
+15:58:09  |  Core  |  Info  |  LanguageManager successfully initialized  |  E:\Libs\MyGUI\MyGUIEngine\src\MyGUI_LanguageManager.cpp  |  49
+15:58:09  |  Core  |  Info  |  * Initialise: FactoryManager  |  E:\Libs\MyGUI\MyGUIEngine\src\MyGUI_FactoryManager.cpp  |  40
+15:58:09  |  Core  |  Info  |  FactoryManager successfully initialized  |  E:\Libs\MyGUI\MyGUIEngine\src\MyGUI_FactoryManager.cpp  |  42
+15:58:09  |  Core  |  Info  |  * Initialise: ToolTipManager  |  E:\Libs\MyGUI\MyGUIEngine\src\MyGUI_ToolTipManager.cpp  |  48
+15:58:09  |  Core  |  Info  |  ToolTipManager successfully initialized  |  E:\Libs\MyGUI\MyGUIEngine\src\MyGUI_ToolTipManager.cpp  |  60
+15:58:09  |  Core  |  Info  |  Load ini file 'MyGUI_Fonts.xml'  |  E:\Libs\MyGUI\MyGUIEngine\src\MyGUI_ResourceManager.cpp  |  130
+15:58:09  |  Core  |  Info  |  ResourceTrueTypeFont 'DejaVuSansFont.17' using texture size 512 x 256  |  E:\Libs\MyGUI\MyGUIEngine\src\MyGUI_ResourceTrueTypeFont.cpp  |  209
+15:58:09  |  Core  |  Info  |  ResourceTrueTypeFont 'DejaVuSansFont.17' using real height 17 pixels  |  E:\Libs\MyGUI\MyGUIEngine\src\MyGUI_ResourceTrueTypeFont.cpp  |  210
+15:58:09  |  Core  |  Info  |  Load ini file 'MyGUI_Images.xml'  |  E:\Libs\MyGUI\MyGUIEngine\src\MyGUI_ResourceManager.cpp  |  130
+15:58:09  |  Core  |  Info  |  Load ini file 'MyGUI_CommonSkins.xml'  |  E:\Libs\MyGUI\MyGUIEngine\src\MyGUI_ResourceManager.cpp  |  130
+15:58:09  |  Core  |  Info  |  Load ini file 'MyGUI_Pointers.xml'  |  E:\Libs\MyGUI\MyGUIEngine\src\MyGUI_ResourceManager.cpp  |  130
+15:58:09  |  Core  |  Info  |  Load ini file 'MyGUI_Layers.xml'  |  E:\Libs\MyGUI\MyGUIEngine\src\MyGUI_ResourceManager.cpp  |  130
+15:58:09  |  Core  |  Info  |  Load ini file 'MyGUI_Settings.xml'  |  E:\Libs\MyGUI\MyGUIEngine\src\MyGUI_ResourceManager.cpp  |  130
+15:58:09  |  Core  |  Info  |  Gui successfully initialized  |  E:\Libs\MyGUI\MyGUIEngine\src\MyGUI_Gui.cpp  |  133
+15:58:09  |  Core  |  Info  |  Load ini file 'MyGUI_BlackOrangeImages.xml'  |  E:\Libs\MyGUI\MyGUIEngine\src\MyGUI_ResourceManager.cpp  |  130
+15:58:09  |  Core  |  Info  |  Load ini file 'MyGUI_BlackOrangeSkins.xml'  |  E:\Libs\MyGUI\MyGUIEngine\src\MyGUI_ResourceManager.cpp  |  130
+15:58:10  |  Core  |  Info  |  Load ini file 'MyGUI_BlackOrangeTemplates.xml'  |  E:\Libs\MyGUI\MyGUIEngine\src\MyGUI_ResourceManager.cpp  |  130
+15:58:28  |  Core  |  Info  |  * Shutdown: Gui  |  E:\Libs\MyGUI\MyGUIEngine\src\MyGUI_Gui.cpp  |  147
+15:58:28  |  Core  |  Info  |  * Shutdown: PointerManager  |  E:\Libs\MyGUI\MyGUIEngine\src\MyGUI_PointerManager.cpp  |  85
+15:58:28  |  Core  |  Info  |  PointerManager successfully shutdown  |  E:\Libs\MyGUI\MyGUIEngine\src\MyGUI_PointerManager.cpp  |  101
+15:58:28  |  Core  |  Info  |  * Shutdown: InputManager  |  E:\Libs\MyGUI\MyGUIEngine\src\MyGUI_InputManager.cpp  |  85
+15:58:28  |  Core  |  Info  |  InputManager successfully shutdown  |  E:\Libs\MyGUI\MyGUIEngine\src\MyGUI_InputManager.cpp  |  90
+15:58:28  |  Core  |  Info  |  * Shutdown: SkinManager  |  E:\Libs\MyGUI\MyGUIEngine\src\MyGUI_SkinManager.cpp  |  68
+15:58:28  |  Core  |  Info  |  SkinManager successfully shutdown  |  E:\Libs\MyGUI\MyGUIEngine\src\MyGUI_SkinManager.cpp  |  73
+15:58:28  |  Core  |  Info  |  * Shutdown: SubWidgetManager  |  E:\Libs\MyGUI\MyGUIEngine\src\MyGUI_SubWidgetManager.cpp  |  76
+15:58:28  |  Core  |  Info  |  SubWidgetManager successfully shutdown  |  E:\Libs\MyGUI\MyGUIEngine\src\MyGUI_SubWidgetManager.cpp  |  96
+15:58:28  |  Core  |  Info  |  * Shutdown: LayerManager  |  E:\Libs\MyGUI\MyGUIEngine\src\MyGUI_LayerManager.cpp  |  64
+15:58:28  |  Core  |  Info  |  destroy layer 'Wallpaper'  |  E:\Libs\MyGUI\MyGUIEngine\src\MyGUI_LayerManager.cpp  |  207
+15:58:28  |  Core  |  Info  |  destroy layer 'Back'  |  E:\Libs\MyGUI\MyGUIEngine\src\MyGUI_LayerManager.cpp  |  207
+15:58:28  |  Core  |  Info  |  destroy layer 'Overlapped'  |  E:\Libs\MyGUI\MyGUIEngine\src\MyGUI_LayerManager.cpp  |  207
+15:58:28  |  Core  |  Info  |  destroy layer 'Middle'  |  E:\Libs\MyGUI\MyGUIEngine\src\MyGUI_LayerManager.cpp  |  207
+15:58:28  |  Core  |  Info  |  destroy layer 'Modal'  |  E:\Libs\MyGUI\MyGUIEngine\src\MyGUI_LayerManager.cpp  |  207
+15:58:28  |  Core  |  Info  |  destroy layer 'Main'  |  E:\Libs\MyGUI\MyGUIEngine\src\MyGUI_LayerManager.cpp  |  207
+15:58:28  |  Core  |  Info  |  destroy layer 'Popup'  |  E:\Libs\MyGUI\MyGUIEngine\src\MyGUI_LayerManager.cpp  |  207
+15:58:28  |  Core  |  Info  |  destroy layer 'FadeMiddle'  |  E:\Libs\MyGUI\MyGUIEngine\src\MyGUI_LayerManager.cpp  |  207
+15:58:28  |  Core  |  Info  |  destroy layer 'Info'  |  E:\Libs\MyGUI\MyGUIEngine\src\MyGUI_LayerManager.cpp  |  207
+15:58:28  |  Core  |  Info  |  destroy layer 'ToolTip'  |  E:\Libs\MyGUI\MyGUIEngine\src\MyGUI_LayerManager.cpp  |  207
+15:58:28  |  Core  |  Info  |  destroy layer 'DragAndDrop'  |  E:\Libs\MyGUI\MyGUIEngine\src\MyGUI_LayerManager.cpp  |  207
+15:58:28  |  Core  |  Info  |  destroy layer 'FadeBusy'  |  E:\Libs\MyGUI\MyGUIEngine\src\MyGUI_LayerManager.cpp  |  207
+15:58:28  |  Core  |  Info  |  destroy layer 'Pointer'  |  E:\Libs\MyGUI\MyGUIEngine\src\MyGUI_LayerManager.cpp  |  207
+15:58:28  |  Core  |  Info  |  destroy layer 'Fade'  |  E:\Libs\MyGUI\MyGUIEngine\src\MyGUI_LayerManager.cpp  |  207
+15:58:28  |  Core  |  Info  |  destroy layer 'Statistic'  |  E:\Libs\MyGUI\MyGUIEngine\src\MyGUI_LayerManager.cpp  |  207
+15:58:28  |  Core  |  Info  |  LayerManager successfully shutdown  |  E:\Libs\MyGUI\MyGUIEngine\src\MyGUI_LayerManager.cpp  |  75
+15:58:28  |  Core  |  Info  |  * Shutdown: FontManager  |  E:\Libs\MyGUI\MyGUIEngine\src\MyGUI_FontManager.cpp  |  64
+15:58:28  |  Core  |  Info  |  FontManager successfully shutdown  |  E:\Libs\MyGUI\MyGUIEngine\src\MyGUI_FontManager.cpp  |  71
+15:58:28  |  Core  |  Info  |  * Shutdown: ControllerManager  |  E:\Libs\MyGUI\MyGUIEngine\src\MyGUI_ControllerManager.cpp  |  63
+15:58:28  |  Core  |  Info  |  ControllerManager successfully shutdown  |  E:\Libs\MyGUI\MyGUIEngine\src\MyGUI_ControllerManager.cpp  |  74
+15:58:28  |  Core  |  Info  |  * Shutdown: ClipboardManager  |  E:\Libs\MyGUI\MyGUIEngine\src\MyGUI_ClipboardManager.cpp  |  108
+15:58:28  |  Core  |  Info  |  ClipboardManager successfully shutdown  |  E:\Libs\MyGUI\MyGUIEngine\src\MyGUI_ClipboardManager.cpp  |  110
+15:58:28  |  Core  |  Info  |  * Shutdown: LayoutManager  |  E:\Libs\MyGUI\MyGUIEngine\src\MyGUI_LayoutManager.cpp  |  57
+15:58:28  |  Core  |  Info  |  LayoutManager successfully shutdown  |  E:\Libs\MyGUI\MyGUIEngine\src\MyGUI_LayoutManager.cpp  |  62
+15:58:28  |  Core  |  Info  |  * Shutdown: PluginManager  |  E:\Libs\MyGUI\MyGUIEngine\src\MyGUI_PluginManager.cpp  |  56
+15:58:28  |  Core  |  Info  |  PluginManager successfully shutdown  |  E:\Libs\MyGUI\MyGUIEngine\src\MyGUI_PluginManager.cpp  |  61
+15:58:28  |  Core  |  Info  |  * Shutdown: DynLibManager  |  E:\Libs\MyGUI\MyGUIEngine\src\MyGUI_DynLibManager.cpp  |  52
+15:58:28  |  Core  |  Info  |  DynLibManager successfully shutdown  |  E:\Libs\MyGUI\MyGUIEngine\src\MyGUI_DynLibManager.cpp  |  59
+15:58:28  |  Core  |  Info  |  * Shutdown: LanguageManager  |  E:\Libs\MyGUI\MyGUIEngine\src\MyGUI_LanguageManager.cpp  |  56
+15:58:28  |  Core  |  Info  |  LanguageManager successfully shutdown  |  E:\Libs\MyGUI\MyGUIEngine\src\MyGUI_LanguageManager.cpp  |  60
+15:58:28  |  Core  |  Info  |  * Shutdown: ResourceManager  |  E:\Libs\MyGUI\MyGUIEngine\src\MyGUI_ResourceManager.cpp  |  63
+15:58:28  |  Core  |  Info  |  ResourceManager successfully shutdown  |  E:\Libs\MyGUI\MyGUIEngine\src\MyGUI_ResourceManager.cpp  |  73
+15:58:28  |  Core  |  Info  |  * Shutdown: FactoryManager  |  E:\Libs\MyGUI\MyGUIEngine\src\MyGUI_FactoryManager.cpp  |  49
+15:58:28  |  Core  |  Info  |  FactoryManager successfully shutdown  |  E:\Libs\MyGUI\MyGUIEngine\src\MyGUI_FactoryManager.cpp  |  51
+15:58:28  |  Core  |  Info  |  * Shutdown: ToolTipManager  |  E:\Libs\MyGUI\MyGUIEngine\src\MyGUI_ToolTipManager.cpp  |  67
+15:58:28  |  Core  |  Info  |  ToolTipManager successfully shutdown  |  E:\Libs\MyGUI\MyGUIEngine\src\MyGUI_ToolTipManager.cpp  |  72
+15:58:28  |  Core  |  Info  |  * Shutdown: WidgetManager  |  E:\Libs\MyGUI\MyGUIEngine\src\MyGUI_WidgetManager.cpp  |  105
+15:58:28  |  Core  |  Info  |  WidgetManager successfully shutdown  |  E:\Libs\MyGUI\MyGUIEngine\src\MyGUI_WidgetManager.cpp  |  114
+15:58:28  |  Core  |  Info  |  Gui successfully shutdown  |  E:\Libs\MyGUI\MyGUIEngine\src\MyGUI_Gui.cpp  |  190
+15:58:28  |  Platform  |  Info  |  * Shutdown: RenderManager  |  E:\Libs\MyGUI\Platforms\Ogre\OgrePlatform\src\MyGUI_OgreRenderManager.cpp  |  78
+15:58:28  |  Platform  |  Info  |  RenderManager successfully shutdown  |  E:\Libs\MyGUI\Platforms\Ogre\OgrePlatform\src\MyGUI_OgreRenderManager.cpp  |  86
+15:58:28  |  Platform  |  Info  |  * Shutdown: DataManager  |  E:\Libs\MyGUI\Platforms\Ogre\OgrePlatform\src\MyGUI_OgreDataManager.cpp  |  42
+15:58:28  |  Platform  |  Info  |  DataManager successfully shutdown  |  E:\Libs\MyGUI\Platforms\Ogre\OgrePlatform\src\MyGUI_OgreDataManager.cpp  |  44

@@ -1,0 +1,8 @@
+E:\c++\WorldEditor\WorldEditor\Plugins\MouseListener\bin\Release\MouseListener.dll
+E:\c++\WorldEditor\WorldEditor\Plugins\MouseListener\bin\Release\MouseListener.pdb
+E:\c++\WorldEditor\WorldEditor\Plugins\MouseListener\bin\Release\PluginBase.dll
+E:\c++\WorldEditor\WorldEditor\Plugins\MouseListener\bin\Release\Mogre.dll
+E:\c++\WorldEditor\WorldEditor\Plugins\MouseListener\bin\Release\PluginBase.pdb
+E:\c++\WorldEditor\WorldEditor\Plugins\MouseListener\obj\Release\MouseListener.csprojResolveAssemblyReference.cache
+E:\c++\WorldEditor\WorldEditor\Plugins\MouseListener\obj\Release\MouseListener.dll
+E:\c++\WorldEditor\WorldEditor\Plugins\MouseListener\obj\Release\MouseListener.pdb

@@ -1,0 +1,120 @@
+
+material Material#0
+{
+	technique Map#2
+	{
+		pass Map#3
+		{
+			lighting off
+
+			texture_unit Map#4
+			{
+				texture_alias Map#4
+				texture BumpyMetal.jpg
+				filtering linear linear linear
+			}
+
+			texture_unit Map#11
+			{
+				texture_alias Map#11
+				texture BeamLightingMap.tga
+				tex_coord_set 1
+				filtering linear linear linear
+			}
+		}
+
+	}
+
+}
+
+
+
+material Material#1
+{
+	technique Map#2
+	{
+		pass Map#3
+		{
+			lighting off
+
+			texture_unit Map#4
+			{
+				texture_alias Map#4
+				texture BumpyMetal.jpg
+				filtering linear linear linear
+			}
+
+			texture_unit Map#11
+			{
+				texture_alias Map#11
+				texture Beam01LightingMap.tga
+				tex_coord_set 1
+				filtering linear linear linear
+			}
+		}
+
+	}
+
+}
+
+
+
+material Material#2
+{
+	technique Map#2
+	{
+		pass Map#3
+		{
+			lighting off
+
+			texture_unit Map#4
+			{
+				texture_alias Map#4
+				texture BumpyMetal.jpg
+				filtering linear linear linear
+			}
+
+			texture_unit Map#11
+			{
+				texture_alias Map#11
+				texture Sphere01LightingMap.tga
+				tex_coord_set 1
+				filtering linear linear linear
+			}
+		}
+
+	}
+
+}
+
+
+
+material Material#3
+{
+	technique Map#5
+	{
+		pass Map#6
+		{
+			lighting off
+
+			texture_unit Map#7
+			{
+				texture_alias Map#7
+				texture BeachStones.jpg
+				filtering linear linear linear
+			}
+
+			texture_unit Map#12
+			{
+				texture_alias Map#12
+				texture FloorLightingMap.tga
+				tex_coord_set 1
+				filtering linear linear linear
+			}
+		}
+
+	}
+
+}
+
+

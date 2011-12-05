@@ -1,0 +1,213 @@
+﻿<?xml version='1.0' encoding='utf-8'?>
+<SettingsFile xmlns="http://schemas.microsoft.com/VisualStudio/2004/01/settings" CurrentProfile="(Default)" GeneratedClassNamespace="Parsec.Configuration.Properties" GeneratedClassName="Settings">
+  <Profiles />
+  <Settings>
+    <Setting Name="WindowHeader" Type="System.String" Scope="User">
+      <Value Profile="(Default)">Parsec Configuration</Value>
+    </Setting>
+    <Setting Name="BackBtnText" Type="System.String" Scope="User">
+      <Value Profile="(Default)">&lt; &amp;Back</Value>
+    </Setting>
+    <Setting Name="NextBtnText" Type="System.String" Scope="User">
+      <Value Profile="(Default)">&amp;Next &gt;</Value>
+    </Setting>
+    <Setting Name="CancelBtnText" Type="System.String" Scope="User">
+      <Value Profile="(Default)">Cancel</Value>
+    </Setting>
+    <Setting Name="DescriptionAgreeText" Type="System.String" Scope="User">
+      <Value Profile="(Default)">I agree</Value>
+    </Setting>
+    <Setting Name="DescriptionTab_Description" Type="System.String" Scope="User">
+      <Value Profile="(Default)">Description</Value>
+    </Setting>
+    <Setting Name="DescriptionTab_Tile" Type="System.String" Scope="User">
+      <Value Profile="(Default)">Parsec Configuration</Value>
+    </Setting>
+    <Setting Name="IntroTab_Title" Type="System.String" Scope="User">
+      <Value Profile="(Default)">Welcome to Parsec Configuration Wizard</Value>
+    </Setting>
+    <Setting Name="IntroTab_Text" Type="System.String" Scope="User">
+      <Value Profile="(Default)">This wizard will gather all</Value>
+    </Setting>
+    <Setting Name="FixedSize" Type="System.Drawing.Size" Scope="User">
+      <Value Profile="(Default)">600, 460</Value>
+    </Setting>
+    <Setting Name="ProcessTabDescription" Type="System.String" Scope="User">
+      <Value Profile="(Default)">Description</Value>
+    </Setting>
+    <Setting Name="ProcessTabTitle" Type="System.String" Scope="User">
+      <Value Profile="(Default)">Title</Value>
+    </Setting>
+    <Setting Name="SendTabTitle" Type="System.String" Scope="User">
+      <Value Profile="(Default)">Title</Value>
+    </Setting>
+    <Setting Name="SendTabDescription" Type="System.String" Scope="User">
+      <Value Profile="(Default)">Description</Value>
+    </Setting>
+    <Setting Name="FinishTabText" Type="System.String" Scope="User">
+      <Value Profile="(Default)">Thank you for wating.</Value>
+    </Setting>
+    <Setting Name="FinishTabTitle" Type="System.String" Scope="User">
+      <Value Profile="(Default)">Finishing Wizard work.</Value>
+    </Setting>
+    <Setting Name="Progress_prepearing" Type="System.String" Scope="User">
+      <Value Profile="(Default)">Prepearing</Value>
+    </Setting>
+    <Setting Name="Progress_Saving" Type="System.String" Scope="User">
+      <Value Profile="(Default)">Saving</Value>
+    </Setting>
+    <Setting Name="Progress_FireWal" Type="System.String" Scope="User">
+      <Value Profile="(Default)">Getting info about your FireWall</Value>
+    </Setting>
+    <Setting Name="Progress_Services" Type="System.String" Scope="User">
+      <Value Profile="(Default)">Getting info about Services</Value>
+    </Setting>
+    <Setting Name="Progress_Domain" Type="System.String" Scope="User">
+      <Value Profile="(Default)">Getting info about your Domain</Value>
+    </Setting>
+    <Setting Name="Progress_DHCP" Type="System.String" Scope="User">
+      <Value Profile="(Default)">Getting info about DHCP</Value>
+    </Setting>
+    <Setting Name="Progress_Saved" Type="System.String" Scope="User">
+      <Value Profile="(Default)">sucesfully saved</Value>
+    </Setting>
+    <Setting Name="Progress_SaveError" Type="System.String" Scope="User">
+      <Value Profile="(Default)">does not saved, error!</Value>
+    </Setting>
+    <Setting Name="Progress_Registry" Type="System.String" Scope="User">
+      <Value Profile="(Default)">Getting info about your Registry</Value>
+    </Setting>
+    <Setting Name="Progress_done" Type="System.String" Scope="User">
+      <Value Profile="(Default)">Programm have been done sucesfully</Value>
+    </Setting>
+    <Setting Name="Progress_doneWithError" Type="System.String" Scope="User">
+      <Value Profile="(Default)">Programm have been done with errors.</Value>
+    </Setting>
+    <Setting Name="Progress_folderTrace" Type="System.String" Scope="User">
+      <Value Profile="(Default)">Tracing Install Path</Value>
+    </Setting>
+    <Setting Name="CreatingNameMode" Type="System.Int32" Scope="User">
+      <Value Profile="(Default)">0</Value>
+    </Setting>
+    <Setting Name="ShowFolderTraceInWindow" Type="System.Boolean" Scope="User">
+      <Value Profile="(Default)">False</Value>
+    </Setting>
+    <Setting Name="openForWatch" Type="System.String" Scope="User">
+      <Value Profile="(Default)">Open File to look it?</Value>
+    </Setting>
+    <Setting Name="OpenFile" Type="System.String" Scope="User">
+      <Value Profile="(Default)">Open</Value>
+    </Setting>
+    <Setting Name="FileOpenEror" Type="System.String" Scope="User">
+      <Value Profile="(Default)">Failed to open file</Value>
+    </Setting>
+    <Setting Name="SavinError" Type="System.String" Scope="User">
+      <Value Profile="(Default)">Saving error</Value>
+    </Setting>
+    <Setting Name="MailSendingError" Type="System.String" Scope="User">
+      <Value Profile="(Default)">Sending Error</Value>
+    </Setting>
+    <Setting Name="RegistryKeyLoc" Type="System.String" Scope="User">
+      <Value Profile="(Default)">SOFTWARE\MDO\ParsecNET 3</Value>
+    </Setting>
+    <Setting Name="RegistryKeyValue" Type="System.String" Scope="User">
+      <Value Profile="(Default)">InstallPath</Value>
+    </Setting>
+    <Setting Name="MailTabText" Type="System.String" Scope="User">
+      <Value Profile="(Default)">Please, send gathered information to us via e-mail.</Value>
+    </Setting>
+    <Setting Name="MilSendRBText" Type="System.String" Scope="User">
+      <Value Profile="(Default)">Send via E-Mail (Recomendet)</Value>
+    </Setting>
+    <Setting Name="SaveRarRT" Type="System.String" Scope="User">
+      <Value Profile="(Default)">Save local (Optional)</Value>
+    </Setting>
+    <Setting Name="Use" Type="System.String" Scope="User">
+      <Value Profile="(Default)">Use it if you have no configurated mail client on this computer or it doesn't support MAPI.</Value>
+    </Setting>
+    <Setting Name="mailtoLink" Type="System.String" Scope="User">
+      <Value Profile="(Default)">reports@mdo.ru</Value>
+    </Setting>
+    <Setting Name="MailSubject" Type="System.String" Scope="User">
+      <Value Profile="(Default)">[Parsec_Report]</Value>
+    </Setting>
+    <Setting Name="Progress_OSInfo" Type="System.String" Scope="User">
+      <Value Profile="(Default)">OS info</Value>
+    </Setting>
+    <Setting Name="MailErrors" Type="System.Collections.Specialized.StringCollection" Scope="User">
+      <Value Profile="(Default)">&lt;?xml version="1.0" encoding="utf-16"?&gt;
+&lt;ArrayOfString xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"&gt;
+  &lt;string&gt;OK&lt;/string&gt;
+  &lt;string&gt;User aborted, are u sure?
+May be you have misclicked, resend?&lt;/string&gt;
+  &lt;string&gt;General MAPI failure 
+Error code 2&lt;/string&gt;
+  &lt;string&gt;MAPI login failure
+Error code 3&lt;/string&gt;
+  &lt;string&gt;Disk full 
+Error code 4&lt;/string&gt;
+  &lt;string&gt;Insufficient memory 
+Error code 5&lt;/string&gt;
+  &lt;string&gt;Access denied 
+Error code 6&lt;/string&gt;
+  &lt;string&gt;Unknown Error
+Error code 7&lt;/string&gt;
+  &lt;string&gt;Too many sessions
+Error code 8&lt;/string&gt;
+  &lt;string&gt;Too many files were specified 
+Error code 9&lt;/string&gt;
+  &lt;string&gt;Too many recipients were specified 
+Error code 10&lt;/string&gt;
+  &lt;string&gt;A specified attachment was not found 
+Error code 11&lt;/string&gt;
+  &lt;string&gt;Attachment open failure 
+Error code 12&lt;/string&gt;
+  &lt;string&gt;Attachment write failure 
+Error code 13&lt;/string&gt;
+  &lt;string&gt;Unknown recipient 
+Error code 14&lt;/string&gt;
+  &lt;string&gt;Bad recipient type 
+Error code 15&lt;/string&gt;
+  &lt;string&gt;No messages
+Error code 16&lt;/string&gt;
+  &lt;string&gt;Invalid message 
+Error code 17&lt;/string&gt;
+  &lt;string&gt;Text too large 
+Error code 18&lt;/string&gt;
+  &lt;string&gt;Invalid session 
+Error code 19&lt;/string&gt;
+  &lt;string&gt;Type not supported 
+Error code 20&lt;/string&gt;
+  &lt;string&gt;A recipient was specified ambiguously 
+Error code 21&lt;/string&gt;
+  &lt;string&gt;Message in use 
+Error code 22&lt;/string&gt;
+  &lt;string&gt;Network failure 
+Error code 23&lt;/string&gt;
+  &lt;string&gt;Invalid edit fields 
+Error code 24&lt;/string&gt;
+  &lt;string&gt;Invalid recipients 
+Error code 25&lt;/string&gt;
+  &lt;string&gt;Not supported 
+Error code 26 &lt;/string&gt;
+&lt;/ArrayOfString&gt;</Value>
+    </Setting>
+    <Setting Name="MailBody" Type="System.String" Scope="User">
+      <Value Profile="(Default)">Parsec.Config report arhive in attachments.</Value>
+    </Setting>
+    <Setting Name="DescriptionFullText" Type="System.String" Scope="User">
+      <Value Profile="(Default)">Now this wizar will find info anout:
+-OS Version
+-FireWall
+-Domain
+-DHCP
+-Event logs
+-Parsec Configs
+-Parsec Logs
+-Registry Keys</Value>
+    </Setting>
+    <Setting Name="MailAdr" Type="System.String" Scope="User">
+      <Value Profile="(Default)">MDO%20&lt;reports@mdo.ru&gt;</Value>
+    </Setting>
+  </Settings>
+</SettingsFile>

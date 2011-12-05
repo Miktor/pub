@@ -1,0 +1,9 @@
+E:\c++\WorldEditor\ScenePlugin\obj\Release\ScenePlugin.csprojResolveAssemblyReference.cache
+E:\c++\WorldEditor\WorldEditor\Plugins\ScenePlugin\bin\Release\ScenePlugin.dll
+E:\c++\WorldEditor\WorldEditor\Plugins\ScenePlugin\bin\Release\ScenePlugin.pdb
+E:\c++\WorldEditor\WorldEditor\Plugins\ScenePlugin\bin\Release\Mogre.dll
+E:\c++\WorldEditor\WorldEditor\Plugins\ScenePlugin\bin\Release\PluginBase.dll
+E:\c++\WorldEditor\WorldEditor\Plugins\ScenePlugin\bin\Release\PluginBase.pdb
+E:\c++\WorldEditor\WorldEditor\Plugins\ScenePlugin\obj\Release\ScenePlugin.csprojResolveAssemblyReference.cache
+E:\c++\WorldEditor\WorldEditor\Plugins\ScenePlugin\obj\Release\ScenePlugin.dll
+E:\c++\WorldEditor\WorldEditor\Plugins\ScenePlugin\obj\Release\ScenePlugin.pdb

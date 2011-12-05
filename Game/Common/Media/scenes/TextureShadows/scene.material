@@ -1,0 +1,114 @@
+
+material Sky
+{
+	receive_shadows off
+	technique Map#8
+	{
+		pass Map#9
+		{
+			lighting off
+			depth_check off
+
+			texture_unit Map#10
+			{
+				texture_alias Map#10
+				cubic_texture stormy_fr.jpg stormy_bk.jpg stormy_lf.jpg stormy_rt.jpg stormy_up.jpg stormy_dn.jpg separateUV
+				filtering linear linear linear
+			}
+		}
+
+	}
+
+}
+
+
+
+material Box
+{
+	technique Map#11
+	{
+		pass Map#12
+		{
+			ambient 0.698039 0.698039 0.698039 1
+			diffuse 0.698039 0.698039 0.698039 1
+			specular 0.898039 0.898039 0.898039 1 20
+			polygon_mode wireframe
+		}
+
+	}
+
+}
+
+
+
+material BlueStones
+{
+	technique Map#5
+	{
+		pass Map#6
+		{
+			ambient 0.698039 0.698039 0.698039 1
+			diffuse 0.698039 0.698039 0.698039 1
+			specular 0.898039 0.898039 0.898039 1 20
+
+			texture_unit Map#7
+			{
+				texture_alias Map#7
+				texture BeachStones.jpg
+				filtering linear linear linear
+			}
+		}
+
+	}
+
+}
+
+
+
+material Points
+{
+	technique Map#2
+	{
+		pass Map#3
+		{
+			ambient 0.698039 0.698039 0.698039 1
+			diffuse 0.917647 1 0 1
+			specular 0.898039 0.898039 0.898039 1 20
+			point_size 0
+			point_sprites on
+			point_size_min 11
+			point_size_max 37
+			scene_blend alpha_blend
+			polygon_mode points
+
+			texture_unit Map#4
+			{
+				texture_alias Map#4
+				texture Ball.png
+				filtering linear linear linear
+			}
+		}
+
+	}
+
+}
+
+
+
+material 09-Default
+{
+	receive_shadows off
+	technique Map#13
+	{
+		pass Map#14
+		{
+			ambient 0.698039 0.698039 0.698039 1
+			diffuse 0.698039 0.698039 0.698039 1
+			specular 0.898039 0.898039 0.898039 1 20
+		}
+
+	}
+
+}
+
+

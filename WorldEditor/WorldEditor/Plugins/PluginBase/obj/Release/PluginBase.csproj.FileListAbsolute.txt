@@ -1,0 +1,6 @@
+E:\c++\WorldEditor\WorldEditor\Plugins\PluginBase\bin\Release\PluginBase.dll
+E:\c++\WorldEditor\WorldEditor\Plugins\PluginBase\bin\Release\PluginBase.pdb
+E:\c++\WorldEditor\WorldEditor\Plugins\PluginBase\bin\Release\Mogre.dll
+E:\c++\WorldEditor\WorldEditor\Plugins\PluginBase\obj\Release\PluginBase.csprojResolveAssemblyReference.cache
+E:\c++\WorldEditor\WorldEditor\Plugins\PluginBase\obj\Release\PluginBase.dll
+E:\c++\WorldEditor\WorldEditor\Plugins\PluginBase\obj\Release\PluginBase.pdb

@@ -1,0 +1,11 @@
+E:\c++\work\Compare\bin\x86\Release\Compare.exe
+E:\c++\work\Compare\bin\x86\Release\Compare.pdb
+E:\c++\work\Compare\bin\x86\Release\MDO.Data.SQLite.dll
+E:\c++\work\Compare\obj\x86\Release\ResolveAssemblyReference.cache
+E:\c++\work\Compare\obj\x86\Release\Compare.Form1.resources
+E:\c++\work\Compare\obj\x86\Release\Compare.Properties.Resources.resources
+E:\c++\work\Compare\obj\x86\Release\Compare.csproj.GenerateResource.Cache
+E:\c++\work\Compare\obj\x86\Release\Compare.exe
+E:\c++\work\Compare\obj\x86\Release\Compare.pdb
+E:\c++\work\Compare\bin\x86\Release\System.Data.SQLite.dll
+E:\c++\work\Compare\bin\x86\Release\System.Data.SQLite.pdb

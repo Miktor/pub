@@ -1,0 +1,235 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Physx">
+      <UniqueIdentifier>{4254f4af-382d-4e37-b2e3-0cd8d4d652a8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine">
+      <UniqueIdentifier>{c1fc0b4e-e2b0-4c96-bef0-99693685e635}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\DebudDraw">
+      <UniqueIdentifier>{88505afa-420a-4992-91ac-1e3565482076}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Common">
+      <UniqueIdentifier>{59a60ebd-aaa7-44d6-861b-87cfa5c24c0b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Common\TinyXML">
+      <UniqueIdentifier>{8125c1d4-8b46-4e9e-a0a6-bc87db2c73aa}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Physx\Wrapper">
+      <UniqueIdentifier>{a76f4b23-d9fe-4eee-ab75-279ed0feaddd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="UI">
+      <UniqueIdentifier>{6532181a-4ce6-4c4a-a925-094f1fbb45b5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\Object">
+      <UniqueIdentifier>{031a6618-d1a9-4032-a290-4d1a45a298e4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Car">
+      <UniqueIdentifier>{7751660d-45e0-496c-af42-10b3daefa5d4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\States">
+      <UniqueIdentifier>{39eeece1-403b-4691-a6d3-fb6d51394bc0}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Source\Physics.cpp">
+      <Filter>Physx</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\CarEngine.cpp">
+      <Filter>Car</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\mCars.cpp">
+      <Filter>Car</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\TireTracks.cpp">
+      <Filter>Car</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\AppInput.cpp">
+      <Filter>Engine</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\AppManager.cpp">
+      <Filter>Engine</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Camera.cpp">
+      <Filter>Engine</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\GameState.cpp">
+      <Filter>Engine\States</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\MainMenu.cpp">
+      <Filter>Engine\States</Filter>
+    </ClCompile>
+    <ClCompile Include="Common\Code\OgreMaxModel.cpp">
+      <Filter>Common</Filter>
+    </ClCompile>
+    <ClCompile Include="Common\Code\OgreMaxScene.cpp">
+      <Filter>Common</Filter>
+    </ClCompile>
+    <ClCompile Include="Common\Code\OgreMaxUtilities.cpp">
+      <Filter>Common</Filter>
+    </ClCompile>
+    <ClCompile Include="Common\Code\OgrePlugins.cpp">
+      <Filter>Common</Filter>
+    </ClCompile>
+    <ClCompile Include="Common\Code\ProgressCalculator.cpp">
+      <Filter>Common</Filter>
+    </ClCompile>
+    <ClCompile Include="Common\Code\Version.cpp">
+      <Filter>Common</Filter>
+    </ClCompile>
+    <ClCompile Include="Common\Code\tinyxml\tinyxml.cpp">
+      <Filter>Common\TinyXML</Filter>
+    </ClCompile>
+    <ClCompile Include="Common\Code\tinyxml\tinyxmlerror.cpp">
+      <Filter>Common\TinyXML</Filter>
+    </ClCompile>
+    <ClCompile Include="Common\Code\tinyxml\tinyxmlparser.cpp">
+      <Filter>Common\TinyXML</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\CarSpeedometer.cpp">
+      <Filter>Car</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\BtOgre.cpp">
+      <Filter>Physx\Wrapper</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\WinMain.cpp" />
+    <ClCompile Include="Source\VehicleProperties.cpp">
+      <Filter>Engine\States</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\DebugDrawer.cpp">
+      <Filter>Engine\DebudDraw</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\DynamicLines.cpp">
+      <Filter>Engine\DebudDraw</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\DynamicRenderable.cpp">
+      <Filter>Engine\DebudDraw</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\SkidMark.cpp">
+      <Filter>Car</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Source\Physics.h">
+      <Filter>Physx</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\CarEngine.h">
+      <Filter>Car</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\mCars.h">
+      <Filter>Car</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\TireTracks.h">
+      <Filter>Car</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\AppInput.h">
+      <Filter>Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\AppManager.h">
+      <Filter>Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Camera.h">
+      <Filter>Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\AppState.h">
+      <Filter>Engine\States</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\GameState.h">
+      <Filter>Engine\States</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\MainMenu.h">
+      <Filter>Engine\States</Filter>
+    </ClInclude>
+    <ClInclude Include="Common\Code\OgreMaxModel.hpp">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="Common\Code\OgreMaxPlatform.hpp">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="Common\Code\OgreMaxRenderWindowIterator.hpp">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="Common\Code\OgreMaxScene.hpp">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="Common\Code\OgreMaxTypes.hpp">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="Common\Code\OgreMaxUtilities.hpp">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="Common\Code\OgrePlugins.hpp">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="Common\Code\ProgressCalculator.hpp">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="Common\Code\Version.hpp">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="Common\Code\tinyxml\tinyxml.h">
+      <Filter>Common\TinyXML</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\CarSpeedometer.h">
+      <Filter>Car</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\BtOgreExtras.h">
+      <Filter>Physx\Wrapper</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\BtOgreGP.h">
+      <Filter>Physx\Wrapper</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\BtOgrePG.h">
+      <Filter>Physx\Wrapper</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\SlidingPanel.h">
+      <Filter>UI</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\VehicleProperties.h">
+      <Filter>Engine\States</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\stdafx.h" />
+    <ClInclude Include="Source\vehicleOptions.h">
+      <Filter>Car</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\myMotionState.h">
+      <Filter>Physx\Wrapper</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\BulletOgreConv.h">
+      <Filter>Physx\Wrapper</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\StatisticInfo.h">
+      <Filter>Engine\DebudDraw</Filter>
+    </ClInclude>
+    <ClInclude Include="resource.h" />
+    <ClInclude Include="Source\DynamicRenderable.h">
+      <Filter>Engine\DebudDraw</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\DebugDrawer.h">
+      <Filter>Engine\DebudDraw</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\DynamicLines.h">
+      <Filter>Engine\DebudDraw</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Object.h">
+      <Filter>Engine\Object</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\VehicleImprovement.h">
+      <Filter>Car</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\MyUtils.h">
+      <Filter>Physx</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\SkidMark.h">
+      <Filter>Car</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="Game.rc" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ClassDiagram1.cd" />
+    <None Include="ClassDiagram2.cd" />
+  </ItemGroup>
+</Project>

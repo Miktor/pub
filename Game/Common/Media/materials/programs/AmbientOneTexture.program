@@ -1,0 +1,13 @@
+vertex_program AmbientOneTexture_CG cg
+{
+	source AmbientOneTexture.cg
+	entry_point AmbientOneTexture_vp
+	profiles vs_1_1 arbvp1
+	
+	default_params
+	{
+		param_named_auto worldViewProj worldviewproj_matrix
+		param_named ambientColor float4 1 0 0 1
+	}
+}
+

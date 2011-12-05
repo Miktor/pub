@@ -1,0 +1,17 @@
+E:\c++\work\Configer\bin\x86\Debug\Configer.exe.config
+E:\c++\work\Configer\obj\x86\Debug\Configer.csprojResolveAssemblyReference.cache
+E:\c++\work\Configer\obj\x86\Debug\Configer.Main.resources
+E:\c++\work\Configer\obj\x86\Debug\Configer.Properties.Resources.resources
+E:\c++\work\Configer\obj\x86\Debug\Configer.SettingForm.resources
+E:\c++\work\Configer\obj\x86\Debug\Configer.csproj.GenerateResource.Cache
+E:\c++\work\Configer\bin\x86\Debug\Configer.exe.manifest
+E:\c++\work\Configer\bin\x86\Debug\Configer.application
+E:\c++\work\Configer\bin\x86\Debug\Configer.exe
+E:\c++\work\Configer\bin\x86\Debug\Configer.pdb
+E:\c++\work\Configer\bin\x86\Debug\System.Data.SQLite.dll
+E:\c++\work\Configer\bin\x86\Debug\System.Data.SQLite.pdb
+E:\c++\work\Configer\obj\x86\Debug\Configer.TrustInfo.xml
+E:\c++\work\Configer\obj\x86\Debug\Configer.exe.manifest
+E:\c++\work\Configer\obj\x86\Debug\Configer.application
+E:\c++\work\Configer\obj\x86\Debug\Configer.exe
+E:\c++\work\Configer\obj\x86\Debug\Configer.pdb

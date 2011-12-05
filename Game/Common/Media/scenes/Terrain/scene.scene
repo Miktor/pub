@@ -1,0 +1,96 @@
+<scene formatVersion="1.0" sceneManager="TerrainSceneManager" upAxis="y" unitsPerMeter="39.3701" minOgreVersion="1.6" author="OgreMax Scene Exporter by Derek Nedelman (www.ogremax.com)">
+    <resourceLocations>
+        <resourceLocation type="FileSystem" name="../../materials/textures/" recursive="false" />
+        <resourceLocation type="FileSystem" name="../../terrain/" recursive="false" />
+    </resourceLocations>
+    <environment>
+        <colourAmbient r="0.333333" g="0.333333" b="0.333333" />
+        <colourBackground r="0" g="0" b="0" />
+        <clipping near="0" far="1500" />
+        <fog mode="exp" expDensity="0.00073">
+            <colourDiffuse r="0.439216" g="0.439216" b="0.439216" />
+        </fog>
+        <skyBox material="Sky" enable="true" distance="750" drawFirst="true">
+            <rotation qx="0" qy="0" qz="0" qw="1" />
+        </skyBox>
+    </environment>
+    <terrain dataFile="terrain.cfg" />
+    <nodes>
+        <node name="Camera01">
+            <position x="413.636" y="116.511" z="636.578" />
+            <scale x="1" y="1" z="1" />
+            <rotation qx="-0.0414637" qy="-0.739145" qz="-0.0456941" qw="0.670715" />
+            <camera name="Camera01" fov="0.817458">
+                <clipping near="1" far="2000" />
+            </camera>
+            <trackTarget nodeName="Camera01.Target">
+                <localDirection x="0" y="0" z="-1" />
+            </trackTarget>
+        </node>
+        <node name="Camera01.Target">
+            <position x="503.428" y="105.314" z="645.315" />
+            <scale x="1" y="1" z="1" />
+            <rotation qx="-0.0976962" qy="0.828565" qz="-0.527911" qw="-0.15889" />
+        </node>
+        <node name="Direct01">
+            <position x="1616.77" y="1064.95" z="-165.895" />
+            <scale x="1" y="1" z="1" />
+            <rotation qx="-0.365507" qy="-0.287337" qz="0.877216" qw="-0.119724" />
+            <light name="Direct01" type="directional" castShadows="false" power="1">
+                <colourDiffuse r="1" g="1" b="1" />
+                <colourSpecular r="1" g="1" b="1" />
+                <lightAttenuation range="989.52" constant="1" linear="0" quadric="0" />
+            </light>
+            <trackTarget nodeName="Direct01.Target">
+                <localDirection x="-0" y="-0" z="1" />
+            </trackTarget>
+        </node>
+        <node name="Direct01.Target">
+            <position x="586.339" y="3.74147e-005" z="855.948" />
+            <scale x="1" y="1" z="1" />
+            <rotation qx="0" qy="0" qz="0" qw="1" />
+        </node>
+        <node name="Box01">
+            <position x="498.61" y="75.6473" z="699.251" />
+            <scale x="1" y="1" z="1" />
+            <rotation qx="0" qy="0" qz="0" qw="1" />
+            <entity name="Box01" castShadows="true" receiveShadows="true" meshFile="Box01.mesh">
+                <subentities>
+                    <subentity index="0" materialName="SomeMaterial" />
+                </subentities>
+            </entity>
+        </node>
+        <node name="Camera02">
+            <position x="952.13" y="50.5994" z="353.101" />
+            <scale x="1" y="1" z="1" />
+            <rotation qx="-0.0202053" qy="-0.882122" qz="0.0379993" qw="-0.46905" />
+            <camera name="Camera02" fov="0.817458">
+                <clipping near="1" far="2000" />
+            </camera>
+            <trackTarget nodeName="Camera02.Target">
+                <localDirection x="0" y="0" z="-1" />
+            </trackTarget>
+        </node>
+        <node name="Camera02.Target">
+            <position x="501.306" y="97.5355" z="657.165" />
+            <scale x="1" y="1" z="1" />
+            <rotation qx="-0.0976962" qy="0.828565" qz="-0.527911" qw="-0.15889" />
+        </node>
+        <node name="Camera03">
+            <position x="1486.92" y="93.3191" z="1349.57" />
+            <scale x="1" y="1" z="1" />
+            <rotation qx="0.00155309" qy="0.461065" qz="-0.000806987" qw="0.887365" />
+            <camera name="Camera03" fov="0.817458">
+                <clipping near="1" far="2000" />
+            </camera>
+            <trackTarget nodeName="Camera03.Target">
+                <localDirection x="0" y="0" z="-1" />
+            </trackTarget>
+        </node>
+        <node name="Camera03.Target">
+            <position x="501.306" y="97.5355" z="657.165" />
+            <scale x="1" y="1" z="1" />
+            <rotation qx="-0.0976962" qy="0.828565" qz="-0.527911" qw="-0.15889" />
+        </node>
+    </nodes>
+</scene>

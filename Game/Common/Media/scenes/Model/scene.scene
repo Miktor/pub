@@ -1,0 +1,90 @@
+<scene formatVersion="1.0" upAxis="y" unitsPerMeter="39.3701" minOgreVersion="1.6" author="OgreMax Scene Exporter by Derek Nedelman (www.ogremax.com)">
+    <resourceLocations>
+        <resourceLocation type="FileSystem" name="../../materials/textures/" recursive="false" />
+    </resourceLocations>
+    <environment>
+        <colourAmbient r="0.333333" g="0.333333" b="0.333333" />
+        <colourBackground r="0" g="0" b="0" />
+        <clipping near="0" far="100000" />
+        <skyBox material="Sky" enable="true" distance="347.964" drawFirst="true">
+            <rotation qx="0" qy="0" qz="0" qw="1" />
+        </skyBox>
+    </environment>
+    <nodes>
+        <node name="Floor">
+            <position x="0" y="0" z="0" />
+            <scale x="1" y="1" z="1" />
+            <rotation qx="0" qy="0" qz="0" qw="1" />
+            <entity name="Floor" castShadows="true" receiveShadows="true" meshFile="Floor.mesh">
+                <subentities>
+                    <subentity index="0" materialName="OgreLogo_OgreMax" />
+                </subentities>
+            </entity>
+        </node>
+        <node name="Camera01">
+            <position x="131.168" y="225.625" z="554.159" />
+            <scale x="1" y="1" z="1" />
+            <rotation qx="-0.150591" qy="0.0911684" qz="0.0139484" qw="0.984285" />
+            <camera name="Camera01" fov="0.602557">
+                <clipping near="1" far="1000" />
+            </camera>
+            <trackTarget nodeName="Camera01.Target">
+                <localDirection x="0" y="0" z="-1" />
+            </trackTarget>
+        </node>
+        <node name="Camera01.Target">
+            <position x="9.06501" y="17.3307" z="-99.3168" />
+            <scale x="1" y="1" z="1" />
+            <rotation qx="0.715669" qy="-0.0261576" qz="0.022138" qw="0.697599" />
+        </node>
+        <node name="Camera02">
+            <position x="-69.2515" y="147.876" z="448.307" />
+            <scale x="1" y="1" z="1" />
+            <rotation qx="-0.0941006" qy="-0.0779924" qz="-0.00739476" qw="0.992475" />
+            <camera name="Camera02" fov="0.602557">
+                <clipping near="1" far="1000" />
+            </camera>
+            <trackTarget nodeName="Camera02.Target">
+                <localDirection x="0" y="0" z="-1" />
+            </trackTarget>
+        </node>
+        <node name="Camera02.Target">
+            <position x="-2.83937" y="66.5212" z="28.3603" />
+            <scale x="1" y="1" z="1" />
+            <rotation qx="0" qy="0" qz="0" qw="1" />
+        </node>
+        <node name="Direct01">
+            <position x="-588.764" y="500.283" z="8.5555" />
+            <scale x="1" y="1" z="1" />
+            <rotation qx="-0.671026" qy="0.220591" qz="-0.6728" qw="-0.220009" />
+            <light name="Direct01" type="directional" castShadows="false" power="1">
+                <colourDiffuse r="1" g="1" b="1" />
+                <colourSpecular r="1" g="1" b="1" />
+                <lightAttenuation range="989.52" constant="1" linear="0" quadric="0" />
+            </light>
+            <trackTarget nodeName="Direct01.Target">
+                <localDirection x="-0" y="-0" z="1" />
+            </trackTarget>
+        </node>
+        <node name="Direct01.Target">
+            <position x="92.1491" y="4.52514e-007" z="10.3523" />
+            <scale x="1" y="1" z="1" />
+            <rotation qx="0" qy="0" qz="0" qw="1" />
+        </node>
+        <node name="ModelInstance1" modelFile="SphereWithCone.model">
+            <position x="-6.71368" y="39.3962" z="68.6055" />
+            <scale x="1" y="1" z="1" />
+            <rotation qx="-0.27144" qy="0" qz="0" qw="0.962455" />
+        </node>
+        <node name="ModelInstance02" modelFile="SphereWithCone.model">
+            <position x="-72.7541" y="39.3962" z="68.6055" />
+            <scale x="1" y="1" z="1" />
+            <rotation qx="0" qy="8.90146e-009" qz="0.203642" qw="0.979045" />
+        </node>
+        <node name="ModelInstance03" modelFile="SphereWithCone.model">
+            <position x="59.1046" y="39.3962" z="68.6055" />
+            <scale x="1" y="1" z="1" />
+            <rotation qx="0" qy="-1.56011e-008" qz="-0.356911" qw="0.934138" />
+        </node>
+    </nodes>
+</scene>

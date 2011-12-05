@@ -1,0 +1,48 @@
+
+material Sky
+{
+	receive_shadows off
+	technique Map#3
+	{
+		pass Map#4
+		{
+			lighting off
+			depth_check off
+
+			texture_unit Map#5
+			{
+				texture_alias Map#5
+				cubic_texture stormy_fr.jpg stormy_bk.jpg stormy_lf.jpg stormy_rt.jpg stormy_up.jpg stormy_dn.jpg separateUV
+				filtering linear linear linear
+			}
+		}
+
+	}
+
+}
+
+
+
+material OgreLogo_OgreMax
+{
+	technique Map#6
+	{
+		pass Map#7
+		{
+			ambient 0.588235 0.588235 0.588235 1
+			diffuse 0.588235 0.588235 0.588235 1
+			specular 0 0 0 1 10
+
+			texture_unit Map#8
+			{
+				texture_alias Map#8
+				texture ogrelogo-small.jpg
+				filtering linear linear linear
+			}
+		}
+
+	}
+
+}
+
+

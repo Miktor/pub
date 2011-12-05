@@ -1,0 +1,53 @@
+
+material 01-Default
+{
+	receive_shadows off
+	technique Map#1
+	{
+		pass Map#2
+		{
+			ambient 0.698039 0.698039 0.698039 1
+			diffuse 0.698039 0.698039 0.698039 1
+			specular 0.898039 0.898039 0.898039 1 20
+
+			texture_unit Map#3
+			{
+				texture_alias Map#3
+				texture wood.tga
+				filtering linear linear linear
+				scale 0.25 0.25
+			}
+
+			texture_unit Map#4
+			{
+				texture_alias Map#4
+				texture Map#5
+				filtering linear linear linear
+				colour_op_ex blend_manual src_texture src_current 0.5
+				colour_op_multipass_fallback one zero
+			}
+		}
+
+	}
+
+}
+
+
+
+material 02-Default
+{
+	receive_shadows off
+	technique Map#6
+	{
+		pass Map#7
+		{
+			ambient 1 0 0 1
+			diffuse 1 0 0 1
+			specular 0.898039 0.898039 0.898039 1 20
+		}
+
+	}
+
+}
+
+

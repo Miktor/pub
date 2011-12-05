@@ -1,0 +1,18 @@
+<node name="Sphere">
+    <rotation qx="0" qy="0" qz="0" qw="1" />
+    <entity name="Sphere" castShadows="true" receiveShadows="true" meshFile="Sphere.mesh">
+        <subentities>
+            <subentity index="0" materialName="OgreLogo_OgreMax" />
+        </subentities>
+    </entity>
+    <node name="Pyramid">
+        <position x="-0.0323334" y="14.435" z="-0.570702" />
+        <scale x="1" y="1" z="1" />
+        <rotation qx="0" qy="0" qz="0" qw="1" />
+        <entity name="Pyramid" castShadows="true" receiveShadows="true" meshFile="Pyramid.mesh">
+            <subentities>
+                <subentity index="0" materialName="OgreLogo_OgreMax" />
+            </subentities>
+        </entity>
+    </node>
+</node>

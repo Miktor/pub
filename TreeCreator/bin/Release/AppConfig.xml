@@ -1,0 +1,5 @@
+<?xml version="1.0"?>
+<SQLSettings>
+  <parsec3.dictionary>Data Source=parsec3.dictionary.dat;Initial Catalog=parsec3.dictionary;</parsec3.dictionary>
+  <parsec3.dictionary />
+</SQLSettings>

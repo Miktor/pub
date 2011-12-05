@@ -1,0 +1,16 @@
+E:\c++\work\Ping\Ping\bin\Debug\Ping.exe.config
+E:\c++\work\Ping\Ping\bin\Debug\Ping.exe
+E:\c++\work\Ping\Ping\bin\Debug\Ping.pdb
+E:\c++\work\Ping\Ping\bin\Debug\Ping.exe.CodeAnalysisLog.xml
+E:\c++\work\Ping\Ping\bin\Debug\Ping.exe.lastcodeanalysissucceeded
+E:\c++\work\Ping\Ping\bin\Debug\IPAddressControlLib.dll
+E:\c++\work\Ping\Ping\obj\Debug\ResolveAssemblyReference.cache
+E:\c++\work\Ping\Ping\obj\Debug\Ping.About.resources
+E:\c++\work\Ping\Ping\obj\Debug\Ping.InputWin.resources
+E:\c++\work\Ping\Ping\obj\Debug\Ping.MainForm.resources
+E:\c++\work\Ping\Ping\obj\Debug\Ping.IPForm.resources
+E:\c++\work\Ping\Ping\obj\Debug\Ping.Properties.Resources.resources
+E:\c++\work\Ping\Ping\obj\Debug\GenerateResource.read.1.tlog
+E:\c++\work\Ping\Ping\obj\Debug\GenerateResource.write.1.tlog
+E:\c++\work\Ping\Ping\obj\Debug\Ping.exe
+E:\c++\work\Ping\Ping\obj\Debug\Ping.pdb

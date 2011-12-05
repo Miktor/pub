@@ -1,0 +1,11 @@
+E:\c++\WorldEditor\WorldEditor\Plugins\CameraPlugin\bin\Release\CameraPlugin.dll.config
+E:\c++\WorldEditor\WorldEditor\Plugins\CameraPlugin\bin\Release\CameraPlugin.dll
+E:\c++\WorldEditor\WorldEditor\Plugins\CameraPlugin\bin\Release\CameraPlugin.pdb
+E:\c++\WorldEditor\WorldEditor\Plugins\CameraPlugin\bin\Release\Mogre.dll
+E:\c++\WorldEditor\WorldEditor\Plugins\CameraPlugin\bin\Release\PluginBase.dll
+E:\c++\WorldEditor\WorldEditor\Plugins\CameraPlugin\bin\Release\PluginBase.pdb
+E:\c++\WorldEditor\WorldEditor\Plugins\CameraPlugin\obj\Release\CameraPlugin.csprojResolveAssemblyReference.cache
+E:\c++\WorldEditor\WorldEditor\Plugins\CameraPlugin\obj\Release\CameraPlugin.Properties.Resources.resources
+E:\c++\WorldEditor\WorldEditor\Plugins\CameraPlugin\obj\Release\CameraPlugin.csproj.GenerateResource.Cache
+E:\c++\WorldEditor\WorldEditor\Plugins\CameraPlugin\obj\Release\CameraPlugin.dll
+E:\c++\WorldEditor\WorldEditor\Plugins\CameraPlugin\obj\Release\CameraPlugin.pdb

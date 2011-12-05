@@ -1,0 +1,202 @@
+15:58:07: Creating resource group General
+15:58:07: Creating resource group Internal
+15:58:07: Creating resource group Autodetect
+15:58:07: SceneManagerFactory for type 'DefaultSceneManager' registered.
+15:58:07: Registering ResourceManager for type Material
+15:58:07: Registering ResourceManager for type Mesh
+15:58:07: Registering ResourceManager for type Skeleton
+15:58:07: MovableObjectFactory for type 'ParticleSystem' registered.
+15:58:07: OverlayElementFactory for type Panel registered.
+15:58:07: OverlayElementFactory for type BorderPanel registered.
+15:58:07: OverlayElementFactory for type TextArea registered.
+15:58:07: Registering ResourceManager for type Font
+15:58:07: ArchiveFactory for archive type FileSystem registered.
+15:58:07: ArchiveFactory for archive type Zip registered.
+15:58:07: DDS codec registering
+15:58:07: FreeImage version: 3.13.1
+15:58:07: This program uses FreeImage, a free, open source image library supporting all common bitmap formats. See http://freeimage.sourceforge.net for details
+15:58:07: Supported formats: bmp,ico,jpg,jif,jpeg,jpe,jng,koa,iff,lbm,mng,pbm,pbm,pcd,pcx,pgm,pgm,png,ppm,ppm,ras,tga,targa,tif,tiff,wap,wbmp,wbm,psd,cut,xbm,xpm,gif,hdr,g3,sgi,exr,j2k,j2c,jp2,pfm,pct,pict,pic,bay,bmq,cr2,crw,cs1,dc2,dcr,dng,erf,fff,hdr,k25,kdc,mdc,mos,mrw,nef,orf,pef,pxn,raf,raw,rdc,sr2,srf,arw,3fr,cine,ia,kc2,mef,nrw,qtk,rw2,sti,drf,dsc,ptx,cap,iiq,rwz
+15:58:07: Registering ResourceManager for type HighLevelGpuProgram
+15:58:07: Registering ResourceManager for type Compositor
+15:58:07: MovableObjectFactory for type 'Entity' registered.
+15:58:07: MovableObjectFactory for type 'Light' registered.
+15:58:07: MovableObjectFactory for type 'BillboardSet' registered.
+15:58:07: MovableObjectFactory for type 'ManualObject' registered.
+15:58:07: MovableObjectFactory for type 'BillboardChain' registered.
+15:58:07: MovableObjectFactory for type 'RibbonTrail' registered.
+15:58:07: Loading library .\RenderSystem_Direct3D9
+15:58:07: Installing plugin: D3D9 RenderSystem
+15:58:07: D3D9 : Direct3D9 Rendering Subsystem created.
+15:58:07: D3D9: Driver Detection Starts
+15:58:07: D3D9: Driver Detection Ends
+15:58:07: Plugin successfully installed
+15:58:07: Loading library .\RenderSystem_GL
+15:58:07: Installing plugin: GL RenderSystem
+15:58:07: OpenGL Rendering Subsystem created.
+15:58:08: Plugin successfully installed
+15:58:08: Loading library .\Plugin_OctreeSceneManager
+15:58:08: Installing plugin: Octree & Terrain Scene Manager
+15:58:08: Plugin successfully installed
+15:58:08: *-*-* OGRE Initialising
+15:58:08: *-*-* Version 1.7.3 (Cthugha)
+15:58:08: Added resource location '..\..\Media' of type 'FileSystem' to resource group 'General'
+15:58:08: Added resource location '..\..\Media\textures' of type 'FileSystem' to resource group 'General'
+15:58:08: Added resource location '..\..\Media\Fonts' of type 'FileSystem' to resource group 'General'
+15:58:08: Added resource location '..\..\Media\BMW M3 E92' of type 'FileSystem' to resource group 'General'
+15:58:08: Added resource location '..\..\Media\Wheels' of type 'FileSystem' to resource group 'General'
+15:58:08: Added resource location '..\..\Media\textures\Adometrs' of type 'FileSystem' to resource group 'General'
+15:58:08: Added resource location '..\..\Media\landsaype' of type 'FileSystem' to resource group 'General'
+15:58:08: Added resource location '..\..\Media\cubemap' of type 'FileSystem' to resource group 'General'
+15:58:08: Added resource location '..\..\Media\MyGUI_Media' of type 'FileSystem' to resource group 'General'
+15:58:08: D3D9 : RenderSystem Option: Allow NVPerfHUD = No
+15:58:08: D3D9 : RenderSystem Option: FSAA = 0
+15:58:08: D3D9 : RenderSystem Option: Floating-point mode = Fastest
+15:58:08: D3D9 : RenderSystem Option: Full Screen = No
+15:58:08: D3D9 : RenderSystem Option: Rendering Device = Monitor-1-NVIDIA GeForce GT 240
+15:58:08: D3D9 : RenderSystem Option: Resource Creation Policy = Create on all devices
+15:58:08: D3D9 : RenderSystem Option: VSync = No
+15:58:08: D3D9 : RenderSystem Option: VSync Interval = 1
+15:58:08: D3D9 : RenderSystem Option: Video Mode = 1280 x 1024 @ 32-bit colour
+15:58:08: D3D9 : RenderSystem Option: sRGB Gamma Conversion = No
+15:58:08: CPU Identifier & Features
+15:58:08: -------------------------
+15:58:08:  *   CPU ID: GenuineIntel: Intel(R) Core(TM)2 CPU          6400  @ 2.13GHz
+15:58:08:  *      SSE: yes
+15:58:08:  *     SSE2: yes
+15:58:08:  *     SSE3: yes
+15:58:08:  *      MMX: yes
+15:58:08:  *   MMXEXT: yes
+15:58:08:  *    3DNOW: no
+15:58:08:  * 3DNOWEXT: no
+15:58:08:  *     CMOV: yes
+15:58:08:  *      TSC: yes
+15:58:08:  *      FPU: yes
+15:58:08:  *      PRO: yes
+15:58:08:  *       HT: no
+15:58:08: -------------------------
+15:58:08: D3D9 : Subsystem Initialising
+15:58:08: Registering ResourceManager for type Texture
+15:58:08: Registering ResourceManager for type GpuProgram
+15:58:08: D3D9RenderSystem::_createRenderWindow "Racing Game", 1280x1024 windowed  miscParams: FSAA=0 FSAAHint= colourDepth=32 gamma=false monitorIndex=0 useNVPerfHUD=false vsync=false vsyncInterval=1 
+15:58:09: D3D9 : Created D3D9 Rendering Window 'Racing Game' : 1280x1024, 32bpp
+15:58:09: D3D9 : WARNING - disabling VSync in windowed mode can cause timing issues at lower frame rates, turn VSync on if you observe this problem.
+15:58:09: D3D9: Vertex texture format supported - PF_FLOAT16_RGB
+15:58:09: D3D9: Vertex texture format supported - PF_FLOAT16_RGBA
+15:58:09: D3D9: Vertex texture format supported - PF_FLOAT32_RGB
+15:58:09: D3D9: Vertex texture format supported - PF_FLOAT32_RGBA
+15:58:09: D3D9: Vertex texture format supported - PF_FLOAT16_R
+15:58:09: D3D9: Vertex texture format supported - PF_FLOAT32_R
+15:58:09: D3D9: Vertex texture format supported - PF_FLOAT16_GR
+15:58:09: D3D9: Vertex texture format supported - PF_FLOAT32_GR
+15:58:09: RenderSystem capabilities
+15:58:09: -------------------------
+15:58:09: RenderSystem Name: Direct3D9 Rendering Subsystem
+15:58:09: GPU Vendor: nvidia
+15:58:09: Device Name: Monitor-1-NVIDIA GeForce GT 240
+15:58:09: Driver Version: 7.14.10.304
+15:58:09:  * Fixed function pipeline: yes
+15:58:09:  * Hardware generation of mipmaps: yes
+15:58:09:  * Texture blending: yes
+15:58:09:  * Anisotropic texture filtering: yes
+15:58:09:  * Dot product texture operation: yes
+15:58:09:  * Cube mapping: yes
+15:58:09:  * Hardware stencil buffer: yes
+15:58:09:    - Stencil depth: 8
+15:58:09:    - Two sided stencil support: yes
+15:58:09:    - Wrap stencil values: yes
+15:58:09:  * Hardware vertex / index buffers: yes
+15:58:09:  * Vertex programs: yes
+15:58:09:  * Number of floating-point constants for vertex programs: 256
+15:58:09:  * Number of integer constants for vertex programs: 16
+15:58:09:  * Number of boolean constants for vertex programs: 16
+15:58:09:  * Fragment programs: yes
+15:58:09:  * Number of floating-point constants for fragment programs: 224
+15:58:09:  * Number of integer constants for fragment programs: 16
+15:58:09:  * Number of boolean constants for fragment programs: 16
+15:58:09:  * Geometry programs: no
+15:58:09:  * Number of floating-point constants for geometry programs: 24
+15:58:09:  * Number of integer constants for geometry programs: 24941
+15:58:09:  * Number of boolean constants for geometry programs: 24432
+15:58:09:  * Supported Shader Profiles: hlsl ps_1_1 ps_1_2 ps_1_3 ps_1_4 ps_2_0 ps_2_a ps_2_b ps_2_x ps_3_0 vs_1_1 vs_2_0 vs_2_a vs_2_x vs_3_0
+15:58:09:  * Texture Compression: yes
+15:58:09:    - DXT: yes
+15:58:09:    - VTC: no
+15:58:09:    - PVRTC: no
+15:58:09:  * Scissor Rectangle: yes
+15:58:09:  * Hardware Occlusion Query: yes
+15:58:09:  * User clip planes: yes
+15:58:09:  * VET_UBYTE4 vertex element type: yes
+15:58:09:  * Infinite far plane projection: yes
+15:58:09:  * Hardware render-to-texture: yes
+15:58:09:  * Floating point textures: yes
+15:58:09:  * Non-power-of-two textures: yes
+15:58:09:  * Volume textures: yes
+15:58:09:  * Multiple Render Targets: 4
+15:58:09:    - With different bit depths: yes
+15:58:09:  * Point Sprites: yes
+15:58:09:  * Extended point parameters: yes
+15:58:09:  * Max Point Size: 10
+15:58:09:  * Vertex texture fetch: yes
+15:58:09:  * Number of world matrices: 0
+15:58:09:  * Number of texture units: 8
+15:58:09:  * Stencil buffer depth: 8
+15:58:09:  * Number of vertex blend matrices: 0
+15:58:09:    - Max vertex textures: 4
+15:58:09:    - Vertex textures shared: no
+15:58:09:  * Render to Vertex Buffer : no
+15:58:09:  * DirectX per stage constants: yes
+15:58:09: ***************************************
+15:58:09: *** D3D9 : Subsystem Initialised OK ***
+15:58:09: ***************************************
+15:58:09: DefaultWorkQueue('Root') initialising on thread 005947A8.
+15:58:09: Particle Renderer Type 'billboard' registered
+15:58:09: DefaultWorkQueue('Root')::WorkerFunc - thread 005B3518 starting.
+15:58:09: DefaultWorkQueue('Root')::WorkerFunc - thread 005B34E8 starting.
+15:58:09: SceneManagerFactory for type 'OctreeSceneManager' registered.
+15:58:09: SceneManagerFactory for type 'TerrainSceneManager' registered.
+15:58:09: Parsing scripts for resource group Autodetect
+15:58:09: Finished parsing scripts for resource group Autodetect
+15:58:09: Parsing scripts for resource group General
+15:58:09: Parsing script ASPHALT.material
+15:58:09: Parsing script skyplane.material
+15:58:09: Parsing script Speedometer.material
+15:58:09: Parsing script bmw_m3_e92.material
+15:58:09: Parsing script bmw_m3_e92_wheels.material
+15:58:09: Parsing script simple.material
+15:58:09: Parsing script MyFont.fontdef
+15:58:09: Finished parsing scripts for resource group General
+15:58:09: Parsing scripts for resource group Internal
+15:58:09: Finished parsing scripts for resource group Internal
+15:58:09: Texture: MyGUI_Pointers.png: Loading 1 faces(PF_A8R8G8B8,256x128x1) with 0 generated mipmaps from Image. Internal format is PF_A8R8G8B8,256x128x1.
+15:58:10: Texture: MyGUI_BlackOrangeSkins.png: Loading 1 faces(PF_A8R8G8B8,512x256x1) with 0 generated mipmaps from Image. Internal format is PF_A8R8G8B8,512x256x1.
+15:58:10: Texture: cubemap_fr.jpg: Loading 1 faces(PF_R8G8B8,128x128x1) with  hardware generated mipmaps from Image. Internal format is PF_X8R8G8B8,128x128x1.
+15:58:10: Texture: cubemap_bk.jpg: Loading 1 faces(PF_R8G8B8,128x128x1) with  hardware generated mipmaps from Image. Internal format is PF_X8R8G8B8,128x128x1.
+15:58:10: Texture: cubemap_lf.jpg: Loading 1 faces(PF_R8G8B8,128x128x1) with  hardware generated mipmaps from Image. Internal format is PF_X8R8G8B8,128x128x1.
+15:58:10: Texture: cubemap_rt.jpg: Loading 1 faces(PF_R8G8B8,128x128x1) with  hardware generated mipmaps from Image. Internal format is PF_X8R8G8B8,128x128x1.
+15:58:10: Texture: cubemap_up.jpg: Loading 1 faces(PF_R8G8B8,128x128x1) with  hardware generated mipmaps from Image. Internal format is PF_X8R8G8B8,128x128x1.
+15:58:10: Texture: cubemap_dn.jpg: Loading 1 faces(PF_R8G8B8,128x128x1) with  hardware generated mipmaps from Image. Internal format is PF_X8R8G8B8,128x128x1.
+15:58:10: Creating resource group BtOgre
+15:58:10: Mesh: Loading groundMesh.mesh.
+15:58:10: Texture: ASPHALT.jpg: Loading 1 faces(PF_R8G8B8,756x512x1) with 9 generated mipmaps from Image. Internal format is PF_X8R8G8B8,756x512x1.
+15:58:10: Texture: smBackground.png: Loading 1 faces(PF_A8R8G8B8,256x256x1) with 0 generated mipmaps from Image. Internal format is PF_A8R8G8B8,256x256x1.
+15:58:11: Texture: arrow.png: Loading 1 faces(PF_A8R8G8B8,8x128x1) with 0 generated mipmaps from Image. Internal format is PF_A8R8G8B8,8x128x1.
+15:58:11: Added resource location 'E:\c++\work\Game\Media\BMW M3 E92\' of type 'FileSystem' to resource group 'General'
+15:58:11: Parsing scripts for resource group BtOgre
+15:58:11: Finished parsing scripts for resource group BtOgre
+15:58:11: Mesh: Loading Base.mesh.
+15:58:13: Texture: BOTTOM.tga: Loading 1 faces(PF_A8R8G8B8,256x256x1) with  hardware generated mipmaps from Image. Internal format is PF_A8R8G8B8,256x256x1.
+15:58:13: Texture: BMWM3E92BRAKELIGHT.tga: Loading 1 faces(PF_A8R8G8B8,256x256x1) with  hardware generated mipmaps from Image. Internal format is PF_A8R8G8B8,256x256x1.
+15:58:13: Texture: BMWM3E92INTERIOR.tga: Loading 1 faces(PF_A8R8G8B8,512x512x1) with  hardware generated mipmaps from Image. Internal format is PF_A8R8G8B8,512x512x1.
+15:58:14: Texture: BMWM3E92MISC.tga: Loading 1 faces(PF_A8R8G8B8,512x256x1) with  hardware generated mipmaps from Image. Internal format is PF_A8R8G8B8,512x256x1.
+15:58:14: Texture: BMWM3E92ENGINE.tga: Loading 1 faces(PF_A8R8G8B8,512x512x1) with  hardware generated mipmaps from Image. Internal format is PF_A8R8G8B8,512x512x1.
+15:58:14: Texture: DOORLINE.tga: Loading 1 faces(PF_A8R8G8B8,64x32x1) with  hardware generated mipmaps from Image. Internal format is PF_A8R8G8B8,64x32x1.
+15:58:14: Texture: BMWM3E92BADGING.tga: Loading 1 faces(PF_A8R8G8B8,256x256x1) with  hardware generated mipmaps from Image. Internal format is PF_A8R8G8B8,256x256x1.
+15:58:14: Texture: DOOR.tga: Loading 1 faces(PF_A8R8G8B8,64x128x1) with  hardware generated mipmaps from Image. Internal format is PF_A8R8G8B8,64x128x1.
+15:58:14: Texture: BMWM3E92HEADLIGHT.tga: Loading 1 faces(PF_A8R8G8B8,256x256x1) with  hardware generated mipmaps from Image. Internal format is PF_A8R8G8B8,256x256x1.
+15:58:14: Texture: HOODTRUNK.tga: Loading 1 faces(PF_A8R8G8B8,256x256x1) with  hardware generated mipmaps from Image. Internal format is PF_A8R8G8B8,256x256x1.
+15:58:14: Texture: LICENSE.tga: Loading 1 faces(PF_R8G8B8,512x256x1) with  hardware generated mipmaps from Image. Internal format is PF_X8R8G8B8,512x256x1.
+15:58:14: Mesh: Loading wheelF.mesh.
+15:58:14: Texture: TIRE.tga: Loading 1 faces(PF_L8,512x512x1) with  hardware generated mipmaps from Image. Internal format is PF_L8,512x512x1.
+15:58:14: Texture: BMWM3E92RIM.tga: Loading 1 faces(PF_A8R8G8B8,256x256x1) with  hardware generated mipmaps from Image. Internal format is PF_A8R8G8B8,256x256x1.
+15:58:14: Texture: BRAKDISC.tga: Loading 1 faces(PF_A8R8G8B8,512x512x1) with  hardware generated mipmaps from Image. Internal format is PF_A8R8G8B8,512x512x1.
+15:58:14: Mesh: Loading wheelR.mesh.

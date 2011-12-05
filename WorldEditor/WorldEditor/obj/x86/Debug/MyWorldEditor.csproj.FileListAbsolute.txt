@@ -1,0 +1,14 @@
+E:\c++\MyWorldEditor\MyWorldEditor\bin\Debug\MyWorldEditor.exe.config
+E:\c++\MyWorldEditor\MyWorldEditor\bin\Debug\MyWorldEditor.exe
+E:\c++\MyWorldEditor\MyWorldEditor\bin\Debug\MyWorldEditor.pdb
+E:\c++\MyWorldEditor\MyWorldEditor\bin\Debug\Mogre.dll
+E:\c++\MyWorldEditor\MyWorldEditor\obj\x86\Debug\MyWorldEditor.csprojResolveAssemblyReference.cache
+E:\c++\MyWorldEditor\MyWorldEditor\obj\x86\Debug\MyWorldEditor.MainForm.resources
+E:\c++\MyWorldEditor\MyWorldEditor\obj\x86\Debug\MyWorldEditor.Properties.Resources.resources
+E:\c++\MyWorldEditor\MyWorldEditor\obj\x86\Debug\MyWorldEditor.csproj.GenerateResource.Cache
+E:\c++\MyWorldEditor\MyWorldEditor\obj\x86\Debug\MyWorldEditor.exe
+E:\c++\MyWorldEditor\MyWorldEditor\obj\x86\Debug\MyWorldEditor.pdb
+E:\c++\MyWorldEditor\MyWorldEditor\bin\Debug\UI\MogrePanel.resx
+E:\c++\MyWorldEditor\MyWorldEditor\bin\Debug\UI\MogrePanel.cs
+E:\c++\MyWorldEditor\MyWorldEditor\bin\Debug\UI\MogrePanel.Designer.cs
+E:\c++\MyWorldEditor\MyWorldEditor\obj\x86\Debug\MyWorldEditor.UI.MogrePanel.resources

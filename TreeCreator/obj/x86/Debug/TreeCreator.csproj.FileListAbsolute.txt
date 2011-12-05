@@ -1,0 +1,10 @@
+E:\c++\work\TreeCreator\bin\x86\Debug\TreeCreator.exe.config
+E:\c++\work\TreeCreator\bin\x86\Debug\TreeCreator.exe
+E:\c++\work\TreeCreator\bin\x86\Debug\TreeCreator.pdb
+E:\c++\work\TreeCreator\bin\x86\Debug\MDO.Data.SQLite.dll
+E:\c++\work\TreeCreator\obj\x86\Debug\TreeCreator.csprojResolveAssemblyReference.cache
+E:\c++\work\TreeCreator\obj\x86\Debug\TreeCreator.Form1.resources
+E:\c++\work\TreeCreator\obj\x86\Debug\TreeCreator.Properties.Resources.resources
+E:\c++\work\TreeCreator\obj\x86\Debug\TreeCreator.csproj.GenerateResource.Cache
+E:\c++\work\TreeCreator\obj\x86\Debug\TreeCreator.exe
+E:\c++\work\TreeCreator\obj\x86\Debug\TreeCreator.pdb

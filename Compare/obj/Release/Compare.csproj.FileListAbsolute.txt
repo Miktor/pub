@@ -1,0 +1,27 @@
+D:\Documents and Settings\Miktor\Мои документы\Visual Studio 2008\Projects\Compare\bin\Release\Compare.exe
+D:\Documents and Settings\Miktor\Мои документы\Visual Studio 2008\Projects\Compare\bin\Release\Compare.pdb
+D:\Documents and Settings\Miktor\Мои документы\Visual Studio 2008\Projects\Compare\bin\Release\MDO.Data.SQLite.dll
+D:\Documents and Settings\Miktor\Мои документы\Visual Studio 2008\Projects\Compare\obj\Release\ResolveAssemblyReference.cache
+D:\Documents and Settings\Miktor\Мои документы\Visual Studio 2008\Projects\Compare\obj\Release\Compare.Form1.resources
+D:\Documents and Settings\Miktor\Мои документы\Visual Studio 2008\Projects\Compare\obj\Release\Compare.Properties.Resources.resources
+D:\Documents and Settings\Miktor\Мои документы\Visual Studio 2008\Projects\Compare\obj\Release\Compare.csproj.GenerateResource.Cache
+D:\Documents and Settings\Miktor\Мои документы\Visual Studio 2008\Projects\Compare\obj\Release\Compare.exe
+D:\Documents and Settings\Miktor\Мои документы\Visual Studio 2008\Projects\Compare\obj\Release\Compare.pdb
+C:\c++\work\Compare\obj\Release\Compare.exe
+C:\c++\work\Compare\obj\Release\Compare.pdb
+C:\c++\work\Compare\obj\Release\ResolveAssemblyReference.cache
+C:\c++\work\Compare\obj\Release\Compare.Form1.resources
+C:\c++\work\Compare\obj\Release\Compare.Properties.Resources.resources
+C:\c++\work\Compare\obj\Release\Compare.csproj.GenerateResource.Cache
+C:\c++\work\Compare\bin\Release\Compare.exe
+C:\c++\work\Compare\bin\Release\Compare.pdb
+C:\c++\work\Compare\bin\Release\MDO.Data.SQLite.dll
+E:\c++\work\Compare\obj\Release\Compare.exe
+E:\c++\work\Compare\obj\Release\Compare.pdb
+E:\c++\work\Compare\bin\Release\Compare.exe
+E:\c++\work\Compare\bin\Release\Compare.pdb
+E:\c++\work\Compare\bin\Release\MDO.Data.SQLite.dll
+E:\c++\work\Compare\obj\Release\ResolveAssemblyReference.cache
+E:\c++\work\Compare\obj\Release\Compare.Form1.resources
+E:\c++\work\Compare\obj\Release\Compare.Properties.Resources.resources
+E:\c++\work\Compare\obj\Release\Compare.csproj.GenerateResource.Cache

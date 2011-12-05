@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MyGUI type="Layout" version="3.2.0">
+    <Widget type="Window" skin="WindowCS" position="400 88 405 547" layer="Overlapped" name="_Main">
+        <Property key="Caption" value="PanelView"/>
+        <Widget type="ScrollView" skin="ScrollView" position="2 2 392 507" align="Stretch" name="scroll_View">
+            <Property key="VisibleHScroll" value="false"/>
+        </Widget>
+    </Widget>
+</MyGUI>

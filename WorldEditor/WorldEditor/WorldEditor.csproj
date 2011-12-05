@@ -1,0 +1,390 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{98007631-5234-44DD-ABB1-638E617288F5}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>WorldEditor</RootNamespace>
+    <AssemblyName>WorldEditor</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <TargetFrameworkProfile>
+    </TargetFrameworkProfile>
+    <FileAlignment>512</FileAlignment>
+    <SccProjectName>SAK</SccProjectName>
+    <SccLocalPath>SAK</SccLocalPath>
+    <SccAuxPath>SAK</SccAuxPath>
+    <SccProvider>SAK</SccProvider>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <PublishUrl>publish\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+    <NoWarn />
+    <DocumentationFile>MyWorldEditor.XML</DocumentationFile>
+    <LangVersion>default</LangVersion>
+    <CheckForOverflowUnderflow>true</CheckForOverflowUnderflow>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+    <NoWarn>
+    </NoWarn>
+    <DocumentationFile>
+    </DocumentationFile>
+    <LangVersion>default</LangVersion>
+  </PropertyGroup>
+  <PropertyGroup>
+    <StartupObject>WorldEditor.Program</StartupObject>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Mogre, Version=1.7.1.0, Culture=neutral, processorArchitecture=x86">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>bin\Release\Mogre.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Curves\Curve.cs" />
+    <Compile Include="Curves\Point.cs" />
+    <Compile Include="MainForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MainForm.Designer.cs">
+      <DependentUpon>MainForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MogrePropertyDescriptor.cs" />
+    <Compile Include="ObjectCounter.cs" />
+    <Compile Include="PluginHost.cs" />
+    <Compile Include="RedrowEwent.cs" />
+    <Compile Include="Scene\BaseObjects\BaseObjects.cs" />
+    <Compile Include="Tools\RedactorScene.cs" />
+    <Compile Include="Settings.cs" />
+    <Compile Include="UI\AboutBox1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UI\AboutBox1.Designer.cs">
+      <DependentUpon>AboutBox1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UI\ExeptionHandler.cs" />
+    <Compile Include="OgreRoot.cs" />
+    <Compile Include="OptionViewer.cs" />
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Curves\Binomial.cs" />
+    <Compile Include="Tools\RoadTool\Road.cs" />
+    <Compile Include="Tools\RoadTool\RoadObject.cs" />
+    <Compile Include="Tools\RoadTool\RoadPart.cs" />
+    <Compile Include="Singeletion.cs" />
+    <Compile Include="UI\Grid.cs" />
+    <Compile Include="Tools\ITool.cs" />
+    <Compile Include="Tools\RoadTool\RoadPoint.cs" />
+    <Compile Include="Tools\RoadTool\RoadSegment.cs" />
+    <Compile Include="UI\UndoManager.cs" />
+    <Compile Include="WindowUtilites.cs" />
+    <EmbeddedResource Include="MainForm.resx">
+      <DependentUpon>MainForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <EmbeddedResource Include="UI\AboutBox1.resx">
+      <DependentUpon>AboutBox1.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="app.config" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include=".NETFramework,Version=v4.0">
+      <Visible>False</Visible>
+      <ProductName>Microsoft .NET Framework 4 %28x86 and x64%29</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Client.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1 Client Profile</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Windows.Installer.3.1">
+      <Visible>False</Visible>
+      <ProductName>Windows Installer 3.1</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Media\UI_Icons\112_DownArrowShort_Grey_48x48_72.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Media\UI_Icons\112_DownArrowShort_Orange_48x48_72.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Media\UI_Icons\112_LeftArrowLong_Blue_48x48_72.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Media\UI_Icons\112_LeftArrowLong_Grey_48x48_72.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Media\UI_Icons\112_LeftArrowLong_Orange_48x48_72.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Media\UI_Icons\112_LeftArrowShort_Blue_48x48_72.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Media\UI_Icons\112_LeftArrowShort_Green_48x48_72.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Media\UI_Icons\112_LeftArrowShort_Grey_48x48_72.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Media\UI_Icons\112_LeftArrowShort_Orange_48x48_72.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Media\UI_Icons\112_Minus_Blue_48x48_72.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Media\UI_Icons\112_Minus_Green_48x48_72.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Media\UI_Icons\112_Minus_Grey_48x48_72.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Media\UI_Icons\112_Minus_Orange_48x48_72.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Media\UI_Icons\112_Plus_Blue_48x48_72.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Media\UI_Icons\112_Plus_Green_48x48_72.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Media\UI_Icons\112_Plus_Grey_48x48_72.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Media\UI_Icons\112_Plus_Orange_48x48_72.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Media\UI_Icons\112_RightArrowLong_Blue_48x48_72.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Media\UI_Icons\112_RightArrowLong_Green_48x48_72.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Media\UI_Icons\112_RightArrowLong_Grey_48x48_72.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Media\UI_Icons\112_RightArrowLong_Orange_48x48_72.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Media\UI_Icons\112_RightArrowShort_Blue_48x48_72.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Media\UI_Icons\112_RightArrowShort_Green_48x48_72.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Media\UI_Icons\112_RightArrowShort_Grey_48x48_72.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Media\UI_Icons\112_RightArrowShort_Orange_48x48_72.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Media\UI_Icons\112_UpArrowLong_Blue_48x48_72.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Media\UI_Icons\112_UpArrowLong_Green_48x48_72.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Media\UI_Icons\112_UpArrowLong_Grey_48x48_72.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Media\UI_Icons\112_UpArrowLong_Orange_48x48_72.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Media\UI_Icons\112_UpArrowShort_Blue_48x48_72.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Media\UI_Icons\112_UpArrowShort_Green_48x48_72.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Media\UI_Icons\112_UpArrowShort_Grey_48x48_72.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Media\UI_Icons\112_UpArrowShort_Orange_48x48_72.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Media\UI_Icons\1447_eraser_48x48.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Media\UI_Icons\1447_eraser_256x256.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Media\UI_Icons\delete.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Media\UI_Icons\Gear.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Media\UI_Icons\112_ArrowReturnLeft_Blue.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Media\UI_Icons\112_ArrowReturnLeft_Blue_48x48_72.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Media\UI_Icons\112_ArrowReturnRight_Blue.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Media\UI_Icons\112_ArrowReturnRight_Blue_48x48_72.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Media\UI_Icons\112_RefreshArrow_Blue.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Media\UI_Icons\112_RefreshArrow_Blue_48x48_72.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Media\UI_Icons\copy.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Media\UI_Icons\CopyHL.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Media\UI_Icons\cut.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Media\UI_Icons\CutHL.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Media\UI_Icons\delete.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Media\UI_Icons\Edit_redoHL.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Media\UI_Icons\Edit_UndoHL.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Media\UI_Icons\RedoIco.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Media\UI_Icons\RefreshIco.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Media\UI_Icons\SaveHL.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Media\UI_Icons\UndoIco.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Media\UI_Icons\solid_mod.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Media\UI_Icons\scale_pointer.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Media\UI_Icons\rotate_pointer.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Media\UI_Icons\move_pointer.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Media\UI_Icons\wireframe.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Media\UI_Icons\Perspective_view.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Media\UI_Icons\112_ArrowCurve_Blue_Left_48x48_72.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Media\UI_Icons\112_ArrowCurve_Blue_Right_48x48_72.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Media\UI_Icons\112_DownArrowLong_Blue_48x48_72.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Media\UI_Icons\112_DownArrowLong_Green_48x48_72.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Media\UI_Icons\112_DownArrowLong_Grey_48x48_72.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Media\UI_Icons\112_DownArrowLong_Orange_64x64_72.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Media\UI_Icons\112_DownArrowShort_Blue_48x48_72.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Media\UI_Icons\112_DownArrowShort_Green_48x48_72.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Resources\" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Media\UI_Icons\pointer-black.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="Plugins\PluginBase\PluginBase.csproj">
+      <Project>{AD0D130E-E443-44D4-A4AF-AFCAD98736C0}</Project>
+      <Name>PluginBase</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

@@ -1,0 +1,10 @@
+E:\c++\WorldEditor\WorldEditor\Plugins\RoadTool\bin\Release\RoadTool.dll
+E:\c++\WorldEditor\WorldEditor\Plugins\RoadTool\bin\Release\RoadTool.pdb
+E:\c++\WorldEditor\WorldEditor\Plugins\RoadTool\bin\Release\Mogre.dll
+E:\c++\WorldEditor\WorldEditor\Plugins\RoadTool\bin\Release\PluginBase.dll
+E:\c++\WorldEditor\WorldEditor\Plugins\RoadTool\bin\Release\PluginBase.pdb
+E:\c++\WorldEditor\WorldEditor\Plugins\RoadTool\obj\Release\RoadTool.csprojResolveAssemblyReference.cache
+E:\c++\WorldEditor\WorldEditor\Plugins\RoadTool\obj\Release\RoadTool.Properties.Resources.resources
+E:\c++\WorldEditor\WorldEditor\Plugins\RoadTool\obj\Release\RoadTool.csproj.GenerateResource.Cache
+E:\c++\WorldEditor\WorldEditor\Plugins\RoadTool\obj\Release\RoadTool.dll
+E:\c++\WorldEditor\WorldEditor\Plugins\RoadTool\obj\Release\RoadTool.pdb

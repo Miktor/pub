@@ -1,0 +1,88 @@
+<scene formatVersion="1.0" upAxis="y" unitsPerMeter="39.3701" minOgreVersion="1.6" author="OgreMax Scene Exporter by Derek Nedelman (www.ogremax.com)">
+    <resourceLocations>
+        <resourceLocation type="FileSystem" name="../../materials/textures/" recursive="false" />
+    </resourceLocations>
+    <environment>
+        <colourAmbient r="0.333333" g="0.333333" b="0.333333" />
+        <colourBackground r="0" g="0" b="0" />
+        <clipping near="0" far="1500" />
+        <skyBox material="Sky" enable="true" distance="750" drawFirst="true">
+            <rotation qx="0" qy="0" qz="0" qw="1" />
+        </skyBox>
+    </environment>
+    <nodes>
+        <node name="EnvironmentBox">
+            <position x="716.249" y="-1500" z="758.076" />
+            <scale x="1" y="1" z="1" />
+            <rotation qx="0" qy="0" qz="0" qw="1" />
+            <entity name="EnvironmentBox" castShadows="true" receiveShadows="true" meshFile="EnvironmentBox.mesh">
+                <subentities>
+                    <subentity index="0" materialName="Sky" />
+                </subentities>
+            </entity>
+        </node>
+        <node name="Direct01">
+            <position x="69.2137" y="1064.95" z="1083.49" />
+            <scale x="1" y="1" z="1" />
+            <rotation qx="-0.717662" qy="0.281667" qz="-0.468279" qw="-0.43167" />
+            <light name="Direct01" type="directional" castShadows="true" power="1">
+                <colourDiffuse r="1" g="1" b="1" />
+                <colourSpecular r="1" g="1" b="1" />
+                <lightAttenuation range="989.52" constant="1" linear="0" quadric="0" />
+            </light>
+            <trackTarget nodeName="Direct01.Target">
+                <localDirection x="-0" y="-0" z="1" />
+            </trackTarget>
+        </node>
+        <node name="Direct01.Target">
+            <position x="586.339" y="3.74147e-005" z="855.948" />
+            <scale x="1" y="1" z="1" />
+            <rotation qx="0" qy="0" qz="0" qw="1" />
+        </node>
+        <node name="Camera02">
+            <position x="656.452" y="52.1881" z="1167.05" />
+            <scale x="1" y="1" z="1" />
+            <rotation qx="0.103488" qy="-0.00364338" qz="0.000379085" qw="0.994624" />
+            <camera name="Camera02" fov="0.817458">
+                <clipping near="1" far="2580" />
+            </camera>
+            <trackTarget nodeName="Camera02.Target">
+                <localDirection x="0" y="0" z="-1" />
+            </trackTarget>
+        </node>
+        <node name="Floor">
+            <position x="752.765" y="3.28866e-005" z="752.358" />
+            <scale x="1" y="1" z="1" />
+            <rotation qx="0" qy="0" qz="0" qw="1" />
+            <plane name="Floor" castShadows="false" receiveShadows="true" distance="-1.23232e-013" width="1503.47" height="1494.88" xSegments="4" ySegments="4" numTexCoordSets="1" uTile="1" vTile="1" material="BlueStones" normals="true" movablePlane="true">
+                <normal x="0" y="1" z="-4.37114e-008" />
+                <upVector x="0" y="0" z="-1" />
+            </plane>
+        </node>
+        <node name="Camera02.Target">
+            <position x="658.809" y="119.885" z="845.266" />
+            <scale x="1" y="1" z="1" />
+            <rotation qx="-0.198422" qy="-0.6568" qz="0.70351" qw="-0.185248" />
+        </node>
+        <node name="Box01">
+            <position x="349.93" y="1.47487e-005" z="337.41" />
+            <scale x="1" y="1" z="1" />
+            <rotation qx="0" qy="0" qz="0" qw="1" />
+            <entity name="Box01" castShadows="true" receiveShadows="true" meshFile="Box01.mesh">
+                <subentities>
+                    <subentity index="0" materialName="Box" />
+                </subentities>
+            </entity>
+        </node>
+        <node name="Torus Knot01">
+            <position x="925.106" y="334.933" z="122.805" />
+            <scale x="1" y="1" z="1" />
+            <rotation qx="0.707107" qy="0" qz="0" qw="0.707107" />
+            <entity name="Torus Knot01" castShadows="true" receiveShadows="true" meshFile="Torus Knot01.mesh">
+                <subentities>
+                    <subentity index="0" materialName="Points" />
+                </subentities>
+            </entity>
+        </node>
+    </nodes>
+</scene>

@@ -1,0 +1,27 @@
+D:\Documents and Settings\Miktor\Мои документы\Visual Studio 2008\Projects\Compare\bin\Debug\Compare.exe
+D:\Documents and Settings\Miktor\Мои документы\Visual Studio 2008\Projects\Compare\bin\Debug\Compare.pdb
+D:\Documents and Settings\Miktor\Мои документы\Visual Studio 2008\Projects\Compare\bin\Debug\MDO.Data.SQLite.dll
+D:\Documents and Settings\Miktor\Мои документы\Visual Studio 2008\Projects\Compare\obj\Debug\ResolveAssemblyReference.cache
+D:\Documents and Settings\Miktor\Мои документы\Visual Studio 2008\Projects\Compare\obj\Debug\Compare.Form1.resources
+D:\Documents and Settings\Miktor\Мои документы\Visual Studio 2008\Projects\Compare\obj\Debug\Compare.Properties.Resources.resources
+D:\Documents and Settings\Miktor\Мои документы\Visual Studio 2008\Projects\Compare\obj\Debug\Compare.csproj.GenerateResource.Cache
+D:\Documents and Settings\Miktor\Мои документы\Visual Studio 2008\Projects\Compare\obj\Debug\Compare.exe
+D:\Documents and Settings\Miktor\Мои документы\Visual Studio 2008\Projects\Compare\obj\Debug\Compare.pdb
+C:\c++\work\Compare\bin\Debug\Compare.exe
+C:\c++\work\Compare\bin\Debug\Compare.pdb
+C:\c++\work\Compare\bin\Debug\MDO.Data.SQLite.dll
+C:\c++\work\Compare\obj\Debug\ResolveAssemblyReference.cache
+C:\c++\work\Compare\obj\Debug\Compare.Form1.resources
+C:\c++\work\Compare\obj\Debug\Compare.Properties.Resources.resources
+C:\c++\work\Compare\obj\Debug\Compare.csproj.GenerateResource.Cache
+C:\c++\work\Compare\obj\Debug\Compare.exe
+C:\c++\work\Compare\obj\Debug\Compare.pdb
+E:\c++\work\Compare\obj\Debug\Compare.exe
+E:\c++\work\Compare\obj\Debug\Compare.pdb
+E:\c++\work\Compare\bin\Debug\Compare.exe
+E:\c++\work\Compare\bin\Debug\Compare.pdb
+E:\c++\work\Compare\bin\Debug\MDO.Data.SQLite.dll
+E:\c++\work\Compare\obj\Debug\ResolveAssemblyReference.cache
+E:\c++\work\Compare\obj\Debug\Compare.Form1.resources
+E:\c++\work\Compare\obj\Debug\Compare.Properties.Resources.resources
+E:\c++\work\Compare\obj\Debug\Compare.csproj.GenerateResource.Cache
